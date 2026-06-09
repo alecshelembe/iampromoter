@@ -1,0 +1,62 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\SocialPost;
+use App\Models\User;
+
+class SearchController extends Controller
+{
+    public function __construct()
+    {
+        //  $this->middleware('auth');
+        // to specific methods 
+        // $this->middleware('auth')->only(['searchAddress']);
+        //$this->middleware('auth')->except(['viewSocialPost','viewSciencePost']);
+
+    }
+
+    public function search(Request $request)
+    {
+        $query = $request->input('query');
+        $results = SocialPost::where('place_name', 'LIKE', '%' . $query . '%') // Adjust 'name' to your column
+            ->where('status', 'show') // Only fetch posts with status 'show'
+            ->orderBy('created_at', 'desc')
+            ->take(5) // Limit the results to 3
+            ->get()
+            ->unique('place_name'); // Filter duplicates using collection method
+
+    
+        return response()->json(['data' => $results]);
+    }
+    
+
+    public function searchAddress(Request $request)
+    {
+        // Validate the incoming query
+        $validated = $request->validate([
+            'query' => 'required|string|min:3', // Ensure query is at least 3 characters long
+        ]);
+
+        // Get the validated query
+        $query = $validated['query'];
+
+        // Search the SocialPost model by address and get all matching results
+        $results = SocialPost::where('address', 'LIKE', '%' . $query . '%')
+            ->where('status', 'show') // Only fetch posts with status 'show'
+            ->orderBy('created_at', 'desc')
+            ->get();
+
+        // Attach user profile image to each post
+        foreach ($results as $post) {
+            $user = User::where('email', $post->email)->first();
+            $post->profile_image_url = $user->profile_image_url ?? asset('default-profile.png');
+        }
+
+        // Return the results to a view
+        return view('mobile.social-results', ['results' => $results, 'query' => $query]);
+    }
+
+    
+}
