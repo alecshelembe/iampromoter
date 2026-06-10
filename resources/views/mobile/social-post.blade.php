@@ -267,16 +267,14 @@
 
                             </form>
 
-			<form id="upload-post-social_p" action="{{ route('social.save.post.socialp', $socialPost->id) }}" method="POST">
+			<form id="upload-post-socialp" action="{{ route('social.save.post.socialp', $socialPost->id) }}" method="POST">
 				@csrf
-				<label class="inline-flex items-center cursor-pointer">
-            				Make this show on the Landing page + Promotion App 
+				<label class="inline-flex items-center cursor-pointer">Make this show on the Landing page + Promotion App</label> 
 					<input type="radio" name="social_p" value="1" class="p-2 m-4"
-                                         {{ $socialPost->social_p === 1 ? 'checked' : '' }}> Web Only
+                                         {{ $socialPost->social_p === 1 ? 'checked' : '' }}/> Web Only
 
                                         <input type="radio" name="social_p" value="2" class="p-2 m-4"
-                                        {{ $socialPost->social_p === 2 ? 'checked' : '' }}> App + Landing page
-				</label>
+                                        {{ $socialPost->social_p === 2 ? 'checked' : '' }}/> App + Landing page
 
 	                        <button class="text-right rounded-full text-right shadow-lg px-2 text-sm py-2"> Update</button>
 

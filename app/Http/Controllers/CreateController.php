@@ -35,7 +35,7 @@ class CreateController extends Controller
         // Update the note field with the validated data
         $socialPost->update(['note' => $validatedData['note']]);
 
-        return redirect()->back()->with('success', 'Post note updated successfully.');
+        return redirect()->back()->with('success', 'Note updated successfully.');
 
     }
 
@@ -67,7 +67,7 @@ class CreateController extends Controller
         // Update the description field with the validated data
         $socialPost->update(['description' => $validatedData['description']]);
 
-        return redirect()->back()->with('success', 'Post description updated successfully.');
+        return redirect()->back()->with('success', 'Description updated successfully.');
 
     }
 
@@ -76,14 +76,14 @@ class CreateController extends Controller
         $validatedData = $request->validate([
             'place_name' => 'required|string|max:70',
         ]);
-        
+
         // Fetch the social post by ID
         $socialPost = SocialPost::where('id', $id)->firstOrFail();
         
         // Update the place_name field with the validated data
         $socialPost->update(['place_name' => $validatedData['place_name']]);
 
-        return redirect()->back()->with('success', 'Post place_name updated successfully.');
+        return redirect()->back()->with('success', 'Post place_name updated');
 
     }
 
@@ -92,14 +92,14 @@ class CreateController extends Controller
         $validatedData = $request->validate([
             'video-link' => 'required|string',
         ]);
-        
+
         // Fetch the social post by ID
         $socialPost = SocialPost::where('id', $id)->firstOrFail();
         
         // Update the note field with the validated data
         $socialPost->update(['video_link' => $validatedData['video-link']]);
 
-        return redirect()->back()->with('success', 'Post video link added successfully.');
+        return redirect()->back()->with('success', 'Video link updated.');
 
     }
 
@@ -108,14 +108,16 @@ class CreateController extends Controller
         $validatedData = $request->validate([
             'social_p' => 'required|integer|in:1,2',
         ]);
- 	
+
         // Fetch the social post by ID
         $socialPost = SocialPost::where('id', $id)->firstOrFail();
 
-        // Update the note field with the validated data
+        // Update the field with the validated data
         $socialPost->update(['social_p' => $validatedData['social_p']]);
 
-        return redirect()->back()->with('success', 'Availability changed successfully.');
+	//dd($request->all());
+
+        return redirect()->back()->with('success', 'Availability updated.');
 
     }
 
