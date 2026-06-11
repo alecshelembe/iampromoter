@@ -30,11 +30,11 @@
                 <!-- Welcome <br>
                 <a href="mailto:promotions@visitmyjoburg.co.za" class="text-gray-600">
                     <i class="fa-solid fa-envelope"></i> promotions@visitmyjoburg.co.za
-                </a> 
-                <a href="https://github.com/alecshelembe/collaborations/releases/tag/ANDROID" class="inline-flex items-center mt-4 text-green-600 hover:text-green-800" target="_blank" rel="noopener noreferrer">
+                </a> --> 
+                <a href="https://github.com/alecshelembe/iampromoter-collaboration-platform/releases/download/APK/promotions-application-88c1c796-6009-4de2-9125-d7de6f161229.apk"class="inline-flex items-center mt-4 text-green-600 hover:text-green-800" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-android text-2xl mr-2"></i>
-                   Pre-release Android App </a>
-                </a> -->
+                   Download App </a>
+                </a> 
             </h1>
 
             <div class="text-center my-4">

@@ -73,7 +73,7 @@
 
                         {{-- Verification Status --}}
                         <p class="text-sm mt-2">
-                            @if ($post->verified == 1 || $post->plate == 1)
+                            @if ($post->verified == 1 || $post->plate == 1 )
                                 <i class="fa-solid fa-clipboard-check"></i> App + Web 
                             @else
                                 <i class="fa-solid fa-square-check"></i> Web
@@ -168,8 +168,16 @@
 
                             <!-- Post Details -->
                             <div class="flex-1">
-                                <p class="">{{ $post->place_name }}</p>
-                                <p class="text-sm font-bold">R {{ $post->fee }}</p>
+                	        <p class="">{{ $post->place_name }}</p>
+				<p class="text-sm font-bold">R {{ $post->fee }}</p>
+				 {{-- Social_p Availability --}}
+ 		                 <p class="text-sm mt-2">
+	                            @if ($post->social_p == 2 )
+	                                <i class="fa-solid fa-clipboard-check"></i> App + Web 
+	                            @else
+	                                <i class="fa-solid fa-square-check"></i> Web
+	                            @endif
+	                        </p>
                                 <p class="text-sm text-gray-700 my-2">  {{ Str::limit($post->description, 100) }}</p>
                                 <!-- <p class="text-sm text-grey-500">R {{ $post->fee }}</p> -->
                                 <p class="text-sm text-gray-600">{{ $post->address }}</p>

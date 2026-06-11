@@ -71,7 +71,7 @@
 
                         
                         <p class="text-sm mt-2">
-                            <?php if($post->verified == 1 || $post->plate == 1): ?>
+                            <?php if($post->verified == 1 || $post->plate == 1 ): ?>
                                 <i class="fa-solid fa-clipboard-check"></i> App + Web 
                             <?php else: ?>
                                 <i class="fa-solid fa-square-check"></i> Web
@@ -167,8 +167,16 @@
 
                             <!-- Post Details -->
                             <div class="flex-1">
-                                <p class=""><?php echo e($post->place_name); ?></p>
-                                <p class="text-sm font-bold">R <?php echo e($post->fee); ?></p>
+                	        <p class=""><?php echo e($post->place_name); ?></p>
+				<p class="text-sm font-bold">R <?php echo e($post->fee); ?></p>
+				 
+ 		                 <p class="text-sm mt-2">
+	                            <?php if($post->social_p == 2 ): ?>
+	                                <i class="fa-solid fa-clipboard-check"></i> App + Web 
+	                            <?php else: ?>
+	                                <i class="fa-solid fa-square-check"></i> Web
+	                            <?php endif; ?>
+	                        </p>
                                 <p class="text-sm text-gray-700 my-2">  <?php echo e(Str::limit($post->description, 100)); ?></p>
                                 <!-- <p class="text-sm text-grey-500">R <?php echo e($post->fee); ?></p> -->
                                 <p class="text-sm text-gray-600"><?php echo e($post->address); ?></p>
