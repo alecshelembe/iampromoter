@@ -1,12 +1,7 @@
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-logs/
-
-vendor/
-node_modules/
-.env
+/resources/views/'~'
+/storage
+/vendor
+/node_modules
+/.env
 /storage/*.key
+.env
