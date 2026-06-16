@@ -1,15 +1,12 @@
-// Source - https://stackoverflow.com/q/25748132
-// Posted by jkjmr6, modified by community. See post 'Timeline' for change history
-// Retrieved 2026-06-16, License - CC BY-SA 3.0
-
-/bootstrap/compiled.php
-/vendor
-/node_modules
-composer.phar
-composer.lock
-.env.*.php
-.env.php
+# OS files
 .DS_Store
-workspace.xml
 Thumbs.db
 
+# Logs
+*.log
+logs/
+
+vendor/
+node_modules/
+.env
+/storage/*.key
