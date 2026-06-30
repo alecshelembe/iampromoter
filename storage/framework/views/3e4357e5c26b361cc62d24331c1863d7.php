@@ -305,6 +305,30 @@ unset($__errorArgs, $__bag); ?>
 
                             </form>
 
+			<form id="upload-post-social-address" action="<?php echo e(route('social.save.post.address', $socialPost->id)); ?>" method="POST">
+				<?php echo csrf_field(); ?>
+				<label class="block text-sm font-medium text-gray-700 mb-2"> Update Location </label> 
+					<input type="input" name="address" placeholder="Address" value="<?php echo e($socialPost->address); ?>" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" />
+					</br>
+					<div class="inline-flex items-center cursor-pointer">
+					<input type="input" name="lat" placeholder="latitude" value="<?php echo e($socialPost->lat); ?>" class="px-2 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" />
+                                        <input type="input" name="lng" placeholder="longitude" value="<?php echo e($socialPost->lng); ?>" class="px-2 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" />
+					</div>
+	                        <button class="text-right rounded-full text-right shadow-lg px-2 text-sm py-2"> Update</button>
+
+				<?php $__errorArgs = ['address'];
+$__bag = $errors->getBag($__errorArgs[1] ?? 'default');
+if ($__bag->has($__errorArgs[0])) :
+if (isset($message)) { $__messageOriginal = $message; }
+$message = $__bag->first($__errorArgs[0]); ?>
+                		    <p class="text-red-600  mt-1"><?php echo e($message); ?></p>
+                		<?php unset($message);
+if (isset($__messageOriginal)) { $message = $__messageOriginal; }
+endif;
+unset($__errorArgs, $__bag); ?>
+
+			</form>
+
 			<form id="upload-post-socialp" action="<?php echo e(route('social.save.post.socialp', $socialPost->id)); ?>" method="POST">
 				<?php echo csrf_field(); ?>
 				<label class="inline-flex items-center cursor-pointer">Make this show on the Landing page + Promotion App</label> 

@@ -133,6 +133,8 @@ Route::post('/save-social-post-video-link/{id}', [CreateController::class, 'save
 
 Route::post('/save-social-post-socialp/{id}', [CreateController::class, 'saveSocialPostSocialp'])->name('social.save.post.socialp');
 
+Route::post('/save-social-post-address/{id}', [CreateController::class, 'saveSocialPostAddress'])->name('social.save.post.address');
+
 Route::get('/view-science-post/{id}', [CreateController::class, 'viewSciencePost'])->name('science.view.post');
 
 Route::get('/create-mobile-post', [CreateController::class, 'showMobilePostForm'])->name('create.mobile.post');

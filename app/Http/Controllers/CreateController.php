@@ -121,6 +121,27 @@ class CreateController extends Controller
 
     }
 
+    public function saveSocialPostAddress(Request $request, $id){
+
+        $validatedData = $request->validate([
+		'lat' => 'required|string|max:70',
+		'lng' => 'required|string|max:70',
+		'address' => 'required|string|max:250',
+        ]);
+
+        // Fetch the social post by ID
+        $socialPost = SocialPost::where('id', $id)->firstOrFail();
+
+        // Update the field with the validated data
+	$socialPost->update(['lat' => $validatedData['lat']]); 
+	$socialPost->update(['lng' => $validatedData['lng']]);
+	$socialPost->update(['address' => $validatedData['address']]);
+
+        return redirect()->back()->with('success', 'Location updated.');
+
+    }
+
+
 
     public function showPostForm()
     {
