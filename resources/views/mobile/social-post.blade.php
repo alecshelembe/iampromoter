@@ -214,8 +214,7 @@
                                     <input 
                                         type="number" 
                                         name="fee" 
-                                        value="50.00" 
-                                        step="5.00" 
+                                        value="{{$socialPost->fee }}" 
                                         class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" 
                                         placeholder="Enter price e.g. 99.99" 
                                     />

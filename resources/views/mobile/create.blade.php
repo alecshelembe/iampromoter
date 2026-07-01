@@ -325,7 +325,7 @@
       <!-- Checkboxes will be populated dynamically -->
     </div>
 
-    <h1 class="text-xl font-bold mb-6">Step 6 * Contact supprt to change</h1>
+    <h1 class="text-xl font-bold mb-6">Step 6 *</h1>
 
     <div id="location-result" class="mt-4 text-gray-700"></div>
     <div id="address-result" class="mt-4 text-gray-700"></div>
