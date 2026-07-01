@@ -169,7 +169,9 @@
                             <!-- Post Details -->
                             <div class="flex-1">
                 	        <p class="">{{ $post->place_name }}</p>
-				<p class="text-sm font-bold">R {{ $post->fee }}</p>
+				@if ($post->status === 'show' && $post->fee > 0)
+					<p class="text-sm font-bold">R {{ $post->fee }}</p>
+				@endif
 				 {{-- Social_p Availability --}}
  		                 <p class="text-sm mt-2">
 	                            @if ($post->social_p == 2 )

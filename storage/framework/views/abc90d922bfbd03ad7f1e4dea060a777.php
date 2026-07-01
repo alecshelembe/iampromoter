@@ -168,7 +168,9 @@
                             <!-- Post Details -->
                             <div class="flex-1">
                 	        <p class=""><?php echo e($post->place_name); ?></p>
-				<p class="text-sm font-bold">R <?php echo e($post->fee); ?></p>
+				<?php if($post->status === 'show' && $post->fee > 0): ?>
+					<p class="text-sm font-bold">R <?php echo e($post->fee); ?></p>
+				<?php endif; ?>
 				 
  		                 <p class="text-sm mt-2">
 	                            <?php if($post->social_p == 2 ): ?>

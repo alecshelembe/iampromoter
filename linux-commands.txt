@@ -1,6 +1,7 @@
 ---
 Send bulk notifications
 php artisan notifications:send-bulk --title="New Alert" --body="This is an alert";
+php artisan expo:send ExponentPushToken[yGyj56HBxtPThjxMuIg3yj] --title="📢 New Alert" --body="You’ve got updates!"
 ---
 error
 /var/log/apache2/error.log

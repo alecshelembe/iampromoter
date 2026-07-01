@@ -53,7 +53,9 @@
                         class="object-cover shadow-md" />
 
                     <p class="text-sm text-gray-700 font-bold"><?php echo e($post->place_name); ?></p>
-                    <p class="text-sm font-semibold text-grey-500">R <?php echo e($post->fee); ?></p>
+		    <?php if($post->status === 'show' && $post->fee > 0): ?>
+	                    <p class="text-sm font-semibold text-grey-500">R <?php echo e($post->fee); ?></p>
+		    <?php endif; ?>
                     <p class="text-sm text-gray-700"><?php echo e($post->address); ?></p>
 
                     <div>

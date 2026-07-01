@@ -55,7 +55,9 @@
                         class="object-cover shadow-md" />
 
                     <p class="text-sm text-gray-700 font-bold">{{ $post->place_name }}</p>
-                    <p class="text-sm font-semibold text-grey-500">R {{ $post->fee }}</p>
+		    @if ($post->status === 'show' && $post->fee > 0)
+	                    <p class="text-sm font-semibold text-grey-500">R {{ $post->fee }}</p>
+		    @endif
                     <p class="text-sm text-gray-700">{{ $post->address }}</p>
 
                     <div>

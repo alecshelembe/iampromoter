@@ -19,7 +19,9 @@
         />
         <div class="flex-1">
             <p class="text-sm font-bold">{{ $post->place_name }}</p>
-            <p class="text-sm font-semibold text-grey-500">R {{ $post->fee }}</p>
+	    @if ($post->status === 'show' && $post->fee > 0)
+	            <p class="text-sm font-semibold text-grey-500">R {{ $post->fee }}</p>
+	    @endif
             <p class="text-sm text-gray-700">{{ $post->address }}</p>
             <p class="text-xs text-gray-400">Posted by {{ $post->author }}</p>
             @if (!empty($post->note))
