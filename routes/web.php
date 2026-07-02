@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController;
 use App\Http\Controllers\CreateController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\MailerController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
@@ -101,6 +101,7 @@ Route::get('/qr-login', [LoginController::class, 'qrLogin'])->name('qr.login');
 Route::get('/QrCodeLogin', [LoginController::class, 'showLoginFormQrCode'])->name('login.qrcode');
 
 Route::post('/login-user', [LoginController::class, 'login'])->name('users.the.login');
+
 Route::get('/logout-user', [LoginController::class, 'logout'])->name('users.logout');
 
 Route::post('/update-user', [UserController::class, 'profileStore'])->name('profile.store');
@@ -144,31 +145,43 @@ Route::post('/create-post', [CreateController::class, 'savePost'])->name('save.r
 Route::post('/update-post/{id}', [CreateController::class, 'updatePost'])->name('update.raw.post');
 
 Route::post('/generate-speech', [SpeechController::class, 'generateSpeech'])->name('returnSpeech');
+
 Route::get('/text-to-speech', [SpeechController::class, 'showForm'])->name('getSpeech');
 
 Route::get('/events/create', [EventController::class, 'create'])->name('events.create');
+
 Route::post('/events/store', [EventController::class, 'store'])->name('events.store');
+
 Route::get('/events/{id}', [EventController::class, 'show'])->name('events.show');
+
 Route::get('/events', [EventController::class, 'showAll'])->name('events.showAll');
 
 Route::get('/search-with-text', [DirectorController::class, 'searchPlaces'])->name('layouts.search');
+
 Route::get('/science-posts', [CreateController::class, 'sciencePosts'])->name('science.posts');
 
 Route::get('/gallery', [DirectorController::class, 'showImages'])->name('gallery');
+
 Route::post('/posts/{id}/hide', [CreateController::class, 'hide'])->name('posts.hide');
+
 Route::post('/posts/{id}/show', [CreateController::class, 'show'])->name('posts.show');
+
 Route::post('/science-posts/{id}/hide', [CreateController::class, 'scienceHide'])->name('science.posts.hide');
+
 Route::post('/science-posts/{id}/show', [CreateController::class, 'scienceShow'])->name('science.posts.show');
 
 Route::get('/my-profile', [UserController::class, 'profile'])->name('my.profile');
 
 Route::get('/my-social-posts', [CreateController::class, 'mysocialposts'])->name('my.social.posts');
+
 Route::get('/my-raw-posts', [CreateController::class, 'myrawposts'])->name('my.raw.posts');
 
 Route::get('/public-user-posts/{email}', [CreateController::class, 'viewPublicUserPosts'])->name('public.user.posts');
+
 Route::get('/my-public-profile/{email}', [UserController::class, 'viewPublicprofile'])->name('my.public.profile');
 
 Route::post('/social-posts/{id}/comments', [CreateController::class, 'storeComment'])->name('comments.store');
+
 Route::post('/social-posts/{id}/clear-comments', [CreateController::class, 'clearComments'])->name('comments.clear');
 
 Route::get('/pay', [PayfastController::class, 'createPayfastPayment'])->name('payfast.here');
@@ -180,17 +193,23 @@ Route::post('/checkout-now', [TransactionPayfastController::class, 'createPayfas
 Route::get('/transaction-history/{email}', [TransactionPayfastController::class, 'history'])->name('history_transaction');
 
 Route::get('/payfast-cancel-transaction', [TransactionPayfastController::class, 'cancel_url'])->name('cancel_url_transaction');
+
 Route::get('/payfast-cancel', [PayfastController::class, 'cancel_url'])->name('cancel_url');
+
 Route::get('/payfast-return-transaction', [TransactionPayfastController::class, 'return_url'])->name('return_url_transaction');
+
 Route::get('/payfast-return', [PayfastController::class, 'return_url'])->name('return_url');
+
 Route::post('/payfast-notify', [PayfastITNController::class, 'handleITN'])->name('notify_url');
 
 Route::post('/payfast/process', [PayfastController::class, 'payfastPayment'])->name('payment.process');
+
 Route::post('/payfast/transaction/process', [TransactionPayfastController::class, 'payfastPaymentTransations'])->name('payment.transaction.process');
 
 Route::post('/generate', [OpenAIController::class, 'generate'])->name('generate');
 
 Route::get('/test-generate', [DirectorController::class, 'generate'])->name('test.generate');
+
 Route::get('/search', [SearchController::class, 'search'])->name('search');
 
 Route::get('/search-for-posts', [SearchController::class, 'searchAddress'])->name('search_address');
@@ -211,7 +230,6 @@ Route::post('/add-to-cart/{id}', [CartController::class, 'addtocart'])->name('ad
 
 Route::post('/remove-from-cart/{id}', [CartController::class, 'removefromcart'])->name('remove_from_cart');
 
-// In web.php
 Route::get('/checkout', [CartController::class, 'viewCart'])->name('checkout');
 
 Route::post('/business/questionnaire/submit', [BusinessQuestionnaireController::class, 'store'])->name('business.questionnaire.submit');
@@ -219,3 +237,6 @@ Route::post('/business/questionnaire/submit', [BusinessQuestionnaireController::
 Route::get('/business-questionnaire', [BusinessQuestionnaireController::class, 'businessQuestionnaire'])->name('business_questionnaire');
 
 Route::get('/business-questionnaire-ref', [BusinessQuestionnaireController::class, 'createRef'])->name('business_questionnaire_ref');
+
+Route::get('/android-notify', [UserController::class, 'viewAndroidSendPushnotification'])->name('viewAndroidSendPushnotification');
+

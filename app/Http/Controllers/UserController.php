@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\SignUpMail; // Correctly import the SignUpMail class
 use App\Models\User;
+use App\Models\UserLocation;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
@@ -26,6 +27,18 @@ class UserController extends Controller
         
         Mail::to($validatedData['floating_email'])->queue(new SignUpMail($data));
         // Mail::to($validatedData['floating_email'])->send(new SignUpMail($data));
+    }
+
+    public function viewAndroidSendPushnotification(Request $request){
+		
+	  $devices = UserLocation::whereNotNull('expo_push_token')
+            ->orderBy('updated_at', 'desc')
+          //->limit(16
+	    ->get()
+            ->unique('expo_push_token'); // Keeps only the most recent unique device row
+
+	 return view('mobile.notify',compact('devices'));
+
     }
 
     // Show the form to create a new user
