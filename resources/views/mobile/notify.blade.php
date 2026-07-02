@@ -19,8 +19,14 @@
                             <form id="send-push-notification" action="#" method="POST">
                                 <div class="my-4">
                                     @csrf
-                                    <label for="description" class="block text-sm font-medium text-gray-700 mb-2">Android Push notification Service</label>
-                                    <textarea name="description" id="description" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" placeholder="Write your promotion."></textarea>
+				    <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Notification Title</label>
+                                    <input type="text" id="title" name="place_name" placeholder ="Heading" value="" class="w-full px-4 mb-2 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" placeholder="Title" />
+                                    @error('title')
+                                    <p class="text-red-600 mt-1">{{ $message }}</p>
+                                    @enderror
+
+                                    <label for="description" class="block text-sm font-medium text-gray-700 mb-2">Description</label>
+                                    <textarea name="description" id="description" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" placeholder="Write your promotion. Eg: R 20 off Chips"></textarea>
 				   @error('description')
                                     <p class="text-red-600 mt-1">{{ $message }}</p>
                                     @enderror
