@@ -238,8 +238,6 @@ Route::get('/business-questionnaire', [BusinessQuestionnaireController::class, '
 
 Route::get('/business-questionnaire-ref', [BusinessQuestionnaireController::class, 'createRef'])->name('business_questionnaire_ref');
 
-Route::get('/android-notify', [UserController::class, 'viewAndroidSendPushnotification'])->name('viewAndroidSendPushnotification');
-
 Route::get('/android-notify', [NotificationController::class, 'index'])->name('notifications.index');
 
 Route::post('/notifications/send', [NotificationController::class, 'sendBulk'])->name('notifications.send');

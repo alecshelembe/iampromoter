@@ -16,7 +16,7 @@
 
                     @if(Auth::check())
 
-                            <form id="send-push-notification" id="send-push-notification" action="{{ route('notifications.send') }}method="POST">
+                            <form id="send-push-notification" id="send-push-notification" action="{{ route('notifications.send') }}" method="POST">
                                 <div class="my-4">
                                     @csrf
 				    <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Notification Title</label>
@@ -38,7 +38,7 @@
 					    <option value="All">All Devices</option>
     
 						    @foreach($devices as $device)
-						        <option value="{{ $device->device_id }}">
+						        <option value="{{ $device->expo_push_token }}">
 						            {{ $device->device_name }} ({{ $device->platform }}) ({{ $device->expo_push_token}}) ({{$device->updated_at}})
 						        </option>
 						    @endforeach
@@ -49,13 +49,13 @@
         			        @enderror
 
 					 		@if(session('success'))
-						    <div class="mb-4 rounded bg-green-100 border border-green-400 text-green-700 px-4 py-3">
+						    <div class="mt-4 rounded bg-green-100 border border-green-400 text-green-700 px-4 py-3">
 						        {{ session('success') }}
 						    </div>
 						@endif
 						
 						@if(session('error'))
-						    <div class="mb-4 rounded bg-red-100 border border-red-400 text-red-700 px-4 py-3">
+						    <div class="mt-4 rounded bg-red-100 border border-red-400 text-red-700 px-4 py-3">
 						        {{ session('error') }}
 						    </div>
 						@endif

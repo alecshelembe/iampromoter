@@ -16,7 +16,8 @@ class NotificationController extends Controller
     {
         $devices = UserLocation::whereNotNull('expo_push_token')
             ->orderBy('updated_at', 'desc')
-            ->get();
+            ->get()
+	    ->unique('expo_push_token');
 
         return view('mobile.notify', compact('devices'));
     }
@@ -34,12 +35,12 @@ class NotificationController extends Controller
 
         if ($request->device === 'All') {
             $expoTokens = UserLocation::whereNotNull('expo_push_token')
-                ->pluck('expo_push_token')
-                ->unique();
-        } else {
-            $expoTokens = UserLocation::where('device_id', $request->device)
-                ->whereNotNull('expo_push_token')
                 ->pluck('expo_push_token');
+
+        } else {
+            $expoTokens = UserLocation::where('expo_push_token', $request->device)
+                ->pluck('expo_push_token')
+		->unique('expo_push_token');
         }
 
         if ($expoTokens->isEmpty()) {
