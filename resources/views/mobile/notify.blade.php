@@ -16,11 +16,11 @@
 
                     @if(Auth::check())
 
-                            <form id="send-push-notification" action="#" method="POST">
+                            <form id="send-push-notification" id="send-push-notification" action="{{ route('notifications.send') }}method="POST">
                                 <div class="my-4">
                                     @csrf
 				    <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Notification Title</label>
-                                    <input type="text" id="title" name="place_name" placeholder ="Heading" value="" class="w-full px-4 mb-2 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" placeholder="Title" />
+                                    <input type="text" id="title" name="title" placeholder ="Heading" value="" class="w-full px-4 mb-2 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" placeholder="Title" />
                                     @error('title')
                                     <p class="text-red-600 mt-1">{{ $message }}</p>
                                     @enderror
@@ -34,7 +34,7 @@
 				<div class="grid w-full">
 				 <div class="relative z-0 w-full mb-5 group">
 	           			 <label for="options" class="block text-gray-700 mb-2">Select Device</label>
-	               			   <select id="options" name="position" class=" focus:ring-blue-300 font-medium rounded-lg  w-full px-5 py-2.5 text-left dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 block border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:">
+	               			   <select id="options" name="device" class=" focus:ring-blue-300 font-medium rounded-lg  w-full px-5 py-2.5 text-left dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 block border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:">
 					    <option value="All">All Devices</option>
     
 						    @foreach($devices as $device)
@@ -47,6 +47,18 @@
         			        @error('position')
         			        <p class="text-red-600  mt-1">{{ $message }}</p>
         			        @enderror
+
+					 		@if(session('success'))
+						    <div class="mb-4 rounded bg-green-100 border border-green-400 text-green-700 px-4 py-3">
+						        {{ session('success') }}
+						    </div>
+						@endif
+						
+						@if(session('error'))
+						    <div class="mb-4 rounded bg-red-100 border border-red-400 text-red-700 px-4 py-3">
+						        {{ session('error') }}
+						    </div>
+						@endif
         		 	   </div>
 				</div>
                                     <button class="text-right rounded-full text-right shadow-lg px-2 text-sm py-2"> Send </button>
