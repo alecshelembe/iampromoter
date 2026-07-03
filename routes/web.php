@@ -19,7 +19,7 @@ use App\Http\Controllers\SearchController;
 use App\Http\Controllers\GoogleController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\BusinessQuestionnaireController;
-
+use App\Http\Controllers\NotificationController;
 
 use Illuminate\Http\Request; 
 use Laravel\Socialite\Facades\Socialite;
@@ -240,3 +240,6 @@ Route::get('/business-questionnaire-ref', [BusinessQuestionnaireController::clas
 
 Route::get('/android-notify', [UserController::class, 'viewAndroidSendPushnotification'])->name('viewAndroidSendPushnotification');
 
+Route::get('/android-notify', [NotificationController::class, 'index'])->name('notifications.index');
+
+Route::post('/notifications/send', [NotificationController::class, 'sendBulk'])->name('notifications.send');
