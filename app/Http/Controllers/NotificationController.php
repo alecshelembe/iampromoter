@@ -18,7 +18,7 @@ class NotificationController extends Controller
             ->orderBy('updated_at', 'desc')
             ->get();
 
-        return view('notifications.send', compact('devices'));
+        return view('mobile.notify', compact('devices'));
     }
 
     /**
