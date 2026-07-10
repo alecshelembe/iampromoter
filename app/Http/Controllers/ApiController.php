@@ -31,7 +31,11 @@ class ApiController extends Controller
             ->take(5) // Limit the results to 3
             ->get()
             ->unique('place_name'); // Filter duplicates using collection method
-            
+
+	foreach ($results as $result) {
+		$result->fee = (int) $result->fee;
+                }
+
             // log::info('Search results:', [
             //     'query' => $query,
             //     'results' => $results,
@@ -148,7 +152,8 @@ class ApiController extends Controller
                 ->orderBy('updated_at', 'desc')
                 ->first();
 
-            
+                $post->fee = (int) $post->fee;
+
             Log::info('Location data saved successfully for user: ', [
                 'latitude' => $validated['latitude'],
                 'longitude' => $validated['longitude'],
@@ -432,7 +437,8 @@ class ApiController extends Controller
                 $user = $users[$post->email] ?? null;
                 $post->profile_image_url = $user->profile_image_url ?? asset('default-profile.png');
                 $post->first_name = $user->first_name ?? 'Anonymous'; // Fallback if no user found
-                
+                $post->fee = (int) $post->fee;
+
                 $rawPhone = $user->phone ?? null;
                 if ($rawPhone && preg_match('/^0\d{9}$/', $rawPhone)) {
                     $post->phone = substr($rawPhone, 0, 3) . ' ' . substr($rawPhone, 3, 3) . ' ' . substr($rawPhone, 6);

@@ -28,12 +28,11 @@
         <div class='max-w-3xl mx-auto p-3 bg-white'>
             <h2 class='text-xl font-bold mb-1 text-gray-800'>Welcome to Collaborations</h2>
             <h1 class="text-gray-600">
-            <h1 class="text-gray-600">
                 <!-- Welcome <br>
                 <a href="mailto:promotions@visitmyjoburg.co.za" class="text-gray-600">
                     <i class="fa-solid fa-envelope"></i> promotions@visitmyjoburg.co.za
                 </a> --> 
-                <a href="https://github.com/alecshelembe/iampromoter-collaboration-platform/releases/download/APK/promotions-application-88c1c796-6009-4de2-9125-d7de6f161229.apk"class="inline-flex items-center mt-4 text-green-600 hover:text-green-800" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/alecshelembe/iampromoter-collaboration-platform/releases/edit/APK"class="inline-flex items-center mt-4 text-green-600 hover:text-green-800" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-android text-2xl mr-2"></i>
                    Download App </a>
                 </a> 

@@ -9,7 +9,7 @@ ls -la
 ---
 
 -----
-check api for wordpress plugin
+check api 
 curl -X GET "https://visitmyjoburg.co.za/api/get-social-posts"   -H "Accept: application/json"
 
 ----
