@@ -32,7 +32,7 @@
                 <a href="mailto:promotions@visitmyjoburg.co.za" class="text-gray-600">
                     <i class="fa-solid fa-envelope"></i> promotions@visitmyjoburg.co.za
                 </a> --> 
-                <a href="https://github.com/alecshelembe/iampromoter-collaboration-platform/releases/edit/APK"class="inline-flex items-center mt-4 text-green-600 hover:text-green-800" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/alecshelembe/iampromoter-collaboration-platform/releases/APK"class="inline-flex items-center mt-4 text-green-600 hover:text-green-800" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-android text-2xl mr-2"></i>
                    Download App </a>
                 </a> 

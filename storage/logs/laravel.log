@@ -11987,3 +11987,43 @@
 "} 
 [2026-07-10 23:15:18] production.INFO: Location data saved successfully for user:  {"latitude":-26.2052336,"longitude":28.036862,"device_id":"unknown","device_name":"Future","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[4gRwqeCE5lg6zCa6LkbZz9]"} 
 [2026-07-11 12:59:31] production.INFO: Location data saved successfully for user:  {"latitude":-26.2052512,"longitude":28.0368808,"device_id":"unknown","device_name":"Future","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[4gRwqeCE5lg6zCa6LkbZz9]"} 
+[2026-07-11 13:42:23] production.INFO: Location data saved successfully for user:  {"latitude":-26.1981981981982,"longitude":28.03291092195481,"device_id":"unknown","device_name":"Future","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]"} 
+[2026-07-11 13:45:23] production.INFO: Location data saved successfully for user:  {"latitude":-26.1981981981982,"longitude":28.03291092195481,"device_id":"unknown","device_name":"Future","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]"} 
+[2026-07-11 13:46:02] production.INFO: Location data saved successfully for user:  {"latitude":-26.1981981981982,"longitude":28.03291092195481,"device_id":"unknown","device_name":"Future","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]"} 
+[2026-07-11 15:01:41] production.INFO: Location data saved successfully for user:  {"latitude":-26.1981981981982,"longitude":28.03291092195481,"device_id":"unknown","device_name":"Future","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]"} 
+[2026-07-11 19:28:08] production.INFO: Location data saved successfully for user:  {"latitude":-26.1981981981982,"longitude":28.03291092195481,"device_id":"unknown","device_name":"Future","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]"} 
+[2026-07-11 21:32:42] production.INFO: Location data saved successfully for user:  {"latitude":-26.2089804,"longitude":28.0412524,"device_id":"unknown","device_name":"CPH2273","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[uEMMHVDVVbpJMdPBgOLz4f]"} 
+[2026-07-11 23:17:26] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[uEMMHVDVVbpJMdPBgOLz4f]","status":200,"response":{"data":{"status":"ok","id":"019f530a-d3b1-7004-a105-cb11fff04fb3"}}} 
+[2026-07-11 23:19:21] production.INFO: Location data saved successfully for user:  {"latitude":-26.1981981981982,"longitude":28.03291092195481,"device_id":"unknown","device_name":"Future","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]"} 
+[2026-07-13 17:05:11] production.INFO: Location data saved successfully for user:  {"latitude":-26.1981981981982,"longitude":28.03291092195481,"device_id":"unknown","device_name":"Future","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]"} 
+[2026-07-14 16:09:57] production.ERROR: The "--port:8000" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--port:8000\" option does not exist. at /var/www/package/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/package/vendor/symfony/console/Input/ArgvInput.php(152): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/package/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/package/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/package/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/package/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/package/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/package/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/package/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/package/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/package/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/package/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2026-07-14 16:22:44] production.INFO: Location data saved successfully for user:  {"latitude":-26.1981981981982,"longitude":28.03291092195481,"device_id":"unknown","device_name":"Future","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]"} 
+[2026-07-14 23:08:58] production.INFO: Location data saved successfully for user:  {"latitude":-26.216216216216218,"longitude":28.037250455355377,"device_id":"unknown","device_name":"Future","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]"} 
+[2026-07-14 23:27:39] production.INFO: Location data saved successfully for user:  {"latitude":-26.216216216216218,"longitude":28.037250455355377,"device_id":"unknown","device_name":"Future","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]"} 
+[2026-07-21 23:50:25] production.INFO: Location data saved successfully for user:  {"latitude":-26.1981981981982,"longitude":28.03291092195481,"device_id":"unknown","device_name":"Future","platform":"unknown","app_version":"1.0.0","expo_push_token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]"} 
+[2026-07-21 23:53:31] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[ki3go9EcPWfAlLOy1ApqJn]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-73a0-71dd-a363-bd3646b72bac"}}} 
+[2026-07-21 23:53:31] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[IuWTXbIS_rwr0mpz4qmMOh]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-75fe-770c-9235-683638cc5b22"}}} 
+[2026-07-21 23:53:32] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[IuWTXbIS_rwr0mpz4qmMOh]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-77b0-74fc-a81d-1c4d4ddfff81"}}} 
+[2026-07-21 23:53:33] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-7bfc-74c0-8f17-89684531ac55"}}} 
+[2026-07-21 23:53:33] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-7d49-7547-a868-3780932c3b71"}}} 
+[2026-07-21 23:53:34] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[uEMMHVDVVbpJMdPBgOLz4f]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-7f40-7529-a798-3f013450ed54"}}} 
+[2026-07-21 23:53:34] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-8100-756f-a53c-22384cd06203"}}} 
+[2026-07-21 23:53:35] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-82d5-763b-ae1d-00cc5d0e62cd"}}} 
+[2026-07-21 23:53:35] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-84d7-738a-8b9a-8acb9abe94c2"}}} 
+[2026-07-21 23:53:36] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-8671-72a9-a546-b5a0e5986789"}}} 
+[2026-07-21 23:53:36] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-8940-71ae-b4ae-3c57d2c9c199"}}} 
+[2026-07-21 23:53:37] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-8b17-74be-b161-a06384b233d7"}}} 

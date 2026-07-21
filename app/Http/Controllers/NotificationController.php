@@ -36,6 +36,7 @@ class NotificationController extends Controller
         if ($request->device === 'All') {
             $expoTokens = UserLocation::whereNotNull('expo_push_token')
                 ->pluck('expo_push_token');
+		->unique('expo_push_token');
 
         } else {
             $expoTokens = UserLocation::where('expo_push_token', $request->device)
