@@ -12027,3 +12027,37 @@
 [2026-07-21 23:53:36] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-8671-72a9-a546-b5a0e5986789"}}} 
 [2026-07-21 23:53:36] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-8940-71ae-b4ae-3c57d2c9c199"}}} 
 [2026-07-21 23:53:37] production.INFO: Bulk Notification Sent {"token":"ExponentPushToken[ZStl5FHLQZLIJXu297YsX-]","status":200,"response":{"data":{"status":"ok","id":"019f86ab-8b17-74be-b161-a06384b233d7"}}} 
+[2026-07-21 23:59:05] production.ERROR: syntax error, unexpected token "->" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"->\" at /var/www/package/app/Http/Controllers/NotificationController.php:39)
+[stacktrace]
+#0 /var/www/package/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 /var/www/package/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1096): is_a()
+#3 /var/www/package/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1035): Illuminate\\Routing\\Route->controllerMiddleware()
+#4 /var/www/package/vendor/laravel/framework/src/Illuminate/Routing/Router.php(818): Illuminate\\Routing\\Route->gatherMiddleware()
+#5 /var/www/package/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#6 /var/www/package/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack()
+#7 /var/www/package/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\\Routing\\Router->runRoute()
+#8 /var/www/package/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute()
+#9 /var/www/package/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#10 /var/www/package/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#11 /var/www/package/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /var/www/package/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#13 /var/www/package/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#14 /var/www/package/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /var/www/package/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#16 /var/www/package/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#17 /var/www/package/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /var/www/package/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#19 /var/www/package/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /var/www/package/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#21 /var/www/package/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /var/www/package/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#23 /var/www/package/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /var/www/package/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#25 /var/www/package/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /var/www/package/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#27 /var/www/package/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#28 /var/www/package/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#29 /var/www/package/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#30 {main}
+"} 
