@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MTB&apos;s FTTH Polygon</name>
+	<open>1</open>
+	<StyleMap id="msn_ylw-pushpin002">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin114</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin114">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin10100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>CPT</name>
+		<open>1</open>
+		<Folder>
+			<name>FTTH</name>
+			<open>1</open>
+			<Placemark>
+				<name>42 Keerom Street FTTH</name>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								18.41684337819167,-33.9252332343404,0 18.4165862786899,-33.92543986473552,0 18.4167047505796,-33.92552306218731,0 18.41693658982234,-33.92532518235456,0 18.41694319844597,-33.92531150533033,0 18.41684337819167,-33.9252332343404,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Tyger Quays FTTH</name>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								18.62897283242261,-33.87645052137319,0 18.62913237256783,-33.8765783659023,0 18.62947925442129,-33.87639075586731,0 18.62924395874462,-33.87623365975216,0 18.62897283242261,-33.87645052137319,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Waverley West</name>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								18.46988215441942,-33.94342858309799,0 18.4700897948664,-33.94336433003602,0 18.46999131655743,-33.94305045892642,0 18.46969699339435,-33.9431267660795,0 18.46988215441942,-33.94342858309799,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Somerset Lakes</name>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								18.8641022137865,-34.1068944718771,0 18.86361115062776,-34.10750930575245,0 18.86486872986069,-34.10801506231642,0 18.86532385310728,-34.10753905792335,0 18.8641022137865,-34.1068944718771,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>5 Howe Street FTTH</name>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								18.46867969962894,-33.93420652391811,0 18.46873996318123,-33.9343980074779,0 18.46852855956304,-33.934426594787,0 18.46865046349855,-33.93476852402633,0 18.46884910177456,-33.93474711880958,0 18.46895736422462,-33.9348489124866,0 18.46938862217887,-33.93473635255283,0 18.46930826682442,-33.93454961384816,0 18.46908988117184,-33.93440211828447,0 18.46901006088034,-33.93421533505551,0 18.46867969962894,-33.93420652391811,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>4 Loop Street - FTTH</name>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								18.42247376253081,-33.91811865710145,0 18.42275707749771,-33.91785090777578,0 18.42257063369988,-33.91766948426758,0 18.422250742555,-33.91795825110945,0 18.42247376253081,-33.91811865710145,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Corsair</name>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								18.5029745390774,-33.88503104007638,0 18.50360858793978,-33.88510623572608,0 18.50367034437109,-33.88440556347271,0 18.50301571388031,-33.88439188883611,0 18.5029745390774,-33.88503104007638,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Cornerstone</name>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								18.62929729511705,-33.87809370725463,0 18.62919529071804,-33.87820186768606,0 18.6296133062623,-33.8784495498694,0 18.6297024162347,-33.87834416446937,0 18.62929729511705,-33.87809370725463,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Fairhaven</name>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								18.87426402293564,-34.10024139078627,0 18.87433522352836,-34.10128723325295,0 18.8770249784012,-34.10202792597329,0 18.87941169915119,-34.1039656865884,0 18.88139482157393,-34.10194359689907,0 18.88051965519016,-34.10140007317943,0 18.87634573875607,-34.0989095332606,0 18.87426402293564,-34.10024139078627,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Montclare FTTH</name>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								18.46508785955016,-33.97804984223403,0 18.46645405159999,-33.97789121327456,0 18.46627741227129,-33.9770540811636,0 18.46493876245575,-33.97721970398622,0 18.46508785955016,-33.97804984223403,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Sloane Square</name>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								18.41949133332647,-33.93381599763141,0 18.41978244624426,-33.93391570364032,0 18.41982944858956,-33.93377267222075,0 18.41954391975624,-33.9336969254194,0 18.41949133332647,-33.93381599763141,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Oceana</name>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								18.38013296908173,-33.95927862279709,0 18.38015795110616,-33.95935296141582,0 18.38006986834408,-33.95949473054657,0 18.38018256730292,-33.95956537569338,0 18.3805432157099,-33.95910225697664,0 18.38039087863449,-33.9589956855347,0 18.38013296908173,-33.95927862279709,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Summerplace</name>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								18.68262461880149,-33.95683460334871,0 18.68090793402616,-33.95669605340565,0 18.68076295374352,-33.95707979086492,0 18.68246372810888,-33.95752090052406,0 18.68262461880149,-33.95683460334871,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>JHB</name>
+		<open>1</open>
+		<Folder>
+			<name>FTTH</name>
+			<open>1</open>
+			<Placemark>
+				<name>13 Douglas Harris dr</name>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								28.09724922981402,-26.28806528223659,0 28.09753816296279,-26.28804349101477,0 28.09750803220058,-26.28776238566257,0 28.09724858578573,-26.2877781888107,0 28.09724922981402,-26.28806528223659,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Glen Vista</name>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								28.07194233997188,-26.28859660332141,0 28.0720557625409,-26.28918643733596,0 28.07296317040037,-26.29185084643641,0 28.07510698034112,-26.29152541237449,0 28.07429026142694,-26.28857626499994,0 28.07322405568952,-26.28876949252729,0 28.07260021295285,-26.2883525393304,0 28.07194233997188,-26.28859660332141,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Kiepersol</name>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin002</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								28.06977800600909,-26.28173842766311,0 28.06950220348509,-26.28186734594091,0 28.06958380872897,-26.28236145233895,0 28.07063674226915,-26.28257609152215,0 28.07079318774558,-26.28207169830556,0 28.07048452866505,-26.2817645601091,0 28.07016987541448,-26.28195327229864,0 28.07004822651432,-26.28191413417862,0 28.06977800600909,-26.28173842766311,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

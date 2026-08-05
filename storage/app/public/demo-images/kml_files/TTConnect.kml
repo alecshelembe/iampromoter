@@ -1,0 +1,4640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>TT Connect FTTH &amp; FTTB</name>
+	<StyleMap id="poly-000000-1-128">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-1-128-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-1-128-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-1-128-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>0.0015</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-1-128-normal">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>0.001</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-1000-127">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-1000-127-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-1000-127-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-1000-127-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-1000-127-normal">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-1000-128">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-1000-128-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-1000-128-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-1000-128-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-1000-128-normal">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-1000-153">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-1000-153-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-1000-153-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-1000-153-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>99000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-1000-153-normal">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>99000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-1000-176">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-1000-176-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-1000-176-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-1000-176-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-1000-176-normal">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-1000-179">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-1000-179-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-1000-179-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-1000-179-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-1000-179-normal">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-1000-181">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-1000-181-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-1000-181-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-1000-181-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b5000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-1000-181-normal">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b5000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-1000-184">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-1000-184-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-1000-184-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-1000-184-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b8000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-1000-184-normal">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b8000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-1000-186">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-1000-186-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-1000-186-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-1000-186-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ba000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-1000-186-normal">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ba000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-1000-191">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-1000-191-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-1000-191-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-1000-191-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-1000-191-normal">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-1000-82">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-1000-82-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-1000-82-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-1000-82-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>52000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-1000-82-normal">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>52000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-2001-181">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-2001-181-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-2001-181-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-2001-181-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3.0015</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b5000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-2001-181-normal">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2.001</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b5000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-2201-184">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-2201-184-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-2201-184-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-2201-184-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3.3015</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b8000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-2201-184-normal">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2.201</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b8000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-2301-184">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-2301-184-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-2301-184-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-2301-184-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3.4515</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b8000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-2301-184-normal">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2.301</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b8000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-2401-181">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-2401-181-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-2401-181-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-2401-181-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3.6015</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b5000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-2401-181-normal">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2.401</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b5000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-4000-127">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-4000-127-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-4000-127-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-4000-127-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-4000-127-normal">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-5000-127">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-5000-127-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-5000-127-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-5000-127-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>7.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-5000-127-normal">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-5000-128">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-5000-128-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-5000-128-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-5000-128-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>7.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-5000-128-normal">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-5000-176">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-5000-176-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-5000-176-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-5000-176-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>7.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-5000-176-normal">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b0000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-000000-9000-153">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-9000-153-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-9000-153-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-9000-153-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>13.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>99000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-000000-9000-153-normal">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>9</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>99000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-FFAA00-1000-128">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-FFAA00-1000-128-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-FFAA00-1000-128-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-FFAA00-1000-128-highlight">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-FFAA00-1000-128-normal">
+		<LineStyle>
+			<color>ff00aaff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000aaff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Not Live</name>
+		<Placemark>
+			<name>Not Live</name>
+			<description>not live</description>
+			<styleUrl>#poly-FFAA00-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.132859,-26.172252,0 28.131787,-26.173814,0 28.13192,-26.176435,0 28.133312,-26.179614,0 28.136349,-26.179501,0 28.138219,-26.176875,0 28.137082,-26.17614,0 28.136898,-26.175631,0 28.138115,-26.173395,0 28.136099,-26.172546,0 28.13406,-26.170989,0 28.132859,-26.172252,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.136918,-26.17647,0 28.13661,-26.176618,0 28.136229,-26.177173,0 28.136815,-26.177293,0 28.137216,-26.176792,0 28.137261,-26.176707,0 28.136918,-26.17647,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Live 5 May</name>
+		<Placemark>
+			<name>Farrarmere-Rynfield Link</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.318542,-26.154426,0 28.315442,-26.156168,0 28.315243,-26.156318,0 28.316584,-26.158359,0 28.316552,-26.159062,0 28.315978,-26.159972,0 28.312502,-26.164595,0 28.31253999999999,-26.164644,0 28.314653,-26.161778,0 28.315731,-26.160338,0 28.316587,-26.159132,0 28.316641,-26.158332,0 28.315324,-26.156342,0 28.318569,-26.154459,0 28.318719,-26.154151,0 28.318542,-26.154426,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hurlyvale - Phase 3</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.163238,-26.147002,0 28.164074,-26.149352,0 28.166821,-26.152607,0 28.167508,-26.152125,0 28.166928,-26.145576,0 28.163238,-26.147002,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hurlyvale - Phase 6</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.171005,-26.148552,0 28.17255,-26.146279,0 28.170416,-26.144019,0 28.169284,-26.141124,0 28.168205,-26.141656,0 28.166349,-26.142455,0 28.16783,-26.145142,0 28.166885,-26.145682,0 28.1671,-26.147724,0 28.168366,-26.147781,0 28.169353,-26.147839,0 28.171005,-26.148552,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Elma Park - Phase 4</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.154623,-26.152255,0 28.157036,-26.15565,0 28.160319,-26.1533,0 28.157873,-26.150045,0 28.154623,-26.152255,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Farrarmere - Phase 6</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.299108,-26.161553,0 28.297284,-26.162266,0 28.296812,-26.162458,0 28.292381,-26.162217,0 28.29164,-26.16682,0 28.29179,-26.168014,0 28.300631,-26.164663,0 28.299108,-26.161553,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Harmelia</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.18815,-26.142398,0 28.190296,-26.141037,0 28.190239,-26.14098,0 28.18815,-26.142398,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Harmelia</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.190239,-26.14098,0 28.19263400000001,-26.139355,0 28.193193,-26.13818,0 28.193147,-26.137558,0 28.192458,-26.137554,0 28.189515,-26.13751,0 28.187281,-26.137505,0 28.183939,-26.137553,0 28.183397,-26.137563,0 28.183317,-26.137977,0 28.183279,-26.138392,0 28.183236,-26.138726,0 28.183182,-26.139088,0 28.183097,-26.139459,0 28.183034,-26.139791,0 28.183205,-26.139829,0 28.184352,-26.1401,0 28.186659,-26.140018,0 28.189174,-26.139926,0 28.190239,-26.14098,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hurlyvale - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.157873,-26.150045,0 28.160319,-26.1533,0 28.162594,-26.15172099999999,0 28.164074,-26.149352,0 28.163238,-26.147002,0 28.161221,-26.147888,0 28.157873,-26.150045,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hurlyvale - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.162551,-26.15582300000001,0 28.162787,-26.15617,0 28.167443,-26.153396,0 28.164074,-26.149352,0 28.162508,-26.151875,0 28.160319,-26.1533,0 28.162551,-26.15582300000001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Jet Park - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.223662,-26.175294,0 28.223802,-26.175337,0 28.224338,-26.175125,0 28.22459,-26.175014,0 28.22473,-26.174928,0 28.224843,-26.17488,0 28.224907,-26.174837,0 28.224912,-26.174774,0 28.223662,-26.175294,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Jet Park - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.219017,-26.16215,0 28.219081,-26.1624,0 28.219381,-26.162371,0 28.219521,-26.162246,0 28.21936,-26.162015,0 28.219017,-26.16215,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Elma Park- Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.1526,-26.153474,0 28.157198,-26.161911,0 28.159276,-26.158877,0 28.158582,-26.158076,0 28.158225,-26.157666,0 28.157916,-26.157306,0 28.15631,-26.158177,0 28.155897,-26.157458,0 28.157432,-26.156346,0 28.154623,-26.152255,0 28.1526,-26.153474,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Foundersview</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.161056,-26.098385,0 28.158197,-26.100702,0 28.158765,-26.102144,0 28.161683,-26.107121,0 28.161835,-26.109918,0 28.167881,-26.107248,0 28.168958,-26.106706,0 28.169324,-26.106704,0 28.173904,-26.116345,0 28.180094,-26.115502,0 28.179272,-26.109555,0 28.183123,-26.109964,0 28.183369,-26.109412,0 28.184318,-26.10958,0 28.187464,-26.108842,0 28.181723,-26.10468,0 28.180058,-26.103476,0 28.176613,-26.102178,0 28.175214,-26.101749,0 28.170431,-26.100998,0 28.167649,-26.100699,0 28.165774,-26.100343,0 28.161056,-26.098385,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Spartan</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.208842,-26.115362,0 28.208677,-26.116269,0 28.214678,-26.118478,0 28.215182,-26.117949,0 28.215276,-26.117618,0 28.211005,-26.114617,0 28.209118,-26.114305,0 28.208842,-26.115362,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Buurendal - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.173162,-26.146963,0 28.173591,-26.146597,0 28.173709,-26.146222,0 28.174653,-26.145441,0 28.175211,-26.14549,0 28.175651,-26.145066,0 28.175704,-26.144575,0 28.176112,-26.144132,0 28.17667,-26.144575,0 28.177324,-26.143698,0 28.17711,-26.143419,0 28.176734,-26.142783,0 28.176445,-26.142379,0 28.175983,-26.14160800000001,0 28.173741,-26.142494,0 28.17137,-26.143621,0 28.170351,-26.144045,0 28.173162,-26.146963,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Morehill - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.352022,-26.16214,0 28.351336,-26.162584,0 28.349748,-26.160503,0 28.351078,-26.156054,0 28.344684,-26.155996,0 28.343825,-26.157287,0 28.346829,-26.158327,0 28.345327,-26.16029199999999,0 28.351121,-26.163527,0 28.352022,-26.16214,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Morehill - Phase 3</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.354361,-26.167398,0 28.358223,-26.164182,0 28.359661,-26.163354,0 28.361292,-26.162814,0 28.361378,-26.162545,0 28.356056,-26.16006,0 28.355799,-26.1611,0 28.352022,-26.16214,0 28.351121,-26.163527,0 28.35067,-26.164163,0 28.351936,-26.165337,0 28.354361,-26.167398,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Westdene - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.293629,-26.181627,0 28.290857,-26.18618499999999,0 28.288256,-26.190743,0 28.2889,-26.195993,0 28.297507,-26.200938,0 28.298145,-26.200059,0 28.300112,-26.195486,0 28.300087,-26.193241,0 28.298831,-26.189582,0 28.299091,-26.187345,0 28.300956,-26.185108,0 28.300548,-26.184654,0 28.297737,-26.183697,0 28.293629,-26.181627,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Morehill - Phase 4</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.351121,-26.163527,0 28.348546,-26.162179,0 28.342366,-26.170383,0 28.342409,-26.172232,0 28.346443,-26.171539,0 28.352838,-26.168631,0 28.354361,-26.167398,0 28.35067,-26.164163,0 28.351121,-26.163527,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Greenstone</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.159797,-26.121367,0 28.15062,-26.12284500000001,0 28.152426,-26.122564,0 28.159797,-26.121367,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lakefield</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.285139,-26.170383,0 28.286287,-26.169584,0 28.283593,-26.170743,0 28.285139,-26.170383,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pomona</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.255741,-26.09856600000001,0 28.269465,-26.100016,0 28.271785,-26.100204,0 28.271968,-26.100225,0 28.273734,-26.100372,0 28.273797,-26.100303,0 28.273807,-26.100359,0 28.273782,-26.100375,0 28.276877,-26.100633,0 28.277738,-26.096622,0 28.274721,-26.096732,0 28.272334,-26.093156,0 28.270631,-26.091343,0 28.265928,-26.091665,0 28.264283,-26.091741,0 28.261,-26.093535,0 28.258791,-26.091304,0 28.258484,-26.091657,0 28.259809,-26.093811,0 28.259768,-26.09425,0 28.259803,-26.094932,0 28.260302,-26.095538,0 28.25582,-26.098355,0 28.255457,-26.097626,0 28.255084,-26.095461,0 28.254748,-26.095525,0 28.255008,-26.096973,0 28.255407,-26.098131,0 28.255741,-26.09856600000001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ravenswood</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.256058,-26.19297,0 28.256053,-26.198497,0 28.258233,-26.198561,0 28.259291,-26.198507,0 28.259362,-26.199425,0 28.262655,-26.199526,0 28.26265,-26.193964,0 28.262881,-26.193658,0 28.262902,-26.19337,0 28.259941,-26.192676,0 28.257195,-26.192101,0 28.25624,-26.19217,0 28.256058,-26.19297,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Morgensridge</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.237397,-26.184816,0 28.233516,-26.185658,0 28.234096,-26.187292,0 28.230407,-26.188945,0 28.231013,-26.190427,0 28.230788,-26.190867,0 28.229285,-26.189937,0 28.228404,-26.190254,0 28.228101,-26.189905,0 28.22537000000001,-26.19067,0 28.225681,-26.191007,0 28.227076,-26.191546,0 28.23617399999999,-26.193491,0 28.240959,-26.191989,0 28.237397,-26.184816,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Country View</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.341556,-26.123315,0 28.341605,-26.12332,0 28.341568,-26.123302,0 28.341556,-26.123315,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Country View</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.341568,-26.123302,0 28.3419,-26.122911,0 28.342061,-26.12279,0 28.342093,-26.122468,0 28.342114,-26.12173599999999,0 28.33808,-26.115551,0 28.337265,-26.115936,0 28.336922,-26.121793,0 28.337973,-26.121716,0 28.33896,-26.122468,0 28.339776,-26.123758,0 28.341256,-26.123084,0 28.341278,-26.123161,0 28.341568,-26.123302,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rynfield - Phase 5</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.345681,-26.132511,0 28.344115,-26.131321,0 28.341572,-26.134394,0 28.347849,-26.138854,0 28.348144,-26.139277,0 28.349962,-26.140751,0 28.352038,-26.138382,0 28.351808,-26.138122,0 28.349904,-26.140381,0 28.348272,-26.139185,0 28.347958,-26.138731,0 28.346406,-26.137568,0 28.348679,-26.134813,0 28.347776,-26.134091,0 28.347034,-26.133532,0 28.34678,-26.133309,0 28.34637499999999,-26.13298,0 28.346081,-26.132773,0 28.345681,-26.132511,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Live</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.121964,-26.196077,0 28.121643,-26.196315,0 28.121417,-26.196527,0 28.121382,-26.196624,0 28.121312,-26.196617,0 28.121291,-26.196671,0 28.121492,-26.196739,0 28.122948,-26.196537,0 28.123231,-26.196513,0 28.123455,-26.196633,0 28.12352,-26.196236,0 28.123013,-26.196192,0 28.122991,-26.195921,0 28.122594,-26.195918,0 28.12227,-26.195913,0 28.122101,-26.195964,0 28.121964,-26.196077,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Illiondale</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.163878,-26.122133,0 28.175361,-26.120321,0 28.173904,-26.116345,0 28.169324,-26.106704,0 28.166027,-26.108048,0 28.16507,-26.114318,0 28.16508,-26.11434,0 28.164285,-26.119463,0 28.163878,-26.122133,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Alphen Park</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.279753,-26.170537,0 28.283614,-26.170743,0 28.288808,-26.174543,0 28.286877,-26.162025,0 28.286616,-26.16014,0 28.28659800000001,-26.159868,0 28.279023,-26.166281,0 28.279753,-26.170537,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Beyers Park</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.274152,-26.185967,0 28.279806,-26.186937,0 28.280348,-26.185477,0 28.28125500000001,-26.185596,0 28.280997,-26.178933,0 28.25411,-26.179029,0 28.252716,-26.187175,0 28.253574,-26.18937,0 28.253639,-26.190516,0 28.254026,-26.190638,0 28.255908,-26.190454,0 28.257942,-26.190347,0 28.26028,-26.190181,0 28.26258,-26.190081,0 28.262692,-26.192137,0 28.260475,-26.19222,0 28.26049,-26.192572,0 28.262898,-26.193125,0 28.262877,-26.190087,0 28.266535,-26.190217,0 28.267436,-26.187079,0 28.272156,-26.18395900000001,0 28.27456,-26.184489,0 28.274152,-26.185967,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.278192,-26.185054,0 28.277682,-26.186519,0 28.278778,-26.186718,0 28.279263,-26.185271,0 28.278192,-26.185054,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.280688,-26.180796,0 28.279605,-26.180731,0 28.279486,-26.18105,0 28.280738,-26.181145,0 28.280688,-26.180796,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.260839,-26.185265,0 28.260758,-26.185973,0 28.26324,-26.186094,0 28.263273,-26.185406,0 28.260839,-26.185265,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Atlasville - Phase 3</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.280611,-26.149467,0 28.283744,-26.149929,0 28.283958,-26.151663,0 28.289108,-26.152202,0 28.289666,-26.148966,0 28.290782,-26.14731,0 28.285675,-26.141107,0 28.283594,-26.142818,0 28.282821,-26.143527,0 28.28229,-26.144152,0 28.281555,-26.145114,0 28.280611,-26.149467,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Atlasville - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.278465,-26.159406,0 28.284903,-26.160214,0 28.285932,-26.160407,0 28.28692,-26.159675,0 28.287942,-26.158907,0 28.289108,-26.152202,0 28.283958,-26.151663,0 28.283744,-26.149929,0 28.280611,-26.149467,0 28.278465,-26.159406,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.278838,-26.158153,0 28.278685,-26.158679,0 28.278741,-26.159295,0 28.279486,-26.159415,0 28.279712,-26.158315,0 28.278838,-26.158153,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.286969,-26.158107,0 28.285286,-26.159672,0 28.285195,-26.160139,0 28.285406,-26.160207,0 28.286073,-26.160014,0 28.286993,-26.159117,0 28.286969,-26.158107,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.2816,-26.157701,0 28.28088899999999,-26.157392,0 28.279031,-26.157089,0 28.278832,-26.158122,0 28.279713,-26.158292,0 28.2798,-26.157977,0 28.280632,-26.158126,0 28.281219,-26.158441,0 28.281625,-26.157813,0 28.2816,-26.157701,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Impala Park - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.25877,-26.166311,0 28.259958,-26.166331,0 28.259957,-26.166371,0 28.259986,-26.166371,0 28.259985,-26.166338,0 28.261126,-26.166354,0 28.261126,-26.166366,0 28.261264,-26.166365,0 28.261264,-26.166344,0 28.262444,-26.166342,0 28.262444,-26.16636,0 28.279023,-26.166281,0 28.277478,-26.161206,0 28.275933,-26.157056,0 28.259239,-26.156401,0 28.25877,-26.166311,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Highway Gardens - Phase 4</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.178822,-26.140225,0 28.180082,-26.143515,0 28.181369,-26.145499,0 28.182378,-26.145056,0 28.190296,-26.141037,0 28.189174,-26.139926,0 28.187882,-26.139971,0 28.184352,-26.1401,0 28.183034,-26.139791,0 28.183193,-26.139021,0 28.180514,-26.139327,0 28.179398,-26.139443,0 28.178822,-26.140225,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Highway Gardents - Phase 3</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.176885,-26.144189,0 28.18006,-26.146183,0 28.181369,-26.145499,0 28.180082,-26.143515,0 28.179266,-26.141184,0 28.178988,-26.140106,0 28.175983,-26.14160800000001,0 28.177324,-26.143698,0 28.176885,-26.144189,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.177842,-26.144712,0 28.178268,-26.145026,0 28.178655,-26.144508,0 28.178295,-26.145034,0 28.178678,-26.145287,0 28.179124,-26.144716,0 28.178714,-26.144429,0 28.178756,-26.144372,0 28.178569,-26.144232,0 28.178071,-26.144389,0 28.177842,-26.144712,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hurlyvale - Phase 4</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.17255,-26.146289,0 28.171005,-26.148562,0 28.169353,-26.147849,0 28.1671,-26.147734,0 28.167508,-26.152125,0 28.166821,-26.152607,0 28.167443,-26.153396,0 28.169739,-26.151374,0 28.171177,-26.150469,0 28.17478,-26.148612,0 28.17255,-26.146289,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.171373,-26.149736,0 28.170912,-26.150402,0 28.171033,-26.150462,0 28.171742,-26.150086,0 28.171373,-26.149736,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.173582,-26.148767,0 28.173281,-26.14861399999999,0 28.172978,-26.149178,0 28.17314,-26.149399,0 28.173767,-26.149048,0 28.173582,-26.148767,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.172862,-26.149115,0 28.17242600000001,-26.149052,0 28.172141,-26.14942,0 28.172383,-26.149783,0 28.173012,-26.149419,0 28.172862,-26.149115,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Marais Steyn Park - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.132854,-26.143303,0 28.133326,-26.143188,0 28.135428,-26.144035,0 28.136952,-26.14392,0 28.138221,-26.14347,0 28.136152,-26.143953,0 28.136648,-26.142836,0 28.13767,-26.142565,0 28.13829,-26.143446,0 28.138475,-26.14338,0 28.136952,-26.140703,0 28.137145,-26.139412,0 28.137724,-26.138988,0 28.138154,-26.139461,0 28.138362,-26.13951,0 28.138506,-26.139956,0 28.138652,-26.14066,0 28.138733,-26.140953,0 28.139591,-26.141184,0 28.139239,-26.139505,0 28.138592,-26.138301,0 28.138149,-26.137986,0 28.139454,-26.136328,0 28.137836,-26.135938,0 28.136245,-26.135355,0 28.135393,-26.135874,0 28.134131,-26.136089,0 28.133128,-26.136031,0 28.131995,-26.143265,0 28.132854,-26.143303,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.13770999999999,-26.137622,0 28.136824,-26.137517,0 28.136715,-26.13812,0 28.136829,-26.138187,0 28.13695999999999,-26.138365,0 28.136912,-26.138493,0 28.137325,-26.138632,0 28.137341,-26.13853599999999,0 28.137883,-26.137833,0 28.13770999999999,-26.137622,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Highway Gardens - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.182637,-26.135658,0 28.183177,-26.135402,0 28.181441,-26.135982,0 28.181088,-26.135318,0 28.181747,-26.13499,0 28.182332,-26.134633,0 28.182404,-26.134571,0 28.180929,-26.135306,0 28.176853,-26.137478,0 28.174577,-26.138549,0 28.175983,-26.14160800000001,0 28.178822,-26.140225,0 28.179398,-26.139443,0 28.183193,-26.139021,0 28.183433,-26.137187,0 28.18309,-26.137173,0 28.182662,-26.135692,0 28.182637,-26.135658,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.181782,-26.137205,0 28.182004,-26.137068,0 28.181581,-26.136455,0 28.18137,-26.13611999999999,0 28.181224,-26.136102,0 28.180806,-26.13642,0 28.179761,-26.137048,0 28.180606,-26.138288,0 28.182058,-26.137595,0 28.181782,-26.137205,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Highway Gardens - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.182848,-26.134186,0 28.182987,-26.134011,0 28.182587,-26.134412,0 28.182848,-26.134186,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Highway Gardens - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.183277,-26.135368,0 28.183505,-26.135478,0 28.183659,-26.135454,0 28.183749,-26.134765,0 28.183724,-26.134684,0 28.183833,-26.134126,0 28.183978,-26.133016,0 28.183527,-26.133469,0 28.183722,-26.13337,0 28.183379,-26.135334,0 28.183277,-26.135368,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Marais Steyn Park - Phase 3</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.145685,-26.127892,0 28.144148,-26.126631,0 28.144132,-26.126643,0 28.143896,-26.126431,0 28.143893,-26.126429,0 28.143895,-26.126423,0 28.141425,-26.124397,0 28.142111,-26.122917,0 28.141527,-26.121163,0 28.139571,-26.121882,0 28.139246,-26.12106,0 28.138254,-26.119724,0 28.13721200000001,-26.12106,0 28.137789,-26.121882,0 28.137445,-26.12323,0 28.133497,-26.133132,0 28.133128,-26.136031,0 28.135085,-26.136022,0 28.136245,-26.135355,0 28.139454,-26.136328,0 28.142359,-26.134895,0 28.139991,-26.130746,0 28.141378,-26.129988,0 28.139775,-26.127336,0 28.138579,-26.127807,0 28.137889,-26.126384,0 28.140187,-26.125955,0 28.140995,-26.126952,0 28.141231,-26.126856,0 28.141226,-26.12685,0 28.142156,-26.126426,0 28.142176,-26.12647400000001,0 28.14221,-26.12646,0 28.142181,-26.126408,0 28.143068,-26.126035,0 28.143588,-26.126498,0 28.143474,-26.126544,0 28.14406,-26.126912,0 28.144726,-26.128327,0 28.145206,-26.128659,0 28.14573,-26.128376,0 28.145685,-26.127892,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.140017,-26.12905900000001,0 28.139398,-26.129356,0 28.139523,-26.129582,0 28.140146,-26.12928,0 28.140017,-26.12905900000001,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.139786,-26.123444,0 28.139623,-26.123122,0 28.13831,-26.123311,0 28.137832,-26.12493,0 28.140792,-26.124416,0 28.139786,-26.123444,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>De Kerkshof</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.161379,-26.122538,0 28.161,-26.122599,0 28.162709,-26.12614,0 28.165603,-26.125679,0 28.169667,-26.12507,0 28.173603,-26.124344,0 28.170852,-26.121006,0 28.162983,-26.122278,0 28.163046,-26.122713,0 28.162862,-26.122939,0 28.16285,-26.12294199999999,0 28.163305,-26.123984,0 28.161876,-26.124054,0 28.161563,-26.123312,0 28.161889,-26.123179,0 28.161563,-26.123259,0 28.161287,-26.122694,0 28.161379,-26.122538,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.166762,-26.122495,0 28.164189,-26.122885,0 28.164473,-26.123617,0 28.167088,-26.123163,0 28.166762,-26.122495,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.163324,-26.124008,0 28.161904,-26.124063,0 28.162297,-26.124934,0 28.16364,-26.12472,0 28.163324,-26.124008,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.168989,-26.124391,0 28.167761,-26.124579,0 28.167965,-26.125145,0 28.168056,-26.12518499999999,0 28.169108,-26.125005,0 28.168989,-26.124391,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.167317,-26.12387,0 28.165323,-26.124154,0 28.165593,-26.124865,0 28.167547,-26.124568,0 28.167594,-26.124489,0 28.167317,-26.12387,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.170153,-26.124271,0 28.170042,-26.124221,0 28.168996,-26.124383,0 28.169118,-26.124991,0 28.170254,-26.124807,0 28.170358,-26.124696,0 28.170153,-26.124271,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.16972700000001,-26.123084,0 28.169544,-26.122746,0 28.169528,-26.122734,0 28.167091,-26.123206,0 28.167398,-26.123844,0 28.169322,-26.123564,0 28.16989,-26.123431,0 28.16972700000001,-26.123084,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Highway Gardens - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.170416,-26.144029,0 28.175983,-26.14160800000001,0 28.174577,-26.138549,0 28.172213,-26.139699,0 28.171471,-26.140128,0 28.171428,-26.140081,0 28.169284,-26.141124,0 28.170416,-26.144029,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Eastleigh - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.141425,-26.124397,0 28.142665,-26.125594,0 28.146792,-26.128686,0 28.147,-26.128618,0 28.151464,-26.127885,0 28.15812,-26.126877,0 28.16196,-26.126174,0 28.162709,-26.12614,0 28.161,-26.122599,0 28.159797,-26.121367,0 28.141612,-26.124375,0 28.141425,-26.124397,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.144638,-26.126109,0 28.144287,-26.126183,0 28.144342,-26.126452,0 28.144677,-26.126419,0 28.144638,-26.126109,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.144201,-26.126171,0 28.143949,-26.126242,0 28.143893,-26.126429,0 28.143896,-26.126431,0 28.144132,-26.126643,0 28.144304,-26.126518,0 28.144201,-26.126171,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Eden Glen - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.162972,-26.126263,0 28.164591,-26.125999,0 28.164736,-26.126439,0 28.163173,-26.126711,0 28.164216,-26.129038,0 28.166572,-26.128582,0 28.167067,-26.12966,0 28.169979,-26.1295,0 28.172102,-26.129738,0 28.177048,-26.129959,0 28.176624,-26.129241,0 28.176071,-26.128522,0 28.175873,-26.128113,0 28.173419,-26.128462,0 28.172784,-26.126973,0 28.17498,-26.126699,0 28.17566,-26.127675,0 28.174944,-26.1262,0 28.17371,-26.124455,0 28.172111,-26.124675,0 28.170608,-26.124845,0 28.169362,-26.125016,0 28.1685,-26.125275,0 28.162899,-26.126098,0 28.162972,-26.126263,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.174683,-26.128291,0 28.173576,-26.128464,0 28.173684,-26.128968,0 28.174767,-26.129041,0 28.174683,-26.128291,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.172091,-26.12549,0 28.171,-26.125656,0 28.171615,-26.127115,0 28.172765,-26.126975,0 28.172091,-26.12549,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.1685,-26.12683,0 28.167936,-26.126908,0 28.168131,-26.127412,0 28.16868300000001,-26.127313,0 28.16868300000001,-26.12731,0 28.1685,-26.12683,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.17387,-26.126135,0 28.173953,-26.12583,0 28.173647,-26.125245,0 28.172101,-26.125486,0 28.172793,-26.126932,0 28.174263,-26.126759,0 28.17387,-26.126135,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Eden Glen - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.177837,-26.131013,0 28.177374,-26.130515,0 28.176136,-26.1301,0 28.169772,-26.12967799999999,0 28.164317,-26.129913,0 28.167143,-26.136359,0 28.178841,-26.132453,0 28.177837,-26.131013,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.172308,-26.132605,0 28.17068099999999,-26.133228,0 28.171318,-26.134566,0 28.172895,-26.133828,0 28.172308,-26.132605,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.16687,-26.132561,0 28.166929,-26.131927,0 28.166282,-26.131987,0 28.165893,-26.132738,0 28.166046,-26.133232,0 28.167075,-26.132851,0 28.16687,-26.132561,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Eden Glen - Phase 3</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.169284,-26.141124,0 28.171389,-26.140038,0 28.171068,-26.139688,0 28.171227,-26.139238,0 28.171342,-26.139412,0 28.172066,-26.139065,0 28.172339,-26.139548,0 28.180865,-26.135152,0 28.179816,-26.133844,0 28.178841,-26.132453,0 28.17424,-26.134039,0 28.16712,-26.13635,0 28.169284,-26.141124,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Elma Park - Phase 3</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.160319,-26.1533,0 28.157036,-26.15565,0 28.157432,-26.156346,0 28.155897,-26.157458,0 28.15631,-26.158177,0 28.157916,-26.157306,0 28.159276,-26.158877,0 28.161006,-26.157865,0 28.162551,-26.15582300000001,0 28.160319,-26.1533,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.161343,-26.156592,0 28.160208,-26.157368,0 28.160559,-26.157877,0 28.16106,-26.15741,0 28.161312,-26.157048,0 28.161422,-26.156724,0 28.161343,-26.156592,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Essexworld</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.132673,-26.154518,0 28.13333099999999,-26.158987,0 28.133463,-26.16501,0 28.132847,-26.168884,0 28.131787,-26.173814,0 28.132859,-26.172252,0 28.135624,-26.169357,0 28.136943,-26.168196,0 28.138623,-26.167588,0 28.144898,-26.16594,0 28.144562,-26.165445,0 28.148183,-26.163816,0 28.150314,-26.162621,0 28.151249,-26.16169500000001,0 28.150077,-26.16177,0 28.148887,-26.161953,0 28.147654,-26.162135,0 28.147442,-26.162132,0 28.147272,-26.161966,0 28.147062,-26.161566,0 28.146089,-26.161737,0 28.145476,-26.16169500000001,0 28.144863,-26.161461,0 28.143497,-26.161009,0 28.143019,-26.160513,0 28.142363,-26.160692,0 28.141629,-26.16088,0 28.141319,-26.160416,0 28.140936,-26.16002,0 28.140538,-26.160067,0 28.139897,-26.159608,0 28.138986,-26.159131,0 28.138045,-26.158156,0 28.137124,-26.157347,0 28.13571,-26.155891,0 28.134757,-26.154895,0 28.13426,-26.154006,0 28.133359,-26.154077,0 28.132766,-26.154155,0 28.132673,-26.154518,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.14036,-26.16338,0 28.13789,-26.163764,0 28.137919,-26.165111,0 28.140723,-26.164621,0 28.14036,-26.16338,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.13561,-26.162876,0 28.135469,-26.162417,0 28.13505899999999,-26.1627,0 28.135159,-26.1632,0 28.135672,-26.163119,0 28.13561,-26.162876,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.135052,-26.162688,0 28.134708,-26.162523,0 28.134464,-26.162968,0 28.134605,-26.163312,0 28.135131,-26.163195,0 28.135052,-26.162688,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.1352,-26.162231,0 28.135111,-26.162398,0 28.134844,-26.162548,0 28.135051,-26.16267,0 28.135485,-26.162366,0 28.1352,-26.162231,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.135277,-26.161427,0 28.134912,-26.161994,0 28.135358,-26.162185,0 28.135466,-26.162033,0 28.135694,-26.161629,0 28.135277,-26.161427,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.133748,-26.15518,0 28.13354,-26.1552,0 28.133601,-26.155835,0 28.134281,-26.157256,0 28.134366,-26.157155,0 28.134225,-26.156868,0 28.134406,-26.156728,0 28.134865,-26.156416,0 28.133748,-26.15518,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Farrarmere - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.302412,-26.168534,0 28.309772,-26.177662,0 28.311124,-26.177508,0 28.310652,-26.175004,0 28.311038,-26.173137,0 28.311467,-26.171221,0 28.311664,-26.168857,0 28.311117,-26.16900100000001,0 28.31073,-26.168646,0 28.310109,-26.167645,0 28.310573,-26.167562,0 28.311492,-26.167726,0 28.311345,-26.167699,0 28.310467,-26.167535,0 28.311052,-26.167299,0 28.310954,-26.167152,0 28.310536,-26.166359,0 28.3113,-26.166104,0 28.312051,-26.165534,0 28.312232,-26.165748,0 28.311777,-26.167777,0 28.31182,-26.167784,0 28.312368,-26.165347,0 28.312604,-26.164673,0 28.311779,-26.16424,0 28.312032,-26.164434,0 28.31186900000001,-26.164695,0 28.311905,-26.164944,0 28.312105,-26.165159,0 28.312221,-26.165239,0 28.31193,-26.165483,0 28.311765,-26.165627,0 28.31140600000001,-26.16589400000001,0 28.310526,-26.166196,0 28.309428,-26.166537,0 28.309195,-26.166499,0 28.308565,-26.165893,0 28.309693,-26.165141,0 28.310377,-26.16476,0 28.311398,-26.16404,0 28.311392,-26.164037,0 28.310212,-26.163296,0 28.307154,-26.165366,0 28.303195,-26.168082,0 28.302412,-26.168534,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.309818,-26.16959,0 28.309193,-26.169983,0 28.309461,-26.170262,0 28.310012,-26.16989,0 28.309818,-26.16959,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.308476,-26.169778,0 28.307712,-26.170239,0 28.3081,-26.170683,0 28.308834,-26.170202,0 28.308476,-26.169778,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.307038,-26.167435,0 28.306702,-26.167665,0 28.306972,-26.167993,0 28.307315,-26.167772,0 28.307038,-26.167435,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.306351,-26.167879,0 28.305995,-26.168106,0 28.30626,-26.168454,0 28.306604,-26.168223,0 28.306351,-26.167879,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Farrarmere - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.302412,-26.168534,0 28.295631,-26.172906,0 28.297605,-26.17488,0 28.29855999999999,-26.175896,0 28.299601,-26.176969,0 28.307455,-26.177855,0 28.309772,-26.177662,0 28.302412,-26.168534,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.301811,-26.172874,0 28.301338,-26.173157,0 28.301315,-26.17317,0 28.301972,-26.1739,0 28.302439,-26.173618,0 28.301811,-26.172874,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.300307,-26.171802,0 28.299574,-26.171682,0 28.29859,-26.172303,0 28.298709,-26.172568,0 28.298429,-26.172751,0 28.299158,-26.173919,0 28.299223,-26.173945,0 28.299632,-26.173387,0 28.300131,-26.173446,0 28.300416,-26.171843,0 28.300307,-26.171802,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Farrarmere - Phase 3</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.288808,-26.174543,0 28.290074,-26.17537099999999,0 28.293958,-26.177123,0 28.295245,-26.176622,0 28.299601,-26.176969,0 28.29556699999999,-26.17279,0 28.291812,-26.168226,0 28.29164,-26.16682,0 28.292241,-26.163585,0 28.292434,-26.161929,0 28.29136099999999,-26.159406,0 28.290117,-26.157114,0 28.286469,-26.160022,0 28.288808,-26.174543,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Farrarmere - Phase 5</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.291962,-26.168361,0 28.295631,-26.172906,0 28.302412,-26.168534,0 28.300631,-26.164663,0 28.29179,-26.168014,0 28.291962,-26.168361,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Farrarmere - Phase 7</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.292381,-26.162217,0 28.296812,-26.162458,0 28.297434,-26.162256,0 28.299108,-26.161553,0 28.29782,-26.158443,0 28.297198,-26.15746,0 28.297005,-26.15721,0 28.296897,-26.15773,0 28.296168,-26.157768,0 28.294237,-26.158539,0 28.294059,-26.158182,0 28.294044,-26.158187,0 28.293946,-26.157957,0 28.2934,-26.156863,0 28.293078,-26.156208,0 28.292091,-26.155361,0 28.290138,-26.156979,0 28.292391,-26.161774,0 28.292381,-26.162217,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.294157,-26.158651,0 28.293621,-26.158873,0 28.294076,-26.159486,0 28.294437,-26.159307,0 28.294157,-26.158651,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.295863,-26.159052,0 28.294732,-26.159378,0 28.294758,-26.159638,0 28.29546300000001,-26.160065,0 28.295872,-26.159359,0 28.295863,-26.159052,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.293585,-26.158873,0 28.293031,-26.159052,0 28.293166,-26.159308,0 28.293913,-26.159592,0 28.294041,-26.159486,0 28.293585,-26.158873,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.295788,-26.160862,0 28.295465,-26.160375,0 28.295505,-26.160099,0 28.294661,-26.159647,0 28.294867,-26.161416,0 28.295519,-26.161402,0 28.295793,-26.161176,0 28.295788,-26.160862,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.296767,-26.159556,0 28.296767,-26.158926,0 28.296769,-26.158878,0 28.296686,-26.158731,0 28.295946,-26.158966,0 28.296194,-26.159828,0 28.29617,-26.160595,0 28.296031,-26.16092099999999,0 28.296922,-26.160986,0 28.296767,-26.159556,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Impala Park - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.28001,-26.171096,0 28.279023,-26.166281,0 28.272908,-26.166454,0 28.266903,-26.166422,0 28.266889,-26.168248,0 28.265811,-26.168261,0 28.265926,-26.166713,0 28.265966,-26.16645,0 28.266858,-26.166422,0 28.265719,-26.16641600000001,0 28.263691,-26.166399,0 28.263611,-26.167889,0 28.26318,-26.167802,0 28.262973,-26.16778,0 28.262439,-26.167769,0 28.262438,-26.167294,0 28.262435,-26.167765,0 28.261335,-26.167751,0 28.261231,-26.167645,0 28.261263,-26.16638,0 28.261126,-26.166379,0 28.261107,-26.167645,0 28.260961,-26.167726,0 28.260706,-26.16771,0 28.260761,-26.166809,0 28.260003,-26.166795,0 28.259986,-26.166355,0 28.259957,-26.166354,0 28.259933,-26.167714,0 28.259231,-26.167708,0 28.259282,-26.167162,0 28.259531,-26.167064,0 28.259502,-26.166803,0 28.259222,-26.166733,0 28.258682,-26.166741,0 28.258669,-26.166324,0 28.255227,-26.166243,0 28.252351,-26.166185,0 28.252373,-26.167918,0 28.254862,-26.167937,0 28.254561,-26.169863,0 28.254518,-26.172559,0 28.263338,-26.17279,0 28.26582700000001,-26.172771,0 28.271363,-26.173098,0 28.280182,-26.174046,0 28.28001,-26.171096,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.277702,-26.168596,0 28.275376,-26.168634,0 28.275407,-26.169382,0 28.277774,-26.169465,0 28.277702,-26.168596,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.275357,-26.168513,0 28.274183,-26.168496,0 28.27424,-26.169266,0 28.275362,-26.169384,0 28.275357,-26.168513,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.274161,-26.1693,0 28.27302,-26.169284,0 28.273132,-26.170236,0 28.274202,-26.17014,0 28.274161,-26.1693,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.270193,-26.168559,0 28.270186,-26.169547,0 28.271129,-26.16955,0 28.271171,-26.168592,0 28.270193,-26.168559,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.270891,-26.166491,0 28.270882,-26.168287,0 28.271851,-26.168312,0 28.271913,-26.166503,0 28.270891,-26.166491,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.269929,-26.166465,0 28.269888,-26.168279,0 28.270851,-26.168282,0 28.270872,-26.166497,0 28.269929,-26.166465,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.264293,-26.166422,0 28.264234,-26.167973,0 28.264815,-26.16809,0 28.26482,-26.166418,0 28.264293,-26.166422,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.263707,-26.166408,0 28.263636,-26.167886,0 28.264222,-26.167976,0 28.264282,-26.166408,0 28.263707,-26.166408,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.256234,-26.167924,0 28.25615,-26.169078,0 28.25706,-26.169142,0 28.257068,-26.167926,0 28.256234,-26.167924,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.273227,-26.171213,0 28.273163,-26.172203,0 28.274339,-26.172229,0 28.275324,-26.171982,0 28.275467,-26.171197,0 28.273227,-26.171213,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.272788,-26.168702,0 28.272653,-26.168581,0 28.271173,-26.168583,0 28.271143,-26.1696,0 28.272885,-26.169606,0 28.272788,-26.168702,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.254825,-26.166994,0 28.253665,-26.166978,0 28.253647,-26.167596,0 28.254735,-26.167605,0 28.254891,-26.167081,0 28.254825,-26.166994,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.265971,-26.168449,0 28.265843,-26.168547,0 28.265697,-26.169682,0 28.265757,-26.169811,0 28.268065,-26.170205,0 28.268084,-26.168488,0 28.265971,-26.168449,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.261018,-26.16849,0 28.26097,-26.169431,0 28.260993,-26.16800599999999,0 28.259755,-26.16798,0 28.259738,-26.169357,0 28.26097,-26.169439,0 28.26097,-26.169435,0 28.262129,-26.169519,0 28.262149,-26.168487,0 28.261018,-26.16849,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.269647,-26.168526,0 28.269628,-26.169572,0 28.26917,-26.16958,0 28.26916,-26.170353,0 28.269585,-26.170434,0 28.269617,-26.170387,0 28.269742,-26.170428,0 28.269767,-26.170475,0 28.270152,-26.170521,0 28.270186,-26.16857,0 28.269647,-26.168526,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.264452,-26.168277,0 28.264451,-26.168273,0 28.263862,-26.168148,0 28.263879,-26.169687,0 28.263903,-26.169689,0 28.263904,-26.169728,0 28.264405,-26.169731,0 28.264459,-26.169736,0 28.264456,-26.169178,0 28.264469,-26.168607,0 28.26449,-26.168978,0 28.265634,-26.169017,0 28.265649,-26.168475,0 28.264452,-26.168277,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.2754,-26.170159,0 28.2754,-26.170153,0 28.275445,-26.170155,0 28.275346,-26.169384,0 28.274225,-26.169334,0 28.274248,-26.170108,0 28.275252,-26.170147,0 28.273119,-26.170268,0 28.273241,-26.171198,0 28.275412,-26.171108,0 28.275411,-26.171084,0 28.277235,-26.171112,0 28.27766799999999,-26.170841,0 28.277693,-26.170234,0 28.2754,-26.170159,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Saint Andrews Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.12397,-26.162352,0 28.126566,-26.163566,0 28.126588,-26.163932,0 28.128026,-26.165357,0 28.129077,-26.165646,0 28.130407,-26.165029,0 28.131352,-26.165453,0 28.133025,-26.164933,0 28.133132,-26.163277,0 28.132338,-26.162044,0 28.130622,-26.160349,0 28.12978,-26.15882,0 28.129575,-26.158613,0 28.129389,-26.158195,0 28.128691,-26.157094,0 28.127339,-26.158327,0 28.127317,-26.158635,0 28.128648,-26.159252,0 28.128798,-26.159694,0 28.128026,-26.160311,0 28.126416,-26.159733,0 28.124742,-26.160715,0 28.12397,-26.162352,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Clearwater Business Estate</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.269403,-26.144929,0 28.269687,-26.145972,0 28.271757,-26.148967,0 28.272742,-26.150324,0 28.272985,-26.150155,0 28.273874,-26.149505,0 28.273145,-26.148617,0 28.273203,-26.14858,0 28.273046,-26.148381,0 28.274528,-26.147378,0 28.274311,-26.147078,0 28.273729,-26.147348,0 28.273702,-26.147341,0 28.273672,-26.14735900000001,0 28.272427,-26.147106,0 28.272101,-26.147564,0 28.271744,-26.147389,0 28.271842,-26.147121,0 28.270719,-26.145985,0 28.270708,-26.145802,0 28.27027,-26.145093,0 28.270306,-26.144285,0 28.270413,-26.142981,0 28.270344,-26.142851,0 28.270428,-26.142793,0 28.270445,-26.142588,0 28.269932,-26.14224,0 28.271256,-26.140679,0 28.272689,-26.140362,0 28.272592,-26.139822,0 28.269111,-26.140073,0 28.269403,-26.144929,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Saint Andrews - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.12058,-26.155149,0 28.124978,-26.15696,0 28.126867,-26.155476,0 28.128691,-26.157094,0 28.129525,-26.1585,0 28.129173,-26.157708,0 28.129614,-26.15724,0 28.130143,-26.157674,0 28.130718,-26.158371,0 28.129815,-26.158855,0 28.129617,-26.158655,0 28.130622,-26.160349,0 28.132338,-26.162044,0 28.133132,-26.163277,0 28.133025,-26.164933,0 28.13342,-26.16501,0 28.133347,-26.159463,0 28.13263,-26.154518,0 28.132961,-26.154167,0 28.131407,-26.149375,0 28.129656,-26.149332,0 28.12412,-26.149197,0 28.12367,-26.149274,0 28.121974,-26.152491,0 28.12058,-26.155149,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.129742,-26.156067,0 28.128761,-26.156839,0 28.129222,-26.157336,0 28.130238,-26.156579,0 28.129742,-26.156067,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.129276,-26.155649,0 28.128313,-26.156409,0 28.128717,-26.156836,0 28.129719,-26.156067,0 28.129276,-26.155649,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.130174,-26.154281,0 28.130053,-26.15459299999999,0 28.130684,-26.154946,0 28.130837,-26.154612,0 28.130174,-26.154281,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.128993,-26.155068,0 28.127775,-26.155934,0 28.128293,-26.156393,0 28.129252,-26.155631,0 28.128993,-26.155068,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.128829,-26.153729,0 28.127376,-26.153884,0 28.127836,-26.154488,0 28.128939,-26.154416,0 28.128829,-26.153729,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.130681,-26.154992,0 28.130168,-26.155444,0 28.129292,-26.155627,0 28.130202,-26.156487,0 28.131351,-26.155704,0 28.130681,-26.154992,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.129689,-26.154571,0 28.12905,-26.155027,0 28.129284,-26.155623,0 28.130131,-26.155429,0 28.130614,-26.155005,0 28.129689,-26.154571,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.128106,-26.154515,0 28.127229,-26.155149,0 28.127522,-26.155447,0 28.127503,-26.155652,0 28.127743,-26.155906,0 28.129655,-26.15459,0 28.128106,-26.154515,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.129704,-26.153709,0 28.12886200000001,-26.153761,0 28.128947,-26.154425,0 28.129416,-26.154434,0 28.129549,-26.154136,0 28.129795,-26.154542,0 28.129998,-26.154285,0 28.129704,-26.153709,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Farrarmere - Phase 4</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.300631,-26.164798,0 28.302412,-26.168534,0 28.307691,-26.164914,0 28.305438,-26.160311,0 28.302476,-26.161389,0 28.30179,-26.159983,0 28.298893,-26.1611,0 28.300631,-26.164798,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Dowerglen - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.136973,-26.140568,0 28.137145,-26.140918,0 28.137193,-26.139647,0 28.137579,-26.139653,0 28.137729,-26.13936,0 28.138107,-26.13945,0 28.137746,-26.139104,0 28.137145,-26.139412,0 28.136973,-26.140568,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Dowerglen - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.143024,-26.141531,0 28.139591,-26.141184,0 28.138733,-26.140953,0 28.138652,-26.14066,0 28.13866,-26.140701,0 28.138569,-26.141099,0 28.137153,-26.140933,0 28.137617,-26.14187799999999,0 28.138261,-26.142841,0 28.138647,-26.143612,0 28.13879,-26.145856,0 28.142076,-26.145904,0 28.14453,-26.144926,0 28.144956,-26.144806,0 28.143024,-26.141531,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.138725,-26.144128,0 28.138806,-26.145303,0 28.139233,-26.145781,0 28.139876,-26.145698,0 28.140005,-26.144143,0 28.138725,-26.144128,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Dowerglen - Phase 3</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.131407,-26.149375,0 28.133233,-26.149401,0 28.134644,-26.149741,0 28.137983,-26.149811,0 28.138106,-26.147677,0 28.13879,-26.145856,0 28.138475,-26.14338,0 28.138282,-26.143434,0 28.138295,-26.143453,0 28.137788,-26.143571,0 28.13667299999999,-26.143881,0 28.136218,-26.143937,0 28.136152,-26.143953,0 28.136156,-26.143945,0 28.135428,-26.144035,0 28.133326,-26.143188,0 28.132854,-26.143303,0 28.131995,-26.143265,0 28.131407,-26.149375,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.138588,-26.144653,0 28.137623,-26.144716,0 28.136777,-26.14477,0 28.1366,-26.14489500000001,0 28.136691,-26.14577,0 28.13684599999999,-26.145882,0 28.137384,-26.146328,0 28.137882,-26.14667,0 28.138106,-26.14677,0 28.138312,-26.14676,0 28.138535,-26.146194,0 28.138648,-26.1454,0 28.138588,-26.144653,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Dowerglen - Phase 4</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.137983,-26.149811,0 28.144173,-26.149995,0 28.144496,-26.144973,0 28.142076,-26.145904,0 28.13879,-26.145856,0 28.138523,-26.146643,0 28.138106,-26.147677,0 28.137983,-26.149811,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Dunvegan</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.132814,-26.154093,0 28.134243,-26.154098,0 28.134757,-26.154895,0 28.139008,-26.159131,0 28.140505,-26.159955,0 28.140957,-26.16002,0 28.141672,-26.160899,0 28.143062,-26.160532,0 28.14354000000001,-26.161028,0 28.145769,-26.161764,0 28.146449,-26.161686,0 28.147083,-26.161566,0 28.147464,-26.162132,0 28.151398,-26.161614,0 28.150547,-26.162348,0 28.150737,-26.163371,0 28.15364,-26.162722,0 28.157164,-26.1619,0 28.150843,-26.150181,0 28.147878,-26.150095,0 28.144453,-26.150029,0 28.142252,-26.149982,0 28.137869,-26.149791,0 28.134644,-26.149741,0 28.133233,-26.149401,0 28.131407,-26.149375,0 28.132814,-26.154093,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.136378,-26.150863,0 28.136067,-26.150962,0 28.136366,-26.15160699999999,0 28.136625,-26.151473,0 28.136378,-26.150863,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.152311,-26.161672,0 28.152277,-26.161729,0 28.152173,-26.16245,0 28.15257,-26.162481,0 28.152595,-26.161641,0 28.152311,-26.161672,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Senderwood - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.117554,-26.159848,0 28.121052,-26.161967,0 28.121717,-26.161389,0 28.122811,-26.161312,0 28.123391,-26.160157,0 28.124142,-26.15877,0 28.124978,-26.15696,0 28.12058,-26.155149,0 28.119807,-26.156478,0 28.117554,-26.159848,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lakeside</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.144503,-26.102211,0 28.147976,-26.10311,0 28.148048,-26.103121,0 28.148056,-26.102859,0 28.14887299999999,-26.102381,0 28.151625,-26.101534,0 28.15162,-26.101219,0 28.151266,-26.099642,0 28.150988,-26.098552,0 28.150582,-26.097347,0 28.151146,-26.096123,0 28.15024,-26.095611,0 28.148967,-26.095733,0 28.146334,-26.095313,0 28.146293,-26.095466,0 28.146314,-26.095483,0 28.146042,-26.096414,0 28.144503,-26.102211,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Longmeadow Business Estate</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.125085,-26.104468,0 28.12987,-26.11024,0 28.131651,-26.113158,0 28.133117,-26.115799,0 28.135653,-26.121361,0 28.138514,-26.11803,0 28.14297,-26.112997,0 28.144854,-26.111019,0 28.14762500000001,-26.10811,0 28.147569,-26.107375,0 28.147872,-26.105138,0 28.147835,-26.105363,0 28.144943,-26.104658,0 28.144841,-26.104213,0 28.144799,-26.103726,0 28.144164,-26.103262,0 28.144189,-26.103182,0 28.143457,-26.103329,0 28.143012,-26.105546,0 28.138904,-26.104401,0 28.136401,-26.103912,0 28.126779,-26.104111,0 28.125085,-26.104468,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Meadowdale</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.174518,-26.152363,0 28.176062,-26.151184,0 28.178124,-26.149686,0 28.180101,-26.148748,0 28.181608,-26.148854,0 28.184128,-26.148219,0 28.184363,-26.146948,0 28.185952,-26.146198,0 28.18750500000001,-26.145283,0 28.18852,-26.146546,0 28.189242,-26.146156,0 28.192296,-26.143824,0 28.189804,-26.142406,0 28.171968,-26.150909,0 28.174518,-26.152363,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Senderwood - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.120966,-26.163046,0 28.12124499999999,-26.164259,0 28.12235,-26.164106,0 28.122321,-26.163987,0 28.123327,-26.163844,0 28.123294,-26.164,0 28.125494,-26.16424,0 28.126588,-26.163932,0 28.126566,-26.163566,0 28.124099,-26.162333,0 28.124871,-26.160715,0 28.126416,-26.159733,0 28.128026,-26.160311,0 28.128798,-26.159694,0 28.128648,-26.159252,0 28.127317,-26.158635,0 28.127339,-26.158327,0 28.128691,-26.157094,0 28.126867,-26.155476,0 28.124978,-26.15696,0 28.122811,-26.161312,0 28.121717,-26.161389,0 28.121052,-26.161967,0 28.120966,-26.163046,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Thornhill Estate</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.147537,-26.108261,0 28.14921,-26.10921,0 28.149537,-26.110253,0 28.150913,-26.110225,0 28.153377,-26.110186,0 28.159336,-26.110084,0 28.161725,-26.11004,0 28.161777,-26.109205,0 28.161733,-26.107105,0 28.158788,-26.102122,0 28.158198,-26.100666,0 28.15768,-26.100242,0 28.155939,-26.09936,0 28.150909,-26.098748,0 28.151082,-26.099241,0 28.151461,-26.100167,0 28.151583,-26.101524,0 28.1516,-26.102823,0 28.151516,-26.103532,0 28.150498,-26.105017,0 28.148824,-26.106662,0 28.147735,-26.106272,0 28.14749,-26.107873,0 28.147537,-26.108261,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bedford Park - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.121159,-26.163951,0 28.120987,-26.162834,0 28.121052,-26.161967,0 28.117554,-26.159848,0 28.116503,-26.160503,0 28.114743,-26.161543,0 28.112318,-26.162333,0 28.116374,-26.167552,0 28.121889,-26.165626,0 28.121159,-26.163951,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.119699,-26.162676,0 28.118962,-26.16328,0 28.120249,-26.164571,0 28.121057,-26.16417,0 28.119699,-26.162676,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.11907,-26.164742,0 28.118537,-26.165112,0 28.118437,-26.165998,0 28.119506,-26.16529999999999,0 28.11907,-26.164742,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.118715,-26.161322,0 28.117922,-26.161977,0 28.118998,-26.163196,0 28.119694,-26.162641,0 28.118715,-26.161322,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.117696,-26.160033,0 28.116738,-26.16057899999999,0 28.117899,-26.161892,0 28.11869,-26.161265,0 28.117696,-26.160033,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.116589,-26.160649,0 28.115819,-26.161191,0 28.116869,-26.162401,0 28.117634,-26.16189899999999,0 28.116589,-26.160649,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.115697,-26.16115,0 28.114332,-26.161876,0 28.114853,-26.162598,0 28.11622,-26.161814,0 28.115697,-26.16115,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.118215,-26.164944,0 28.117317,-26.165428,0 28.1179,-26.166116,0 28.118398,-26.166047,0 28.118463,-26.16518599999999,0 28.118215,-26.164944,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.118883,-26.163206,0 28.118453,-26.163594,0 28.119115,-26.164653,0 28.119194,-26.164583,0 28.119385,-26.164801,0 28.120166,-26.164541,0 28.118883,-26.163206,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.116231,-26.161865,0 28.114901,-26.162612,0 28.115248,-26.162885,0 28.115525,-26.162601,0 28.115992,-26.16244500000001,0 28.116596,-26.162233,0 28.116231,-26.161865,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.11845,-26.163601,0 28.118082,-26.163877,0 28.11824,-26.164546,0 28.118328,-26.164868,0 28.118498,-26.165078,0 28.118618,-26.165042,0 28.119124,-26.16468800000001,0 28.11845,-26.163601,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.117862,-26.163601,0 28.117863,-26.1636,0 28.117859,-26.163595,0 28.117839,-26.163568,0 28.117833,-26.16357,0 28.116823,-26.162556,0 28.11551,-26.163286,0 28.116357,-26.164106,0 28.117347,-26.163715,0 28.117599,-26.163659,0 28.116334,-26.16414,0 28.11656,-26.164408,0 28.118068,-26.164112,0 28.11808,-26.163904,0 28.117862,-26.163601,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Waterstone Park</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.148239,-26.115515,0 28.151191,-26.114287,0 28.152951,-26.114077,0 28.153377,-26.110186,0 28.15052,-26.1103,0 28.150018,-26.111762,0 28.148474,-26.114348,0 28.148239,-26.115515,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Buurendal - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.173162,-26.146963,0 28.1749,-26.148677,0 28.18006,-26.146183,0 28.176885,-26.144189,0 28.17667,-26.144575,0 28.176112,-26.144132,0 28.175704,-26.144575,0 28.175662,-26.145172,0 28.175211,-26.14549,0 28.174653,-26.145441,0 28.173709,-26.146298,0 28.173162,-26.146963,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bardene</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.25411,-26.179029,0 28.267715,-26.179048,0 28.269861,-26.176355,0 28.272457,-26.173334,0 28.268102,-26.173022,0 28.264303,-26.172954,0 28.254539,-26.172732,0 28.254304,-26.175736,0 28.25411,-26.179029,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.26163,-26.177179,0 28.261561,-26.178563,0 28.262685,-26.178584,0 28.262693,-26.177328,0 28.26163,-26.177179,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.261646,-26.174979,0 28.26166,-26.17699500000001,0 28.262696,-26.17699,0 28.262731,-26.175025,0 28.261646,-26.174979,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.260393,-26.177063,0 28.260364,-26.177966,0 28.261351,-26.17799,0 28.261377,-26.177086,0 28.260393,-26.177063,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.259229,-26.175714,0 28.259219,-26.176892,0 28.260412,-26.176908,0 28.26044,-26.175748,0 28.259229,-26.175714,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.258001,-26.177119,0 28.257998,-26.177852,0 28.259151,-26.177862,0 28.259192,-26.17705,0 28.258001,-26.177119,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Morehill - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.345327,-26.16029199999999,0 28.346829,-26.158327,0 28.343825,-26.157287,0 28.342173,-26.160176,0 28.341036,-26.159752,0 28.340521,-26.157691,0 28.338504,-26.158134,0 28.33771,-26.163142,0 28.336058,-26.163084,0 28.330328,-26.166435,0 28.329771,-26.169151,0 28.329663,-26.17019,0 28.333182,-26.175005,0 28.336229,-26.17473499999999,0 28.33992,-26.173811,0 28.346443,-26.171539,0 28.342409,-26.172232,0 28.342366,-26.170383,0 28.348632,-26.162025,0 28.345327,-26.16029199999999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.336392,-26.171587,0 28.336026,-26.171721,0 28.336241,-26.172173,0 28.336627,-26.172088,0 28.336392,-26.171587,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.337771,-26.171707,0 28.33776,-26.171934,0 28.338201,-26.172988,0 28.339661,-26.172757,0 28.339826,-26.172668,0 28.337771,-26.171707,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Brentwood Park - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.293475,-26.136262,0 28.294516,-26.139104,0 28.29665,-26.138009,0 28.29668,-26.137687,0 28.296521,-26.137673,0 28.297156,-26.131784,0 28.294923,-26.131842,0 28.294194,-26.131947,0 28.29407,-26.134244,0 28.293475,-26.136262,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Greenstone</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.150069,-26.120112,0 28.151357,-26.119532,0 28.151886,-26.1193,0 28.152982,-26.118944,0 28.154465,-26.11856,0 28.15589,-26.118651,0 28.157421,-26.118467,0 28.157847,-26.118285,0 28.159797,-26.121367,0 28.160856,-26.122556,0 28.162295,-26.122355,0 28.162979,-26.122249,0 28.16298,-26.122259,0 28.163878,-26.122133,0 28.165082,-26.113863,0 28.164332,-26.11382,0 28.163562,-26.114197,0 28.162619,-26.116385,0 28.162072,-26.117098,0 28.161839,-26.117231,0 28.162077,-26.117167,0 28.163091,-26.118908,0 28.158872,-26.119685,0 28.158014,-26.118524,0 28.15819,-26.11821,0 28.159838,-26.117768,0 28.158859,-26.117966,0 28.157708,-26.118148,0 28.1564,-26.118418,0 28.155633,-26.118403,0 28.155629,-26.118482,0 28.15518,-26.118461,0 28.15518,-26.118414,0 28.154856,-26.118388,0 28.154495,-26.118377,0 28.153212,-26.118591,0 28.152477,-26.118831,0 28.152259,-26.11891,0 28.150198,-26.119921,0 28.14993,-26.119967,0 28.150069,-26.120112,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Greenstone</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.141425,-26.124397,0 28.14288,-26.124091,0 28.144368,-26.124018,0 28.146133,-26.123641,0 28.15062,-26.12284500000001,0 28.150104,-26.120405,0 28.150069,-26.120112,0 28.14993,-26.119967,0 28.14981300000001,-26.119988,0 28.149785,-26.119905,0 28.149739,-26.119888,0 28.149733,-26.119754,0 28.149599,-26.11936,0 28.149699,-26.118966,0 28.149694,-26.118856,0 28.149803,-26.118554,0 28.149842,-26.118399,0 28.1501,-26.11720800000001,0 28.150031,-26.11681,0 28.149476,-26.115367,0 28.149552,-26.115331,0 28.149514,-26.11522799999999,0 28.150455,-26.114894,0 28.151381,-26.114446,0 28.152074,-26.114382,0 28.153061,-26.114195,0 28.153896,-26.11402,0 28.157149,-26.113843,0 28.157565,-26.113892,0 28.158332,-26.113084,0 28.159286,-26.112385,0 28.159906,-26.111587,0 28.160111,-26.110308,0 28.16014,-26.11009,0 28.153272,-26.110351,0 28.152951,-26.114077,0 28.151191,-26.114287,0 28.15050400000001,-26.114615,0 28.148239,-26.115515,0 28.148474,-26.114348,0 28.14904599999999,-26.113287,0 28.150018,-26.111762,0 28.15052,-26.1103,0 28.149387,-26.110219,0 28.14776,-26.110275,0 28.14698,-26.11061,0 28.147133,-26.11059,0 28.147632,-26.110814,0 28.147785,-26.111145,0 28.147454,-26.111999,0 28.147069,-26.112127,0 28.146644,-26.112036,0 28.146351,-26.111726,0 28.146576,-26.112276,0 28.147415,-26.112314,0 28.147802,-26.112616,0 28.14757000000001,-26.112928,0 28.147551,-26.112957,0 28.147363,-26.113419,0 28.147309,-26.113535,0 28.1472,-26.113818,0 28.14715,-26.113874,0 28.147023,-26.114147,0 28.14691,-26.114799,0 28.146801,-26.114815,0 28.146788,-26.114866,0 28.146694,-26.11483,0 28.146507,-26.114856,0 28.14628799999999,-26.114974,0 28.146225,-26.114897,0 28.145947,-26.114936,0 28.146221,-26.115803,0 28.146249,-26.116533,0 28.146329,-26.117305,0 28.145864,-26.119118,0 28.145293,-26.119302,0 28.144662,-26.118294,0 28.143994,-26.118481,0 28.143706,-26.118205,0 28.142903,-26.118458,0 28.142785,-26.118642,0 28.142786,-26.119237,0 28.14265,-26.119579,0 28.14246,-26.119898,0 28.14244,-26.120102,0 28.142591,-26.120821,0 28.141527,-26.121163,0 28.142111,-26.122917,0 28.141425,-26.124397,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.149891,-26.120286,0 28.148203,-26.120039,0 28.146391,-26.119886,0 28.14653,-26.122719,0 28.146385,-26.123519,0 28.150505,-26.122825,0 28.149891,-26.120286,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Greenstone</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.146345,-26.111711,0 28.146322,-26.111462,0 28.14647,-26.111039,0 28.146521,-26.110866,0 28.14622,-26.111405,0 28.146345,-26.111711,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Impala Park - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.252351,-26.166185,0 28.25867,-26.166374,0 28.258669,-26.16631,0 28.25877,-26.166311,0 28.259153,-26.156709,0 28.255377,-26.153897,0 28.252158,-26.162641,0 28.252351,-26.166185,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Atlasville - Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.277092,-26.15982899999999,0 28.279023,-26.166281,0 28.285932,-26.160407,0 28.278465,-26.159406,0 28.277092,-26.15982899999999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.279024,-26.1596,0 28.278955,-26.160315,0 28.27954,-26.160393,0 28.279608,-26.159644,0 28.279024,-26.1596,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.278497,-26.159575,0 28.278368,-26.160276,0 28.278681,-26.160315,0 28.27895,-26.16030900000001,0 28.279024,-26.1596,0 28.278497,-26.159575,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Atlasville - Phase 4</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.287942,-26.158907,0 28.296465,-26.151409,0 28.295667,-26.151054,0 28.295396,-26.151681,0 28.295089,-26.151544,0 28.295035,-26.151578,0 28.29529,-26.151883,0 28.294911,-26.152656,0 28.294381,-26.151985,0 28.294376,-26.151988,0 28.29376,-26.151129,0 28.294111,-26.150363,0 28.293829,-26.15023800000001,0 28.294172,-26.148697,0 28.293713,-26.148509,0 28.293401,-26.149106,0 28.292672,-26.148786,0 28.292663,-26.148787,0 28.293723,-26.149262,0 28.293417,-26.149732,0 28.293142,-26.149629,0 28.293433,-26.149777,0 28.292994,-26.150185,0 28.292658,-26.149797,0 28.292833,-26.149614,0 28.292806,-26.149595,0 28.292639,-26.149806,0 28.291929,-26.148848,0 28.29262,-26.14879,0 28.291919,-26.148838,0 28.290864,-26.147656,0 28.291063,-26.147425,0 28.290782,-26.14731,0 28.289666,-26.148966,0 28.287942,-26.158907,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.293486,-26.149796,0 28.292993,-26.150211,0 28.293247,-26.150515,0 28.293855,-26.150089,0 28.293486,-26.149796,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.289289,-26.153905,0 28.289141,-26.15484500000001,0 28.289137,-26.154937,0 28.2892,-26.154903,0 28.28925600000001,-26.154985,0 28.289864,-26.154433,0 28.289289,-26.153905,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Atlasville - Phase 4</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.292978,-26.149742,0 28.292989,-26.149727,0 28.292901,-26.149664,0 28.292978,-26.149742,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Atlasville - Phase 4</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.293025,-26.149684,0 28.293087,-26.14960900000001,0 28.293073,-26.149603,0 28.293025,-26.149684,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kempton Park AH</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.269247,-26.079866,0 28.267618,-26.080537,0 28.267229,-26.082658,0 28.266308,-26.08254,0 28.266607,-26.080946,0 28.263226,-26.082054,0 28.258653,-26.091307,0 28.260989,-26.093554,0 28.264272,-26.09176,0 28.269001,-26.09146399999999,0 28.268194,-26.09029,0 28.268617,-26.089728,0 28.26783,-26.090238,0 28.265577,-26.087275,0 28.26636,-26.086746,0 28.268647,-26.089689,0 28.268733,-26.089575,0 28.269296,-26.08822,0 28.270807,-26.083402,0 28.271352,-26.079123,0 28.269247,-26.079866,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.264991,-26.089594,0 28.264371,-26.08999,0 28.265056,-26.090886,0 28.265673,-26.090477,0 28.264991,-26.089594,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.264542,-26.087901,0 28.26333,-26.088718,0 28.264366,-26.089992,0 28.265583,-26.089213,0 28.264542,-26.087901,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.268584,-26.0812,0 28.268274,-26.082877,0 28.269274,-26.083023,0 28.269597,-26.081353,0 28.268584,-26.0812,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.263762,-26.085237,0 28.262591,-26.08599,0 28.264185,-26.087991,0 28.26535399999999,-26.08722300000001,0 28.263762,-26.085237,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.262526,-26.083698,0 28.262035,-26.084657,0 28.262884,-26.085793,0 28.263762,-26.085223,0 28.262526,-26.083698,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.263233,-26.084305,0 28.263726,-26.084937,0 28.263927,-26.084787,0 28.264033,-26.084437,0 28.263233,-26.084305,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.262852,-26.082939,0 28.262574,-26.0835,0 28.263238,-26.084302,0 28.263665,-26.08435100000001,0 28.26396799999999,-26.083111,0 28.262852,-26.082939,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.264148,-26.08454,0 28.264011,-26.084528,0 28.263936,-26.084789,0 28.263723,-26.084941,0 28.264028,-26.085334,0 28.264019,-26.085334,0 28.265422,-26.08715,0 28.265675,-26.087,0 28.265836,-26.085392,0 28.265833,-26.085392,0 28.265863,-26.084797,0 28.264148,-26.08454,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lakefield</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.279732,-26.170537,0 28.283452,-26.197947,0 28.28785,-26.195943,0 28.288781,-26.195861,0 28.288519,-26.19317300000001,0 28.288388,-26.19179,0 28.288234,-26.190743,0 28.290318,-26.187018,0 28.293654,-26.181455,0 28.295406,-26.178204,0 28.290544,-26.175801,0 28.283593,-26.170743,0 28.282017,-26.170739,0 28.279732,-26.170537,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.287481,-26.177705,0 28.287514,-26.178006,0 28.288644,-26.178141,0 28.288644,-26.178139,0 28.288688,-26.177831,0 28.287481,-26.177705,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rynfield</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.339031,-26.137021,0 28.340765,-26.13529,0 28.341379,-26.134642,0 28.341476,-26.134538,0 28.342716,-26.132925,0 28.344192,-26.131177,0 28.342552,-26.130011,0 28.339617,-26.133344,0 28.337566,-26.135982,0 28.339031,-26.137021,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rynfield</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.346894,-26.14051,0 28.347881,-26.138911,0 28.341379,-26.134642,0 28.338461,-26.137771,0 28.33961,-26.138699,0 28.337428,-26.141225,0 28.336189,-26.140339,0 28.337178,-26.139182,0 28.336174,-26.14031,0 28.336125,-26.140277,0 28.335108,-26.141367,0 28.330333,-26.138044,0 28.328244,-26.135516,0 28.326863,-26.135828,0 28.323708,-26.138355,0 28.320566,-26.138216,0 28.319079,-26.138552,0 28.317893,-26.139209,0 28.318763,-26.14076,0 28.315753,-26.142374,0 28.315721,-26.14239299999999,0 28.31577,-26.142466,0 28.315052,-26.14287,0 28.315021,-26.142827,0 28.314806,-26.14296,0 28.312604,-26.144132,0 28.312486,-26.145451,0 28.329573,-26.17022,0 28.329704,-26.168298,0 28.330199,-26.166396,0 28.333107,-26.16476,0 28.335929,-26.163046,0 28.337581,-26.163104,0 28.338375,-26.158096,0 28.340397,-26.157674,0 28.340907,-26.159714,0 28.342044,-26.160138,0 28.344555,-26.155958,0 28.341207,-26.156016,0 28.339855,-26.154148,0 28.341969,-26.151249,0 28.349576,-26.142378,0 28.346894,-26.14051,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.33245,-26.154486,0 28.332389,-26.156376,0 28.332996,-26.156399,0 28.334211,-26.154627,0 28.33245,-26.154486,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.327462,-26.143022,0 28.326446,-26.143588,0 28.327448,-26.144984,0 28.32846,-26.144452,0 28.327462,-26.143022,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.321033,-26.145166,0 28.320287,-26.145675,0 28.32096200000001,-26.146677,0 28.321817,-26.146196,0 28.321033,-26.145166,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.316938,-26.143909,0 28.316211,-26.144347,0 28.317209,-26.145759,0 28.317922,-26.145321,0 28.316938,-26.143909,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.316183,-26.144337,0 28.315421,-26.144743,0 28.316405,-26.146155,0 28.317184,-26.145759,0 28.316183,-26.144337,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.318245,-26.141217,0 28.317492,-26.141677,0 28.318471,-26.143083,0 28.31916,-26.142604,0 28.318245,-26.141217,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.331286,-26.143208,0 28.330263,-26.144451,0 28.330899,-26.145203,0 28.331745,-26.144852,0 28.332126,-26.144544,0 28.332497,-26.144076,0 28.331286,-26.143208,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.32059,-26.146627,0 28.320494,-26.146507,0 28.32069,-26.146341,0 28.320278,-26.145675,0 28.319472,-26.146044,0 28.320198,-26.147113,0 28.320831,-26.14677,0 28.32059,-26.146627,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.319941,-26.142174,0 28.31994,-26.142175,0 28.31902,-26.140824,0 28.318265,-26.141212,0 28.319196,-26.142637,0 28.319931,-26.14218,0 28.319135,-26.142706,0 28.320085,-26.144091,0 28.321017,-26.14361600000001,0 28.319941,-26.142174,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.315075,-26.144977,0 28.314706,-26.14522,0 28.315003,-26.145655,0 28.314699,-26.145221,0 28.313945,-26.145615,0 28.314927,-26.146995,0 28.315718,-26.146672,0 28.315659,-26.146588,0 28.316024,-26.14638,0 28.315075,-26.144977,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rynfield</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.337395,-26.138929,0 28.337541,-26.138758,0 28.337387,-26.138923,0 28.337395,-26.138929,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bedfordview</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.136918,-26.17647,0 28.13661,-26.176618,0 28.136229,-26.177173,0 28.136815,-26.177293,0 28.137216,-26.176792,0 28.137261,-26.176707,0 28.136918,-26.17647,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bedfordview</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.113842,-26.182332,0 28.116074,-26.18137,0 28.116717,-26.183911,0 28.117822,-26.183718,0 28.118216,-26.185863,0 28.118392,-26.186673,0 28.118514,-26.186873,0 28.118856,-26.187951,0 28.119678,-26.187804,0 28.120576,-26.19047,0 28.12102399999999,-26.190569,0 28.120886,-26.190858,0 28.12015299999999,-26.192531,0 28.120537,-26.192644,0 28.121786,-26.193678,0 28.122206,-26.194094,0 28.122584,-26.194511,0 28.123476,-26.19456,0 28.123628,-26.194817,0 28.125187,-26.194819,0 28.125203,-26.194341,0 28.126648,-26.194234,0 28.127009,-26.195037,0 28.129729,-26.194907,0 28.129678,-26.194617,0 28.131995,-26.194694,0 28.132188,-26.194983,0 28.133057,-26.194116,0 28.134656,-26.193596,0 28.136603,-26.192739,0 28.136414,-26.192627,0 28.137635,-26.191768,0 28.137996,-26.191857,0 28.138243,-26.191802,0 28.137456,-26.191633,0 28.138234,-26.191087,0 28.138754,-26.191,0 28.138955,-26.190975,0 28.139103,-26.191251,0 28.138267,-26.191797,0 28.138926,-26.191652,0 28.140579,-26.190858,0 28.14146,-26.19006,0 28.141437,-26.190008,0 28.141528,-26.189998,0 28.14242399999999,-26.189187,0 28.14296,-26.188301,0 28.144977,-26.186241,0 28.145084,-26.185067,0 28.147284,-26.184996,0 28.159593,-26.175255,0 28.159547,-26.174399,0 28.159847,-26.173676,0 28.160201,-26.173349,0 28.160931,-26.173099,0 28.162079,-26.173022,0 28.162766,-26.1728,0 28.163366,-26.172396,0 28.164557,-26.170374,0 28.164246,-26.170124,0 28.161339,-26.170181,0 28.158667,-26.170345,0 28.157015,-26.161941,0 28.150719,-26.163383,0 28.150502,-26.162543,0 28.144562,-26.165455,0 28.144554,-26.166016,0 28.137403,-26.168059,0 28.136168,-26.16891,0 28.13406,-26.170989,0 28.136099,-26.172546,0 28.138115,-26.173395,0 28.136898,-26.175631,0 28.137082,-26.17614,0 28.138219,-26.176875,0 28.136349,-26.179501,0 28.133312,-26.179614,0 28.13192,-26.176435,0 28.131787,-26.173814,0 28.13245,-26.170561,0 28.131224,-26.17114,0 28.129961,-26.171639,0 28.12882,-26.172373,0 28.127039,-26.173336,0 28.123971,-26.175146,0 28.122855,-26.175666,0 28.12165299999999,-26.176108,0 28.118606,-26.177148,0 28.116503,-26.177711,0 28.11556,-26.178458,0 28.114787,-26.179047,0 28.113413,-26.180445,0 28.113842,-26.182332,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.151502,-26.178878,0 28.149052,-26.180748,0 28.14968199999999,-26.181305,0 28.152161,-26.179616,0 28.151502,-26.178878,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.142018,-26.188916,0 28.141357,-26.189036,0 28.141515,-26.189896,0 28.142105,-26.189323,0 28.142018,-26.188916,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.150099,-26.177698,0 28.149748,-26.178029,0 28.150271,-26.178553,0 28.150651,-26.178223,0 28.150099,-26.177698,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.141122,-26.187102,0 28.140282,-26.187245,0 28.140455,-26.188107,0 28.141296,-26.187999,0 28.141122,-26.187102,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.155182,-26.169861,0 28.15473,-26.170075,0 28.15498,-26.170933,0 28.155428,-26.170783,0 28.155182,-26.169861,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.155558,-26.168304,0 28.155015,-26.16815,0 28.155172,-26.169525,0 28.155659,-26.169313,0 28.155558,-26.168304,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.147966,-26.176472,0 28.147769,-26.176755,0 28.148351,-26.177168,0 28.148616,-26.176883,0 28.147966,-26.176472,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.142643,-26.178888,0 28.14163,-26.179672,0 28.142313,-26.179787,0 28.143223,-26.179162,0 28.142643,-26.178888,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.146911,-26.172584,0 28.145894,-26.173516,0 28.146254,-26.173777,0 28.147304,-26.17287,0 28.146911,-26.172584,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.143306,-26.17574,0 28.142931,-26.176334,0 28.14331,-26.176539,0 28.143731,-26.175929,0 28.143306,-26.17574,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.128085,-26.191674,0 28.126854,-26.192232,0 28.126709,-26.193286,0 28.128535,-26.192577,0 28.128085,-26.191674,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.148734,-26.166394,0 28.148568,-26.168361,0 28.149924,-26.168611,0 28.149946,-26.166754,0 28.148734,-26.166394,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.12923,-26.18897,0 28.128575,-26.189268,0 28.128806,-26.189678,0 28.129501,-26.189387,0 28.12923,-26.18897,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.128806,-26.189678,0 28.128789,-26.189685,0 28.128798,-26.189686,0 28.128811,-26.189687,0 28.128806,-26.189678,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.127239,-26.190145,0 28.126503,-26.190392,0 28.12659,-26.190673,0 28.127375,-26.190372,0 28.127239,-26.190145,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.139731,-26.175751,0 28.13924,-26.176195,0 28.139915,-26.176581,0 28.14027,-26.176108,0 28.139731,-26.175751,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.127046,-26.189868,0 28.126389,-26.189957,0 28.126506,-26.190286,0 28.127135,-26.190092,0 28.127046,-26.189868,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.133271,-26.181289,0 28.132684,-26.181292,0 28.132666,-26.181931,0 28.13331,-26.181929,0 28.133271,-26.181289,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.12403400000001,-26.191473,0 28.123137,-26.191888,0 28.123273,-26.192116,0 28.12413,-26.191794,0 28.12403400000001,-26.191473,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.139004,-26.174845,0 28.13868799999999,-26.175284,0 28.139017,-26.175437,0 28.139357,-26.174994,0 28.139004,-26.174845,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.12688,-26.186377,0 28.126425,-26.18652,0 28.126604,-26.18693499999999,0 28.127065,-26.186747,0 28.12688,-26.186377,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.123574,-26.189507,0 28.123045,-26.189627,0 28.123198,-26.19021499999999,0 28.123776,-26.190048,0 28.123574,-26.189507,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.140308,-26.169172,0 28.140052,-26.169608,0 28.140875,-26.169939,0 28.141357,-26.168962,0 28.140308,-26.169172,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.137718,-26.172082,0 28.137344,-26.172728,0 28.137877,-26.172911,0 28.13807,-26.17228,0 28.137718,-26.172082,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.120964,-26.18770200000001,0 28.120449,-26.187773,0 28.120583,-26.18838,0 28.121118,-26.188257,0 28.120964,-26.18770200000001,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.130693,-26.175102,0 28.130077,-26.17513,0 28.13008,-26.176106,0 28.130954,-26.17613,0 28.130693,-26.175102,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.129545,-26.174277,0 28.129065,-26.1743,0 28.129151,-26.175131,0 28.129631,-26.175042,0 28.129545,-26.174277,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.12077,-26.183575,0 28.120217,-26.18367,0 28.120319,-26.184088,0 28.120839,-26.184006,0 28.12077,-26.183575,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.123558,-26.17710900000001,0 28.122926,-26.177245,0 28.123136,-26.17821,0 28.123795,-26.178129,0 28.123558,-26.17710900000001,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.124209,-26.177548,0 28.124201,-26.177551,0 28.124205,-26.17756,0 28.124211,-26.177552,0 28.124209,-26.177548,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.141168,-26.186263,0 28.141174,-26.186256,0 28.14018,-26.186285,0 28.14018,-26.187077,0 28.141215,-26.1869,0 28.141168,-26.186263,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.132433,-26.191642,0 28.131933,-26.191433,0 28.131995,-26.192853,0 28.132185,-26.192919,0 28.132602,-26.191966,0 28.132433,-26.191642,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.148017,-26.170654,0 28.147482,-26.170752,0 28.147526,-26.17180099999999,0 28.147639,-26.172117,0 28.148698,-26.171287,0 28.148017,-26.170654,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.133705,-26.185437,0 28.132973,-26.185823,0 28.133256,-26.186245,0 28.13327,-26.18626,0 28.133713,-26.186201,0 28.133705,-26.185437,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.127305,-26.19167300000001,0 28.127247,-26.191336,0 28.12678,-26.191553,0 28.126887,-26.19206399999999,0 28.127383,-26.191862,0 28.127305,-26.19167300000001,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.14253799999999,-26.173359,0 28.142005,-26.173837,0 28.141817,-26.174056,0 28.142912,-26.174485,0 28.143424,-26.173837,0 28.14253799999999,-26.173359,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.124211,-26.189449,0 28.124197,-26.189453,0 28.123628,-26.18956,0 28.12383,-26.190119,0 28.124353,-26.190001,0 28.124211,-26.189449,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.121919,-26.19036,0 28.12188099999999,-26.190667,0 28.121897,-26.190664,0 28.122601,-26.190782,0 28.122683,-26.190485,0 28.121919,-26.19036,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.125329,-26.176764,0 28.124101,-26.17691,0 28.124141,-26.177499,0 28.124215,-26.177519,0 28.125405,-26.177428,0 28.125329,-26.176764,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.124215,-26.177519,0 28.124193,-26.17752,0 28.124206,-26.177543,0 28.124209,-26.177548,0 28.124256,-26.17753,0 28.124215,-26.177519,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.159189,-26.171768,0 28.158209,-26.171904,0 28.158244,-26.172365,0 28.158651,-26.172303,0 28.158776,-26.172612,0 28.159423,-26.172536,0 28.159189,-26.171768,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.141937,-26.182294,0 28.141658,-26.182276,0 28.141639,-26.182462,0 28.141059,-26.182467,0 28.14106,-26.183125,0 28.142044,-26.183012,0 28.141937,-26.182294,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.148433,-26.168391,0 28.148402,-26.169829,0 28.148833,-26.16981,0 28.148881,-26.170091,0 28.149738,-26.170082,0 28.149902,-26.16863,0 28.148433,-26.168391,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.12773,-26.191104,0 28.127274,-26.19133,0 28.127325,-26.191686,0 28.127403,-26.191868,0 28.127924,-26.191639,0 28.127951,-26.191529,0 28.12773,-26.191104,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.132069,-26.179994,0 28.132051,-26.17984,0 28.130657,-26.179889,0 28.130642,-26.17988100000001,0 28.130536,-26.181152,0 28.13249,-26.18112,0 28.132069,-26.179994,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.126597,-26.184955,0 28.126585,-26.184931,0 28.126581,-26.184912,0 28.125997,-26.184928,0 28.126024,-26.185678,0 28.126803,-26.185569,0 28.126597,-26.184955,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.128636,-26.17471,0 28.12855,-26.174373,0 28.127942,-26.174467,0 28.128101,-26.17472,0 28.128157,-26.17525,0 28.128732,-26.175183,0 28.128636,-26.17471,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.122464,-26.189797,0 28.121696,-26.189955,0 28.121271,-26.190649,0 28.121287,-26.190649,0 28.121739,-26.190725,0 28.121942,-26.190188,0 28.122507,-26.190033,0 28.122464,-26.189797,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.120639,-26.188683,0 28.120111,-26.188762,0 28.120099,-26.188762,0 28.12022,-26.189236,0 28.120211,-26.189236,0 28.120401,-26.189383,0 28.120409,-26.189383,0 28.120781,-26.189265,0 28.120639,-26.188683,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pomona</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.25393,-26.100659,0 28.255558,-26.103158,0 28.261263,-26.109914,0 28.265741,-26.113085,0 28.266959,-26.114034,0 28.270474,-26.116124,0 28.273255,-26.117081,0 28.280482,-26.119597,0 28.281328,-26.118248,0 28.282535,-26.117527,0 28.282401,-26.117346,0 28.281847,-26.116758,0 28.281597,-26.116594,0 28.280293,-26.116185,0 28.280366,-26.113705,0 28.277594,-26.113491,0 28.276327,-26.113386,0 28.276202,-26.11595,0 28.274739,-26.115819,0 28.274844,-26.113997,0 28.275002,-26.11328,0 28.273274,-26.110659,0 28.269004,-26.105584,0 28.26789,-26.104182,0 28.267875,-26.103956,0 28.271791,-26.101681,0 28.273782,-26.100375,0 28.273734,-26.100372,0 28.273733,-26.100373,0 28.272461,-26.10028,0 28.271968,-26.100225,0 28.255741,-26.09856600000001,0 28.25391,-26.099237,0 28.25393,-26.100659,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.277709,-26.11356,0 28.277199,-26.115969,0 28.278157,-26.116001,0 28.278288,-26.113646,0 28.277709,-26.11356,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Marais Steyn Park - Phase 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.138614,-26.138301,0 28.13926,-26.139505,0 28.139612,-26.141184,0 28.143046,-26.141531,0 28.144184,-26.14319,0 28.144978,-26.144806,0 28.147166,-26.143741,0 28.142359,-26.134895,0 28.139454,-26.136328,0 28.139476,-26.136328,0 28.13817,-26.137986,0 28.138614,-26.138301,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>BedfordGardens</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.12015299999999,-26.192531,0 28.12102399999999,-26.190569,0 28.120576,-26.19047,0 28.119764,-26.187912,0 28.1178,-26.188326,0 28.118626,-26.191811,0 28.11857,-26.191503,0 28.119456,-26.191886,0 28.119382,-26.192156,0 28.119373,-26.19217099999999,0 28.118636,-26.191854,0 28.119775,-26.196663,0 28.120987,-26.19648,0 28.12132,-26.196634,0 28.121952,-26.195912,0 28.123487,-26.195903,0 28.123476,-26.19456,0 28.122584,-26.194511,0 28.120537,-26.192644,0 28.12015299999999,-26.192531,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.123455,-26.194661,0 28.122875,-26.194706,0 28.122858,-26.195244,0 28.123481,-26.195298,0 28.123455,-26.194661,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.118534,-26.188219,0 28.117849,-26.188381,0 28.118066,-26.189278,0 28.118772,-26.189126,0 28.118534,-26.188219,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.121194,-26.196207,0 28.120517,-26.196117,0 28.120627,-26.196497,0 28.12063300000001,-26.196495,0 28.120931,-26.196454,0 28.121278,-26.196563,0 28.121194,-26.196207,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.12015999999999,-26.189505,0 28.119101,-26.189654,0 28.119068,-26.189654,0 28.119044,-26.189654,0 28.119271,-26.190457,0 28.119275,-26.190468,0 28.120442,-26.190452,0 28.12015999999999,-26.189505,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Meadowbrook</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.157294,-26.163439,0 28.157508,-26.163508,0 28.159418,-26.163527,0 28.161221,-26.163412,0 28.163109,-26.163026,0 28.164697,-26.162834,0 28.166928,-26.162834,0 28.166456,-26.160253,0 28.163624,-26.157037,0 28.163409,-26.157056,0 28.162401,-26.157691,0 28.161264,-26.1585,0 28.159654,-26.159983,0 28.158603,-26.161081,0 28.157186,-26.162872,0 28.157294,-26.163439,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pebble Creek Phase a</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.150218,-26.120492,0 28.150733,-26.122803,0 28.15967,-26.121301,0 28.158705,-26.119971,0 28.157911,-26.11868,0 28.157654,-26.118469,0 28.156216,-26.118719,0 28.154553,-26.118652,0 28.153062,-26.118939,0 28.150069,-26.120112,0 28.150218,-26.120492,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Link</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.18666,-26.143966,0 28.186739,-26.14398,0 28.18668,-26.14371,0 28.189539,-26.142329,0 28.189999,-26.142398,0 28.190128,-26.142482,0 28.192121,-26.143657,0 28.192502,-26.14349199999999,0 28.192605,-26.143456,0 28.19271,-26.143507,0 28.19418,-26.144923,0 28.200736,-26.148602,0 28.20125,-26.14865,0 28.20184100000001,-26.148573,0 28.201894,-26.136688,0 28.20169,-26.136698,0 28.198107,-26.13795,0 28.198193,-26.138133,0 28.201733,-26.136823,0 28.201701,-26.14845800000001,0 28.201186,-26.148544,0 28.20066,-26.14845800000001,0 28.198096,-26.147071,0 28.194255,-26.144798,0 28.1927,-26.143344,0 28.192099,-26.143632,0 28.190007,-26.14238,0 28.189535,-26.142294,0 28.186584,-26.1437,0 28.18666,-26.143966,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Eastleigh 2020</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-191</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.163729,-26.139803,0 28.165027,-26.142538,0 28.165381,-26.142394,0 28.169018,-26.140949,0 28.162806,-26.126212,0 28.15337600000001,-26.127763,0 28.154116,-26.128379,0 28.155886,-26.129208,0 28.15903,-26.130807,0 28.160242,-26.130364,0 28.160993,-26.130075,0 28.162055,-26.132396,0 28.162356,-26.133118,0 28.16337499999999,-26.132646,0 28.163632,-26.133176,0 28.164619,-26.13569,0 28.165564,-26.135392,0 28.166948,-26.138551,0 28.16587000000001,-26.138936,0 28.166011,-26.139264,0 28.165204,-26.139601,0 28.165201,-26.139594,0 28.165041,-26.139233,0 28.165038,-26.139234,0 28.164169,-26.137366,0 28.162935,-26.13779,0 28.163139,-26.13882,0 28.164137,-26.139408,0 28.163847,-26.139533,0 28.163729,-26.139803,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.166941,-26.138924,0 28.166132,-26.139237,0 28.166288,-26.139577,0 28.167071,-26.139279,0 28.166941,-26.138924,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.166003,-26.139301,0 28.165231,-26.139604,0 28.16542,-26.140092,0 28.166261,-26.13979,0 28.166003,-26.139301,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.163847,-26.129183,0 28.163007,-26.129477,0 28.163143,-26.129863,0 28.164021,-26.129531,0 28.163847,-26.129183,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.159434,-26.126855,0 28.158946,-26.126948,0 28.159126,-26.127376,0 28.159578,-26.127216,0 28.159434,-26.126855,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.158731,-26.127555,0 28.157897,-26.127839,0 28.158084,-26.128201,0 28.158885,-26.127944,0 28.158731,-26.127555,0 
+						</coordinates>
+					</LinearRing>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.162839,-26.129562,0 28.162837,-26.129554,0 28.162246,-26.129751,0 28.162419,-26.130088,0 28.16242,-26.130089,0 28.162987,-26.129911,0 28.162839,-26.129562,0 
+						</coordinates>
+					</LinearRing>
+				</innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>South Port</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-153</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.122377,-26.19242,0 28.123203,-26.192073,0 28.123072,-26.191838,0 28.122303,-26.192181,0 28.122377,-26.19242,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Portofino</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.144342,-26.126452,0 28.144677,-26.126419,0 28.144638,-26.126109,0 28.144287,-26.126183,0 28.144342,-26.126452,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Fairways</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.118534,-26.188219,0 28.117849,-26.188381,0 28.118066,-26.189278,0 28.118772,-26.189126,0 28.118534,-26.188219,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Seven on Garlic</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.150595,-26.159644,0 28.150606,-26.160032,0 28.150835,-26.16002,0 28.150838,-26.159646,0 28.150595,-26.159644,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>East willows</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.166011,-26.139264,0 28.165867,-26.13893,0 28.165031,-26.139211,0 28.165201,-26.139594,0 28.165204,-26.139601,0 28.166011,-26.139264,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Glen High</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.162987,-26.129911,0 28.162839,-26.129562,0 28.162837,-26.129554,0 28.162246,-26.129751,0 28.162419,-26.130088,0 28.16242,-26.130089,0 28.162987,-26.129911,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Eco on dean</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.139357,-26.174994,0 28.139004,-26.174845,0 28.13868799999999,-26.175284,0 28.139017,-26.175437,0 28.139357,-26.174994,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>The White Willows</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.129151,-26.175131,0 28.129631,-26.175042,0 28.129545,-26.174277,0 28.129065,-26.1743,0 28.129151,-26.175131,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mont Pellier</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.130536,-26.181152,0 28.13249,-26.18112,0 28.132069,-26.179994,0 28.132051,-26.17984,0 28.130657,-26.179889,0 28.130642,-26.17988100000001,0 28.130536,-26.181152,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bedfordgarden villas</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.120442,-26.190452,0 28.12015999999999,-26.189505,0 28.119101,-26.189654,0 28.119068,-26.189654,0 28.119044,-26.189654,0 28.119271,-26.190457,0 28.119275,-26.190468,0 28.120442,-26.190452,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Villa D Oro</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-153</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.13097399999999,-26.187825,0 28.130939,-26.188581,0 28.131561,-26.188537,0 28.131386,-26.187794,0 28.13097399999999,-26.187825,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Xies Gardens</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.166984,-26.141404,0 28.166407,-26.141614,0 28.166569,-26.14194,0 28.166573,-26.141935,0 28.167139,-26.141761,0 28.166984,-26.141404,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>9 Oxford road</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-153</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.122753,-26.196539,0 28.122861,-26.195826,0 28.122871,-26.195816,0 28.122887,-26.195809,0 28.122373,-26.195857,0 28.122274,-26.195805,0 28.121789,-26.196213,0 28.121725,-26.196386,0 28.121799,-26.19665,0 28.122753,-26.196539,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Larissa</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.127383,-26.191862,0 28.127305,-26.19167300000001,0 28.127247,-26.191336,0 28.12678,-26.191553,0 28.126887,-26.19206399999999,0 28.127383,-26.191862,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Alpine heights</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-153</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.170523,-26.117486,0 28.170624,-26.117694,0 28.171034,-26.117521,0 28.170939,-26.117314,0 28.170523,-26.117486,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hurlyvale court</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.163988,-26.151389,0 28.163611,-26.150961,0 28.163384,-26.151093,0 28.163374,-26.151111,0 28.163714,-26.151534,0 28.16372,-26.151548,0 28.163988,-26.151389,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Gordon ridge</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.161874,-26.126952,0 28.162705,-26.12667,0 28.162632,-26.126401,0 28.161765,-26.12653,0 28.161874,-26.126952,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kingswood 9-16</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-153</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.307931,-26.169355,0 28.308482,-26.168971,0 28.308254,-26.168671,0 28.307701,-26.169015,0 28.307686,-26.169022,0 28.307931,-26.169355,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Windsor road</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.127065,-26.186747,0 28.12688,-26.186377,0 28.126425,-26.18652,0 28.126604,-26.18693499999999,0 28.127065,-26.186747,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Dogwood Grove</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-176</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.30773,-26.167016,0 28.307984,-26.167291,0 28.308286,-26.167101,0 28.308308,-26.16692,0 28.308207,-26.166685,0 28.30773,-26.167016,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Tuscan Park</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-181</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.142021,-26.134886,0 28.142224,-26.13481,0 28.142229,-26.134824,0 28.142219,-26.134794,0 28.14221,-26.13477,0 28.141557,-26.133584,0 28.141424,-26.133648,0 28.141408,-26.133652,0 28.141375,-26.13366,0 28.141359,-26.133665,0 28.142021,-26.134886,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Slabbert Way</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-186</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.123094,-26.175811,0 28.122667,-26.175972,0 28.122915,-26.177144,0 28.123477,-26.177038,0 28.123416,-26.176795,0 28.124014,-26.176706,0 28.123844,-26.17576,0 28.123094,-26.175811,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Sarpire</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-186</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.141357,-26.168962,0 28.140308,-26.169172,0 28.140052,-26.169608,0 28.140875,-26.169939,0 28.141357,-26.168962,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Villa Mia</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-2201-184</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.343272,-26.133514,0 28.344401,-26.132317,0 28.344175,-26.131976,0 28.342937,-26.132406,0 28.342564,-26.132961,0 28.342516,-26.132987,0 28.343272,-26.133514,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>N gane</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-184</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.158731,-26.127555,0 28.157897,-26.127839,0 28.158084,-26.128201,0 28.158885,-26.127944,0 28.158731,-26.127555,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Brentwood park Ext2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-184</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.29144,-26.131702,0 28.291558,-26.132042,0 28.291698,-26.133197,0 28.291369,-26.133427,0 28.292395,-26.135317,0 28.292662,-26.135371,0 28.293101,-26.13424,0 28.29311,-26.132491,0 28.292851,-26.131795,0 28.29164,-26.131674,0 28.29144,-26.131702,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Santa Barbara</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-179</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.257617,-26.184957,0 28.258015,-26.184965,0 28.258018,-26.184589,0 28.257632,-26.18459500000001,0 28.257617,-26.184957,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>The Oaks</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-2001-181</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.11882,-26.18897400000001,0 28.119561,-26.188898,0 28.119568,-26.188411,0 28.118823,-26.188544,0 28.11882,-26.18897400000001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Garden Heights</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-2301-184</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.299903,-26.17526,0 28.299579,-26.175579,0 28.299889,-26.175844,0 28.300018,-26.175864,0 28.300016,-26.175851,0 28.300254,-26.175363,0 28.299903,-26.17526,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>kyle place</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-181</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.158696,-26.12754,0 28.159578,-26.127216,0 28.159434,-26.126855,0 28.158486,-26.127029,0 28.158696,-26.12754,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Terrace Gardens</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-179</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.160548,-26.12669,0 28.160139,-26.126784,0 28.160381,-26.127342,0 28.160766,-26.12718,0 28.160776,-26.127178,0 28.160548,-26.12669,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rynglen Gardens</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-2401-181</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.327927,-26.145589,0 28.329043,-26.14500200000001,0 28.328638,-26.144359,0 28.32744599999999,-26.144993,0 28.327927,-26.145589,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Villa Jolie</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-184</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.156831,-26.167728,0 28.156244,-26.167565,0 28.156128,-26.167949,0 28.1568,-26.168159,0 28.156831,-26.167728,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Woodgrange</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-179</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.123262,-26.190512,0 28.123978,-26.19037,0 28.123914,-26.190189,0 28.123252,-26.190317,0 28.123244,-26.190317,0 28.123262,-26.190512,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Summer strand</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-181</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.124106,-26.190405,0 28.123796,-26.19048,0 28.123784,-26.190479,0 28.12381,-26.19067099999999,0 28.123816,-26.190657,0 28.124455,-26.190545,0 28.12438,-26.19012,0 28.124051,-26.190143,0 28.124106,-26.190405,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Safeway Centre</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-179</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.26533,-26.186559,0 28.266044,-26.186688,0 28.266189,-26.186381,0 28.265963,-26.186313,0 28.265689,-26.186251,0 28.265507,-26.18620200000001,0 28.26533,-26.186559,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>12 on 3rd</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-179</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.139366,-26.127901,0 28.140098,-26.127562,0 28.139899,-26.12727,0 28.139223,-26.12754,0 28.139366,-26.127901,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goedeburg 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-176</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.289644,-26.142926,0 28.29170299999999,-26.143037,0 28.291914,-26.14328,0 28.291428,-26.144096,0 28.291986,-26.144447,0 28.293437,-26.142565,0 28.29256,-26.14095,0 28.289136,-26.140688,0 28.288147,-26.14145,0 28.289644,-26.142926,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Goedeburg 2</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-184</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.296256,-26.151434,0 28.298975,-26.14965,0 28.298698,-26.148949,0 28.299203,-26.148649,0 28.297973,-26.146187,0 28.296637,-26.145653,0 28.296637,-26.145645,0 28.295558,-26.146942,0 28.297454,-26.147588,0 28.296591,-26.149325,0 28.2964,-26.149325,0 28.294171,-26.148739,0 28.293844,-26.149335,0 28.296015,-26.150171,0 28.294985,-26.152519,0 28.296256,-26.151434,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Farrarmere 2021</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-179</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.298875,-26.155364,0 28.300261,-26.153674,0 28.299268,-26.15161,0 28.298795,-26.151487,0 28.298779,-26.151361,0 28.298459,-26.150162,0 28.296951,-26.15106,0 28.295053,-26.152711,0 28.298875,-26.155364,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>7 and 5 on Ruth</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-184</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.14786,-26.154927,0 28.148415,-26.154767,0 28.148233,-26.154201,0 28.147635,-26.154395,0 28.14786,-26.154927,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Villa Toscana</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.13008,-26.176106,0 28.130954,-26.17613,0 28.130693,-26.175102,0 28.130077,-26.17513,0 28.13008,-26.176106,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Glenleigh</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.158277,-26.127661,0 28.158667,-26.127541,0 28.158469,-26.127009,0 28.158022,-26.12704,0 28.158277,-26.127661,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kendon</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.158019,-26.127049,0 28.157576,-26.127167,0 28.157892,-26.127818,0 28.158278,-26.127678,0 28.158019,-26.127049,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>29 Arbroath</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.122381,-26.18210699999999,0 28.123058,-26.181979,0 28.122935,-26.181597,0 28.12229,-26.181743,0 28.122272,-26.181744,0 28.122381,-26.18210699999999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Garden Heights</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.299903,-26.17526,0 28.299579,-26.175579,0 28.299889,-26.175844,0 28.300018,-26.175864,0 28.300016,-26.175851,0 28.300254,-26.175363,0 28.299903,-26.17526,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Safeway Centre</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.26533,-26.186559,0 28.266044,-26.186688,0 28.266189,-26.186381,0 28.265963,-26.186313,0 28.265689,-26.186251,0 28.265507,-26.18620200000001,0 28.26533,-26.186559,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>St Topez</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-9000-153</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.158244,-26.172365,0 28.158651,-26.172303,0 28.158776,-26.172612,0 28.159423,-26.172536,0 28.159189,-26.171768,0 28.158209,-26.171904,0 28.158244,-26.172365,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Active area</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.295726,-26.111202,0 28.299904,-26.110544,0 28.300055,-26.110168,0 28.302052,-26.10979,0 28.302121,-26.109538,0 28.298879,-26.11027,0 28.298921,-26.11047200000001,0 28.295872,-26.111014,0 28.295841,-26.110695,0 28.295726,-26.111202,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Standford Gardens</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.132433,-26.191642,0 28.131933,-26.191433,0 28.131995,-26.192853,0 28.132185,-26.192919,0 28.132602,-26.191966,0 28.132433,-26.191642,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>COUNTRY LAKE ESTATE</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-179</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.299663,-26.183896,0 28.300947,-26.184422,0 28.301748,-26.184174,0 28.301773,-26.183471,0 28.299761,-26.183706,0 28.299663,-26.183896,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>The Stewards</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.285093,-26.197279,0 28.285343,-26.197502,0 28.287705,-26.19728,0 28.288753,-26.197669,0 28.290352,-26.198519,0 28.29186,-26.19999,0 28.292035,-26.200278,0 28.289501,-26.201055,0 28.290945,-26.203383,0 28.296815,-26.201795,0 28.296842,-26.200384,0 28.294724,-26.199194,0 28.29212,-26.197753,0 28.288959,-26.196036,0 28.288209,-26.196007,0 28.287183,-26.196121,0 28.285093,-26.197279,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ravenswood mews</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.256062,-26.200366,0 28.258187,-26.200422,0 28.258232,-26.198514,0 28.25607,-26.198533,0 28.256062,-26.200366,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Westwood palms</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.27739100000001,-26.187387,0 28.27847,-26.187586,0 28.27874,-26.186857,0 28.277663,-26.186636,0 28.277645,-26.186636,0 28.27739100000001,-26.187387,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>8th ave villas</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.25607,-26.196698,0 28.254583,-26.19669,0 28.254599,-26.19761,0 28.256175,-26.197637,0 28.25607,-26.196698,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>jodies place</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.262657,-26.191324,0 28.261632,-26.191337,0 28.261644,-26.191729,0 28.262668,-26.191739,0 28.262657,-26.191324,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>D&apos;Avignon</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.320287,-26.145675,0 28.32096200000001,-26.146677,0 28.321817,-26.146196,0 28.321033,-26.145166,0 28.320287,-26.145675,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>barbet close</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-153</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.310996,-26.143088,0 28.311858,-26.14269,0 28.311564,-26.142078,0 28.310749,-26.14189,0 28.31044,-26.142228,0 28.310996,-26.143088,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>The Hamptons</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.157251,-26.117069,0 28.157387,-26.117396,0 28.157676,-26.117846,0 28.158128,-26.118019,0 28.158218,-26.117982,0 28.157934,-26.116802,0 28.157223,-26.116808,0 28.157251,-26.117069,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EdenPark</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-153</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.176987,-26.130776,0 28.176149,-26.13044500000001,0 28.176096,-26.130892,0 28.176887,-26.131235,0 28.176987,-26.130776,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Avonlea Gardens</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.133713,-26.186201,0 28.133705,-26.185437,0 28.132973,-26.185823,0 28.133256,-26.186245,0 28.13327,-26.18626,0 28.133713,-26.186201,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Villa Garda</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.15689800000001,-26.169755,0 28.157359,-26.169661,0 28.157211,-26.168981,0 28.157103,-26.168942,0 28.156765,-26.16911,0 28.15689800000001,-26.169755,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Farrarmere Square</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.303493,-26.163375,0 28.303765,-26.16327,0 28.303604,-26.162938,0 28.303344,-26.162984,0 28.303493,-26.163375,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Martinique</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.135926,-26.170786,0 28.136353,-26.170962,0 28.136365,-26.170939,0 28.137024,-26.170382,0 28.137041,-26.170201,0 28.136923,-26.16990699999999,0 28.136607,-26.16973,0 28.135926,-26.170786,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Berula Phase 1</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.314284,-26.138259,0 28.31483,-26.138323,0 28.314842,-26.138332,0 28.315073,-26.138526,0 28.315555,-26.138309,0 28.315348,-26.137927,0 28.314396,-26.137787,0 28.314284,-26.138259,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hathersage close</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.123455,-26.194661,0 28.122875,-26.194706,0 28.122858,-26.195244,0 28.123481,-26.195298,0 28.123455,-26.194661,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Silver dawn</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.30579,-26.193879,0 28.306202,-26.19367,0 28.305845,-26.193122,0 28.305428,-26.193284,0 28.30579,-26.193879,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>High Lodge</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.166288,-26.139577,0 28.167071,-26.139279,0 28.166941,-26.138924,0 28.166132,-26.139237,0 28.166288,-26.139577,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Peacan View</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.330033,-26.144237,0 28.331077,-26.14313,0 28.330235,-26.142555,0 28.329317,-26.143469,0 28.330033,-26.144237,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hull rd Terrace</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.328682,-26.142537,0 28.329029,-26.143016,0 28.33013,-26.141761,0 28.329655,-26.141449,0 28.328682,-26.142537,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Silver dawn</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.30579,-26.193879,0 28.306202,-26.19367,0 28.305845,-26.193122,0 28.305428,-26.193284,0 28.30579,-26.193879,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>13 Hillcrest</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.133814,-26.188655,0 28.133861,-26.188348,0 28.133359,-26.188346,0 28.133504,-26.188698,0 28.133513,-26.188735,0 28.133814,-26.188655,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Brentlate est</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.285576,-26.112272,0 28.286616,-26.113882,0 28.288208,-26.113086,0 28.28727,-26.111382,0 28.285576,-26.112272,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Mont D&apos;oro Villas</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.126854,-26.192232,0 28.126709,-26.193286,0 28.128535,-26.192577,0 28.128085,-26.191674,0 28.126854,-26.192232,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>La Formaggio 1to6</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.300972,-26.187779,0 28.300693,-26.1879,0 28.300771,-26.188047,0 28.301044,-26.187911,0 28.300972,-26.187779,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Willowbrook</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.167136,-26.143872,0 28.167403,-26.144335,0 28.16747,-26.144374,0 28.16780199999999,-26.144231,0 28.16758099999999,-26.143762,0 28.167136,-26.143872,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>La Formaggio 1 to 6</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.300757,-26.188059,0 28.301055,-26.18793700000001,0 28.300964,-26.187775,0 28.300703,-26.187902,0 28.300757,-26.188059,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Benoni West</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-82</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.305741,-26.187605,0 28.305392,-26.186969,0 28.304544,-26.187366,0 28.304457,-26.18722,0 28.304325,-26.187278,0 28.304464,-26.187431,0 28.30177,-26.188674,0 28.301602,-26.188712,0 28.300506,-26.18693,0 28.299935,-26.187179,0 28.299721,-26.186808,0 28.29941,-26.187042,0 28.299489,-26.187272,0 28.299833,-26.187828,0 28.299,-26.188245,0 28.298924,-26.189099,0 28.299684,-26.188756,0 28.3004,-26.189929,0 28.299214,-26.190614,0 28.300227,-26.193207,0 28.300451,-26.195321,0 28.298816,-26.198999,0 28.299004,-26.199662,0 28.300745,-26.198963,0 28.300304,-26.198034,0 28.300586,-26.198006,0 28.30539,-26.195893,0 28.304257,-26.193553,0 28.306175,-26.192742,0 28.30390299999999,-26.188775,0 28.304884,-26.188394,0 28.304731,-26.188094,0 28.305741,-26.187605,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rynfield Shopping Centre</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.333392,-26.156968,0 28.333199,-26.157302,0 28.333781,-26.15759,0 28.333952,-26.157276,0 28.333392,-26.156968,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hull rd Terrace</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.328682,-26.142537,0 28.329029,-26.143016,0 28.33013,-26.141761,0 28.329655,-26.141449,0 28.328682,-26.142537,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Peacan View</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.330033,-26.144237,0 28.331077,-26.14313,0 28.330235,-26.142555,0 28.329317,-26.143469,0 28.330033,-26.144237,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Hilltop</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.121194,-26.196207,0 28.120517,-26.196117,0 28.120627,-26.196497,0 28.12063300000001,-26.196495,0 28.120931,-26.196454,0 28.121278,-26.196563,0 28.121194,-26.196207,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bradford Estate Bedfordview</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-4000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.118258,-26.185898,0 28.120269,-26.185498,0 28.12011,-26.184657,0 28.11825,-26.184944,0 28.118258,-26.185898,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Heritage Estate</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.147835,-26.105363,0 28.148198,-26.103143,0 28.147486,-26.103037,0 28.144494,-26.10222,0 28.144164,-26.103262,0 28.144799,-26.103726,0 28.144841,-26.104213,0 28.144943,-26.104658,0 28.147835,-26.105363,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>HQ building A</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.124438,-26.186834,0 28.124565,-26.187326,0 28.124946,-26.187321,0 28.124893,-26.186844,0 28.124438,-26.186834,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bedfordview Life Hospital</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.11946,-26.190616,0 28.119489,-26.191233,0 28.119519,-26.191222,0 28.120363,-26.191235,0 28.120748,-26.190777,0 28.120464,-26.190666,0 28.11946,-26.190616,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Trentbridge</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-127</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.301972,-26.1739,0 28.302439,-26.173618,0 28.301811,-26.172874,0 28.301338,-26.173157,0 28.301315,-26.17317,0 28.301972,-26.1739,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rynfield Shopping Centre</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.333392,-26.156968,0 28.333199,-26.157302,0 28.333781,-26.15759,0 28.333952,-26.157276,0 28.333392,-26.156968,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Edenvale section</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>
+								28.1569663,-26.1360909,0 28.1569,-26.136014,0 28.155465,-26.134935,0 28.157051,-26.133084,0 28.15497,-26.131574,0 28.15297,-26.130178,0 28.150736,-26.130597,0 28.150233,-26.131142,0 28.1569663,-26.1360909,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>
+								28.1569663,-26.1360909,0 28.158903,-26.138335,0 28.159902,-26.140128,0 28.161648,-26.139425,0 28.162647,-26.138807,0 28.162106,-26.136628,0 28.160883,-26.135529,0 28.158662,-26.134113,0 28.157842,-26.135096,0 28.156991,-26.136109,0 28.1569663,-26.1360909,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Hilltop</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.121194,-26.196207,0 28.120517,-26.196117,0 28.120627,-26.196497,0 28.12063300000001,-26.196495,0 28.120931,-26.196454,0 28.121278,-26.196563,0 28.121194,-26.196207,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>66 on High</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-5000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.295674,-26.124452,0 28.295876,-26.125919,0 28.295932,-26.125962,0 28.297996,-26.125887,0 28.298191,-26.124433,0 28.295674,-26.124452,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Coxwold</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.118633,-26.191853,0 28.119373,-26.19217099999999,0 28.119382,-26.192156,0 28.119456,-26.191886,0 28.11857,-26.191503,0 28.118633,-26.191853,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Bedfordview Life Hospital</name>
+			<description>live</description>
+			<styleUrl>#poly-000000-1000-128</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							28.11946,-26.190616,0 28.119489,-26.191233,0 28.119519,-26.191222,0 28.120363,-26.191235,0 28.120748,-26.190777,0 28.120464,-26.190666,0 28.11946,-26.190616,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

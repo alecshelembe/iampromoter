@@ -1,0 +1,3239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MTB FTTB Polygon 25-10-2023.kmz</name>
+	<open>1</open>
+	<Style id="PolyStyle0030">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle00300">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PolyStyle0031">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle00300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle0030</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin02">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1140</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0022">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin101001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1142</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin319">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin119</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin213</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl01">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl11">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1140">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1142">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin213">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1010">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin101001">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin119">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900ff00</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>MTB FTTB Polygon</name>
+		<Folder>
+			<name>CPT</name>
+			<Folder>
+				<name>FTTB</name>
+				<Placemark>
+					<name>The Cornerstone Business Park</name>
+					<open>1</open>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.67772420282312,-33.89257960297451,0 18.6787251149604,-33.89300528713034,0 18.679125281351,-33.89308098852983,0 18.67938470230754,-33.89282286013513,0 18.67928157155572,-33.89199530102337,0 18.6776599421271,-33.89211208138549,0 18.67772420282312,-33.89257960297451,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Paarl Junction</name>
+					<styleUrl>#m_ylw-pushpin01</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.94838665284479,-33.78395836160432,0 18.95298989370528,-33.78220688497048,0 18.95117112180256,-33.78091423080925,0 18.94803545820149,-33.78282203375078,0 18.94838665284479,-33.78395836160432,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Frazzitta Business Park Milnerton</name>
+					<styleUrl>#m_ylw-pushpin01</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.50509301935299,-33.87112998913154,0 18.50565849370837,-33.87145468492628,0 18.50604553735212,-33.87099433870998,0 18.50648012990319,-33.87121949205054,0 18.50662715853068,-33.87105885581246,0 18.50629178282883,-33.87088830380927,0 18.5065605012316,-33.87057131193748,0 18.50583001170421,-33.87017368666378,0 18.50509301935299,-33.87112998913154,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>N1 Medical Centre</name>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.55844667944255,-33.89482698116638,0 18.56014698356549,-33.89463572169463,0 18.56000287577345,-33.89415511536031,0 18.55908933755284,-33.89431107390633,0 18.55895270152386,-33.89367636634278,0 18.55814511361116,-33.89380300205301,0 18.55844667944255,-33.89482698116638,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Frazzitta House</name>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.4161252235869,-33.9248955517784,0 18.41626437500605,-33.92500803861241,0 18.41643422193893,-33.92486925316726,0 18.4162891422319,-33.92476120297224,0 18.4161252235869,-33.9248955517784,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Klein d&apos;aria</name>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.62693305898446,-33.85721157635732,0 18.62505347247222,-33.85718531340609,0 18.62527903796954,-33.85901299267934,0 18.62683230275761,-33.8590070241061,0 18.62693305898446,-33.85721157635732,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>The Woodmill</name>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.82830881754898,-33.94254737391371,0 18.82802193125148,-33.9424779564553,0 18.82798606973025,-33.942636623395,0 18.82832077097586,-33.94271595765834,0 18.8282849096766,-33.94299362480132,0 18.8276872269568,-33.94289445582534,0 18.82765136267471,-33.94326137304726,0 18.82864352089646,-33.94344979219925,0 18.82875110355476,-33.94322170816024,0 18.82918143732534,-33.94326137304726,0 18.83004211044807,-33.94345969904825,0 18.83025727684856,-33.94336052915554,0 18.83026922651828,-33.94318202825158,0 18.82981498236824,-33.94309278383466,0 18.82992255862532,-33.94266636449052,0 18.82842835358716,-33.94239862356582,0 18.82830881754898,-33.94254737391371,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Jagger Works</name>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.57514182648013,-33.90927717593025,0 18.57579788414348,-33.90931717109232,0 18.57581922450378,-33.90884194605783,0 18.57517848514089,-33.9087989826228,0 18.57514182648013,-33.90927717593025,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>98b Bofors</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.5650736720032,-33.93429004095825,0 18.56638844367817,-33.9343396158318,0 18.56632867077724,-33.9336057799672,0 18.56504976648793,-33.93356612186185,0 18.5650736720032,-33.93429004095825,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>98a Bofors</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.5650019575495,-33.9348057085965,0 18.56625697386104,-33.93484536881781,0 18.56624501441564,-33.93438920097457,0 18.56495414755226,-33.93430987438624,0 18.56496609999999,-33.93451812477149,0 18.5650019575495,-33.9348057085965,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Wetton Works</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.50187107497697,-34.00566222116286,0 18.50142970424831,-34.00585627177222,0 18.50182999996214,-34.00658116370153,0 18.5022558001118,-34.00643648553618,0 18.50187107497697,-34.00566222116286,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Foregate Square</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.43014890209181,-33.91604454157622,0 18.4309136974402,-33.91644120805637,0 18.43130804251184,-33.916143705092,0 18.43050739799066,-33.91566770765501,0 18.43014890209181,-33.91604454157622,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Stellenpark</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.84051936472665,-33.97996689449596,0 18.84101800292852,-33.98014305964038,0 18.84142042033871,-33.97958940476624,0 18.8408763789472,-33.97936097801355,0 18.84051936472665,-33.97996689449596,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Brickfield Canvas</name>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.45635172638544,-33.93656656222599,0 18.4559497427255,-33.93647336727901,0 18.45570338483957,-33.936984481061,0 18.45607666043107,-33.93710339485477,0 18.45609528842506,-33.93750412886016,0 18.45687039733001,-33.93780985787487,0 18.45792651896213,-33.93640139913317,0 18.45691669322349,-33.9358169119193,0 18.45635172638544,-33.93656656222599,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Montclare FTTB</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46508785955016,-33.97804984223403,0 18.46645405159999,-33.97789121327456,0 18.46627741227129,-33.9770540811636,0 18.46493876245575,-33.97721970398622,0 18.46508785955016,-33.97804984223403,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Zevenwacht Centre</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.6951682950574,-33.94933367564298,0 18.69611225892989,-33.94909977888418,0 18.69694588934413,-33.94914045173641,0 18.69725237961729,-33.94956756674532,0 18.69782856595489,-33.94936416930457,0 18.69845379022911,-33.94917093730014,0 18.69899319878485,-33.94895736461102,0 18.69846602256777,-33.94827601968545,0 18.6981350219652,-33.94828619678101,0 18.69788983792577,-33.94833704929091,0 18.69757109274846,-33.94806247834885,0 18.69600192215006,-33.9476557132141,0 18.69602644073526,-33.94784893380533,0 18.6956954454288,-33.9479607985446,0 18.69526637878041,-33.94758452553594,0 18.69471471886921,-33.94777774214295,0 18.69509474664244,-33.9483879148053,0 18.69459211861329,-33.94855062233012,0 18.6951682950574,-33.94933367564298,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Atterbury House</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.42302308525654,-33.92007726780764,0 18.42260908129984,-33.92047011355329,0 18.42313230204027,-33.92082912288516,0 18.42358052367938,-33.92049802985588,0 18.42302308525654,-33.92007726780764,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Soneike Centre</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.68237816557337,-33.90789959731345,0 18.68209214755563,-33.90797184177325,0 18.68200509812543,-33.90806472785143,0 18.68200509624803,-33.90843627331174,0 18.68212945151809,-33.90869429124079,0 18.68214188398661,-33.90946834390433,0 18.6829750828882,-33.9097263613412,0 18.68358442629965,-33.90882845588925,0 18.68263931309893,-33.90843627415334,0 18.68234085851033,-33.90818857727852,0 18.68237816557337,-33.90789959731345,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>186 Loop</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.41444292339551,-33.92526972583869,0 18.41425596251667,-33.92542924842181,0 18.41444493354588,-33.9255885569839,0 18.41463987109644,-33.92537606200244,0 18.41444292339551,-33.92526972583869,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Albion Mews</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46679142106791,-33.96751285167186,0 18.46716896662209,-33.9676113449283,0 18.46725614719227,-33.96726101447148,0 18.46697764578472,-33.9671626862784,0 18.46679142106791,-33.96751285167186,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>The Space</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.44048372425895,-34.07872510103316,0 18.44031342195295,-34.07863382989024,0 18.44011840810748,-34.07889046507484,0 18.44034067972591,-34.07899969338068,0 18.44048372425895,-34.07872510103316,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Montclare FTTB</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46509466919061,-33.97803855490088,0 18.46646778522397,-33.97789690146763,0 18.46627716037988,-33.97706595852215,0 18.46497422640071,-33.97723148142931,0 18.46509466919061,-33.97803855490088,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Teguka Business Park</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.62613238493545,-34.00251848683825,0 18.62647390270678,-34.00277055771467,0 18.62881281024355,-34.00437652557979,0 18.62952011382249,-34.00346632302431,0 18.62959557249464,-34.0025250033639,0 18.62918876658942,-34.00172545475958,0 18.62785155336379,-34.00075686981104,0 18.62613238493545,-34.00251848683825,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>The Towers</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.42659404203235,-33.91978497687973,0 18.42750703890466,-33.92046757383551,0 18.42794364390459,-33.92004501345511,0 18.42701183442212,-33.91936436109774,0 18.42659404203235,-33.91978497687973,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>50 Keerom st</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.41630507734977,-33.92547532343356,0 18.41657314334183,-33.9256329552119,0 18.41669354335051,-33.92556232544567,0 18.41640481951533,-33.92538523408649,0 18.41630507734977,-33.92547532343356,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>KPMG</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.43369431425347,-33.92002089061134,0 18.43404502211322,-33.92027124993768,0 18.43426851327004,-33.92002089242891,0 18.43392281471012,-33.91977637356027,0 18.43369431425347,-33.92002089061134,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Golf Park</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.48965493532112,-33.9466960104004,0 18.48985688288995,-33.94688939940583,0 18.48968978844902,-33.94707862807638,0 18.49005379639635,-33.94735045251032,0 18.49024021528399,-33.94711599865432,0 18.49082776863788,-33.94744517813934,0 18.49103137920053,-33.94725927882949,0 18.49113833670581,-33.94680774643313,0 18.49139871522663,-33.94655316057506,0 18.49106046338464,-33.94632176438455,0 18.49093182076786,-33.94648836114613,0 18.4902542871307,-33.94606861827931,0 18.48965493532112,-33.9466960104004,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>The District</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.43581821675384,-33.92742762266228,0 18.43621967448997,-33.92744502804742,0 18.43624449677204,-33.92689429757554,0 18.43582755186626,-33.92688425040415,0 18.43581821675384,-33.92742762266228,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>13 Bell Crescent</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.43605436309636,-34.07877064352909,0 18.43629136070474,-34.07890079331551,0 18.43643964407118,-34.078689733139,0 18.43623115850397,-34.07855604432972,0 18.43605436309636,-34.07877064352909,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Silverberg Terraces</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.43434821778437,-34.08128348128406,0 18.43454107550083,-34.08138487894584,0 18.43486432112941,-34.08098583168304,0 18.4346379555415,-34.08088094593582,0 18.43434821778437,-34.08128348128406,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Earlgo</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.41062809539058,-33.92848404361437,0 18.41080362554851,-33.92861274800367,0 18.41114054941256,-33.92828352194366,0 18.41099287856487,-33.92816057079315,0 18.41062809539058,-33.92848404361437,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>King leah Building Saxenburg Business Park</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.70371652137208,-33.9511114674559,0 18.7031544914035,-33.95134406747002,0 18.70323984907127,-33.95148469798247,0 18.7039742384762,-33.95117430127859,0 18.70394774954059,-33.95102262834229,0 18.70372235889265,-33.95096842929225,0 18.70371652137208,-33.9511114674559,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Old Timber Yard</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.50592546217684,-33.91887822876141,0 18.50703366944721,-33.91868430621515,0 18.50680895786301,-33.91794455600615,0 18.50573256465307,-33.91812716386038,0 18.50592546217684,-33.91887822876141,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>7th Ave</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.50713091609596,-33.91832636936673,0 18.50723939364647,-33.91868003097752,0 18.50737928730714,-33.91867542095582,0 18.50730021342956,-33.91830572627177,0 18.50713091609596,-33.91832636936673,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Tyger Quays FTTB</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.62897283242261,-33.87645052137319,0 18.62913237256783,-33.8765783659023,0 18.62947925442129,-33.87639075586731,0 18.62924395874462,-33.87623365975216,0 18.62897283242261,-33.87645052137319,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Maynard Mall</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46939676313702,-34.00403544451245,0 18.46995823631968,-34.00407006095549,0 18.46997758948138,-34.00387575226802,0 18.4701117721169,-34.00385058366039,0 18.47009769685638,-34.00349714674503,0 18.47055691685159,-34.00346586038562,0 18.47045172635748,-34.00253507321826,0 18.46929330343919,-34.00247818935498,0 18.46939676313702,-34.00403544451245,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>River Park</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.47897666475826,-33.94455300188974,0 18.47897666266074,-33.94430643247526,0 18.47760201790635,-33.94441944769628,0 18.47778777718841,-33.94608378278269,0 18.47820884674853,-33.94604268820023,0 18.47810976998233,-33.94467629110324,0 18.47897666475826,-33.94455300188974,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Prestige Business Park</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.50772849142952,-33.87874572655001,0 18.50762911281286,-33.87866755259588,0 18.50772833177267,-33.87808111975778,0 18.50741448079377,-33.87805332830272,0 18.50737010849593,-33.87809957073786,0 18.50623544925171,-33.87796909973909,0 18.50613137420173,-33.87828074765987,0 18.50574548618119,-33.87824497597887,0 18.50569537286967,-33.87857553731244,0 18.50767691857256,-33.87891447575335,0 18.50772849142952,-33.87874572655001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>The Teraces Steenberg Office Park</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.4335599750035,-34.07992885111675,0 18.43301369553724,-34.08064324578943,0 18.43302570580066,-34.08065434126816,0 18.43303221250176,-34.08065434077592,0 18.43406790847824,-34.08120399546896,0 18.4345963765861,-34.08048798795936,0 18.4335599750035,-34.07992885111675,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Millvale House</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.49464982641587,-33.88186596105106,0 18.494471091508,-33.88209378661524,0 18.49479548332415,-33.882166196121,0 18.49492196241641,-33.88200200416287,0 18.49464982641587,-33.88186596105106,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Springfield Office Park</name>
+					<styleUrl>#msn_ylw-pushpin319</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.62759522131201,-33.85162062397512,0 18.62660849768582,-33.85218092475182,0 18.62659012309507,-33.85219806222815,0 18.62655918009531,-33.85311846961766,0 18.627127396844,-33.85340781155127,0 18.62717867454706,-33.8534389830739,0 18.62719780860572,-33.85344935650917,0 18.62721072136337,-33.85345972169287,0 18.62724271579125,-33.8534804265283,0 18.62725583290675,-33.85349593349336,0 18.62727559549967,-33.85352173643261,0 18.6272889023664,-33.85354234104342,0 18.62731432287604,-33.85355777183374,0 18.6273335343361,-33.85357318409609,0 18.62735250461129,-33.85358344821081,0 18.6273591132635,-33.85359370457052,0 18.62759522131201,-33.85162062397512,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Fairweather House</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.4381114748503,-33.92837393679857,0 18.43824879182245,-33.92772252732385,0 18.43787855161378,-33.92768885215565,0 18.43781450943436,-33.92831940514411,0 18.4381114748503,-33.92837393679857,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Greenford Office Park</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.48726997696278,-33.99057936403543,0 18.48725518476453,-33.99057936404547,0 18.48694582636761,-33.99123564043141,0 18.48750619614039,-33.9915309555566,0 18.48791453215682,-33.99082945789699,0 18.48726997696278,-33.99057936403543,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Madison Square</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.63097136617628,-33.87496874163286,0 18.63113953392199,-33.87522717705463,0 18.63125611456149,-33.87528466041025,0 18.63155688762229,-33.87488183906346,0 18.6309901971565,-33.87469842817644,0 18.63097136617628,-33.87496874163286,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Cape Quarter</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.41759423980242,-33.91602282088507,0 18.41838623940424,-33.9157938499849,0 18.418078998996,-33.9151021181723,0 18.41732009424336,-33.91537737219885,0 18.41759423980242,-33.91602282088507,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>2 Milner Street</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.47936066536677,-33.89931179838272,0 18.4788997261474,-33.89988703535123,0 18.47925493255186,-33.90010920955167,0 18.47969175478563,-33.89957754692853,0 18.47936066536677,-33.89931179838272,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Pier Place</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.42594330173553,-33.9173699721978,0 18.42547693956005,-33.91779131969962,0 18.42579237548119,-33.91801104762782,0 18.42623583276561,-33.91756398676922,0 18.42594330173553,-33.9173699721978,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Deneb House</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46261994996207,-33.93681073530107,0 18.46216611773939,-33.93723207251894,0 18.46248220575853,-33.93752740613142,0 18.46298858980898,-33.9371562923623,0 18.46261994996207,-33.93681073530107,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Cavendish Square</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46303965005059,-33.98150801148271,0 18.46397587573571,-33.98118131740771,0 18.46382683057844,-33.9796049714639,0 18.46225331105132,-33.97969647809138,0 18.46303965005059,-33.98150801148271,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Sunclare</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46348821109972,-33.97909866418399,0 18.46376033980977,-33.97851017921825,0 18.46341666428994,-33.97808692209203,0 18.46288133421206,-33.97843469632896,0 18.46348821109972,-33.97909866418399,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Longkloof Studios</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.41169503141555,-33.9285823718231,0 18.41202226103082,-33.92834754590904,0 18.41154653275744,-33.92800753042609,0 18.4114330908939,-33.92809783567822,0 18.4116224771447,-33.92825943980681,0 18.41145534755819,-33.92843057228564,0 18.41169503141555,-33.9285823718231,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>M5 Park</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.48054308444894,-33.93127679344968,0 18.48065146271586,-33.93152721746072,0 18.48119828034249,-33.93141254392712,0 18.48113086288252,-33.93119171458709,0 18.48100324086914,-33.9311594656595,0 18.48078786420003,-33.9305052654046,0 18.4805594960223,-33.93052985272383,0 18.48054308444894,-33.93127679344968,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>51 Bell Crescent</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.43533673014955,-34.0773279686227,0 18.43547579483928,-34.07715420527828,0 18.43511388020401,-34.07701425154871,0 18.43499114126584,-34.07716531700426,0 18.43533673014955,-34.0773279686227,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Combined HQ</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.62899336054044,-33.87383848239291,0 18.62940823546272,-33.87385436863308,0 18.62945300174576,-33.87349059520452,0 18.6290639346912,-33.87344875911817,0 18.62899336054044,-33.87383848239291,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>The Green Building</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.43635878213072,-34.07912603969041,0 18.43684297855262,-34.07935751896178,0 18.43701659555347,-34.07913285049292,0 18.43649970435781,-34.07888233677269,0 18.43635878213072,-34.07912603969041,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>WBHO House</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.51273042844804,-33.93367251892379,0 18.5124128715828,-33.93321880105851,0 18.51211404198683,-33.93352142993003,0 18.5125790778002,-33.9338156018625,0 18.51273042844804,-33.93367251892379,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>KWV House</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.96210582729901,-33.76227855186181,0 18.96311826128901,-33.7623829396239,0 18.96312399011295,-33.7621554924982,0 18.96238303924648,-33.76208440980745,0 18.96245977887054,-33.76142874266431,0 18.9622435680364,-33.76139592188745,0 18.96210582729901,-33.76227855186181,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Touchstone House</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.42221546989745,-33.91789976542846,0 18.4224502522021,-33.91765772715707,0 18.42221757492596,-33.91747187298547,0 18.42194705473759,-33.91773038756185,0 18.42221546989745,-33.91789976542846,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Letterstead House</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46500167063036,-33.9760130952905,0 18.46502648589828,-33.97647684678253,0 18.46482034870984,-33.97649486531871,0 18.46484896431425,-33.97662251018519,0 18.46527869126749,-33.97661832968335,0 18.46527924019052,-33.97600735098596,0 18.46500167063036,-33.9760130952905,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>4 Loop Street - FTTB</name>
+					<styleUrl>#msn_ylw-pushpin0020</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.42247376253081,-33.91811865710145,0 18.42275707749771,-33.91785090777578,0 18.42257063369988,-33.91766948426758,0 18.422250742555,-33.91795825110945,0 18.42247376253081,-33.91811865710145,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Northgate Business Park Bock A</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.48609289817663,-33.91287831712602,0 18.48637090716702,-33.91304912082507,0 18.48703373881157,-33.91235582140806,0 18.48675636670795,-33.91218016617387,0 18.48609289817663,-33.91287831712602,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Northgate Business Park Block B</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.48702519018992,-33.91217521302814,0 18.48832833351337,-33.91255494775647,0 18.48849014584149,-33.91228314496019,0 18.48715648994045,-33.91185079802632,0 18.48702519018992,-33.91217521302814,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Twin Oaks Towers</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<altitudeMode>relativeToGround</altitudeMode>
+								<coordinates>
+									18.85061662641648,-34.08189688279233,0 18.85024314468821,-34.08140153663286,0 18.84965280254005,-34.08170069854296,0 18.85005984938652,-34.08216900128102,0 18.85058514734816,-34.08192322907176,0 18.85061662641648,-34.08189688279233,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Willowbridge</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<altitudeMode>relativeToGround</altitudeMode>
+								<coordinates>
+									18.63122266636704,-33.87239949162621,0 18.63233513893764,-33.87234851018264,0 18.63234434842965,-33.8717690681132,0 18.63197004046459,-33.87175369323307,0 18.63184124725051,-33.86955260480989,0 18.63107670548654,-33.86956967097892,0 18.63122266636704,-33.87239949162621,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Sax Center</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.69873726061727,-33.95280152852572,0 18.69924424447994,-33.95359075883903,0 18.69980057246416,-33.95335896316848,0 18.69928668550693,-33.95256490319101,0 18.69873726061727,-33.95280152852572,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>De Ville Center</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.64657740199103,-33.8320711708033,0 18.6466307491276,-33.83210302494602,0 18.64666192030802,-33.83209035269905,0 18.64672629449408,-33.83211561399364,0 18.64700531615114,-33.83185801384835,0 18.64685047533797,-33.83173154693258,0 18.64655326850184,-33.83198116461393,0 18.64657740199103,-33.8320711708033,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>155 Loop st</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.4163648835007,-33.92443610229324,0 18.41612617864783,-33.92426285954285,0 18.41612598052991,-33.92426304883483,0 18.41603848186902,-33.92435516504507,0 18.4160547773963,-33.92437050177347,0 18.41627286191809,-33.92452249584562,0 18.41636331428484,-33.92443697902012,0 18.4163648835007,-33.92443610229324,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>200-on-main</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46530596312784,-33.98424002904846,0 18.46538652978524,-33.98477904977845,0 18.46569622006297,-33.98476089920724,0 18.46559736420343,-33.98420802029929,0 18.46530596312784,-33.98424002904846,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>The Edge</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.63056330624709,-33.87535224262456,0 18.630553027624,-33.87542892633274,0 18.63041928345988,-33.8755012969384,0 18.63056844458075,-33.87577405225205,0 18.63050701433808,-33.87619976975379,0 18.63059437978588,-33.87623322102481,0 18.63068157825025,-33.87625812724312,0 18.63104340399377,-33.87566256121748,0 18.63083005178006,-33.87524645560099,0 18.63056330624709,-33.87535224262456,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Great Westerford</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46399460450383,-33.9708407594146,0 18.4646270120695,-33.97105304597014,0 18.46495173692173,-33.97044629089428,0 18.46426277367156,-33.97023623393143,0 18.46399460450383,-33.9708407594146,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Creation Park</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.50841286860659,-33.87753715148983,0 18.50829685591022,-33.87802055872022,0 18.51046238522375,-33.87829380599744,0 18.51065515501178,-33.87729378115731,0 18.50864999645119,-33.87699701422661,0 18.50841286860659,-33.87753715148983,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Dean Street Arcade</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46356509956997,-33.97171892135722,0 18.46367781260224,-33.97178315866434,0 18.463836029122,-33.97176977349275,0 18.46389100676508,-33.97172962648404,0 18.46397172253301,-33.97171357246614,0 18.46403944540226,-33.97173765517429,0 18.46413314353569,-33.97166007721213,0 18.46431717585658,-33.97130773192858,0 18.46404683887022,-33.9712118549081,0 18.46356509956997,-33.97171892135722,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Draper Square</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.4659039138179,-33.97810495020485,0 18.46598433305935,-33.97850996287527,0 18.46651223672443,-33.97844914827183,0 18.46642535716218,-33.97805662354355,0 18.4659039138179,-33.97810495020485,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>54 Oxford Street</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.64448273848087,-33.82836971356976,0 18.64479976400276,-33.8285330724257,0 18.6451514537853,-33.82810858070255,0 18.64409665476629,-33.82756105306268,0 18.64375176342448,-33.82800563011567,0 18.64448273848087,-33.82836971356976,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Frazzitta Business Park</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.66596633182046,-33.82970822682913,0 18.66650918404261,-33.8299723182815,0 18.66686143756838,-33.82953476751417,0 18.66631256131304,-33.82924747611191,0 18.66596633182046,-33.82970822682913,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Graphics Centre</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.41446920858392,-33.92574771377932,0 18.41425216784635,-33.92594735643191,0 18.41448459400004,-33.92613246089204,0 18.41464388097103,-33.9259764394956,0 18.41461111677689,-33.92595428273032,0 18.41468095603293,-33.92589815839752,0 18.41446920858392,-33.92574771377932,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Lifestyle on Kloof</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.41084011205113,-33.92931024857161,0 18.41061242374968,-33.92915199295945,0 18.41036931873276,-33.92942452892087,0 18.41091344233531,-33.92974838037546,0 18.41138725492304,-33.92925233926189,0 18.4111340969406,-33.9290488119751,0 18.41084011205113,-33.92931024857161,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>MSK House</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.42027706531464,-33.91793053933451,0 18.42023150137324,-33.91793355345373,0 18.41984736343203,-33.91826625466788,0 18.41984427174346,-33.91829810978467,0 18.41994125672259,-33.91842261721931,0 18.42039672724667,-33.91802114138642,0 18.42027706531464,-33.91793053933451,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Netcash</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.5182955535764,-33.8048710149926,0 18.51858289347988,-33.80532042631445,0 18.51894976319946,-33.80515980469187,0 18.51875848337078,-33.80488358042065,0 18.51869225537677,-33.80487430451053,0 18.51856375029532,-33.80475980522736,0 18.5182955535764,-33.8048710149926,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Howard Terraces</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.50881935380829,-33.93429373106446,0 18.50913260130737,-33.93451215305932,0 18.5094435429015,-33.93418078757336,0 18.50913109188842,-33.93396302704456,0 18.50881935380829,-33.93429373106446,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Regent Square Block A</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.48044387718066,-33.99448576940836,0 18.48028038547688,-33.99461993379973,0 18.48007005917656,-33.99462477349641,0 18.48006431483054,-33.99475133508497,0 18.48061341939312,-33.99477377964219,0 18.48062959556387,-33.99432412285294,0 18.48045199758344,-33.99431622877621,0 18.48044387718066,-33.99448576940836,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Sir Lowry Studios</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.43754280581904,-33.92750478385852,0 18.43754246429077,-33.92718154158199,0 18.43731005525078,-33.92717331824709,0 18.43730047685322,-33.9274994423925,0 18.43754280581904,-33.92750478385852,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Somerset Square</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.41717543159844,-33.91353081821463,0 18.41652826880323,-33.91259075091814,0 18.4160248915336,-33.91291275887235,0 18.41547035209015,-33.91329231856366,0 18.41592051802932,-33.91367149949569,0 18.41598523879645,-33.91375158731466,0 18.41610570722392,-33.91393895411931,0 18.41640403815858,-33.91380740699571,0 18.41657054660609,-33.9137298551106,0 18.41665576847333,-33.91379872851593,0 18.41717543159844,-33.91353081821463,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Waterford House</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46980414661923,-34.04065079996588,0 18.47026542075915,-34.04068074792121,0 18.47031827256324,-34.04005168732618,0 18.46985575453707,-34.04001901266296,0 18.46980414661923,-34.04065079996588,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Synchron House</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.52593335407661,-33.87100993980833,0 18.52596923372598,-33.87103062691851,0 18.52615865723795,-33.87090898739733,0 18.52612278354206,-33.87086160276863,0 18.52619081673226,-33.87080818661889,0 18.52608374722114,-33.87068368553769,0 18.52627697622622,-33.87053874182533,0 18.52599896350056,-33.87025463341798,0 18.52575867536755,-33.87041386464333,0 18.52588723018558,-33.87054135761501,0 18.5257722227843,-33.87063020860255,0 18.52569015977787,-33.870529341069,0 18.5255942190595,-33.87059766130648,0 18.5256470764209,-33.87066284820174,0 18.52549082548625,-33.87076668783215,0 18.5254977979712,-33.87078745129718,0 18.52538792545186,-33.87087334768876,0 18.52566515737837,-33.87115540404867,0 18.52570424040883,-33.87111990079568,0 18.52574741699739,-33.87115240305769,0 18.52593335407661,-33.87100993980833,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Sovereign Quay</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.41791018778549,-33.91417410072783,0 18.41809184400216,-33.91410665861334,0 18.41763463854818,-33.91318597804892,0 18.4173858985098,-33.91329936095499,0 18.41791018778549,-33.91417410072783,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Waverley Business Park</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46999628987649,-33.94301500584739,0 18.47010835748634,-33.94335869309852,0 18.47154789516118,-33.94295444988349,0 18.47187868224501,-33.94365768803067,0 18.47285072212899,-33.94339483610212,0 18.47268061565557,-33.94276575506424,0 18.47258001112822,-33.94243169568683,0 18.47232193130488,-33.94193887843914,0 18.47158076328635,-33.94227422708457,0 18.46999628987649,-33.94301500584739,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Anansi Business Park</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.65088214976232,-33.83071361606142,0 18.65057366884527,-33.83105867777336,0 18.65081352473917,-33.83121583688112,0 18.65064408228313,-33.83137252361144,0 18.6509375993169,-33.83157525361455,0 18.651425012976,-33.83113900152414,0 18.65088214976232,-33.83071361606142,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Asla Business Park</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.85322783974772,-34.10601097652313,0 18.85444850392913,-34.10698313701376,0 18.85458557371529,-34.10689330313203,0 18.85508030294599,-34.10719641404373,0 18.85579321713406,-34.10648681841416,0 18.8554474326458,-34.1062573668755,0 18.85628806674033,-34.1054322708453,0 18.85308599762391,-34.10276203484744,0 18.85142000249978,-34.10406637099441,0 18.85322783974772,-34.10601097652313,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Waverly Court</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46987914363139,-33.94416937612764,0 18.46998901283684,-33.94410603439925,0 18.46973964634776,-33.94378018248256,0 18.46979838938508,-33.94373210504756,0 18.46969925602881,-33.94361368287827,0 18.46947002289182,-33.94372833061011,0 18.46987914363139,-33.94416937612764,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Capricorn Park</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.48500284032091,-34.09384520386059,0 18.48523723403927,-34.0955820898848,0 18.48541126118656,-34.09560310994353,0 18.49043189212773,-34.09545614569575,0 18.49117884311853,-34.09643201970746,0 18.49176780191057,-34.09683552131041,0 18.49436312965604,-34.0955303908365,0 18.49229309053552,-34.09340951342239,0 18.49254719858567,-34.09299917606381,0 18.49147549018924,-34.0919222069872,0 18.49141905274616,-34.09073677251367,0 18.48941751914994,-34.09072850006751,0 18.48818651655562,-34.08911357904514,0 18.48962067951015,-34.08818914235305,0 18.48947965121189,-34.08696480088623,0 18.48493272305626,-34.08710595921438,0 18.48500284032091,-34.09384520386059,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>5 Howe Street FTTB</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46867969962894,-33.93420652391811,0 18.46873996318123,-33.9343980074779,0 18.46852855956304,-33.934426594787,0 18.46865046349855,-33.93476852402633,0 18.46884910177456,-33.93474711880958,0 18.46895736422462,-33.9348489124866,0 18.46938862217887,-33.93473635255283,0 18.46930826682442,-33.93454961384816,0 18.46908988117184,-33.93440211828447,0 18.46901006088034,-33.93421533505551,0 18.46867969962894,-33.93420652391811,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Old Castle Breweries</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.4469859398813,-33.92456195088663,0 18.44690242059457,-33.92509892043034,0 18.44863094662564,-33.92527280590521,0 18.44888721700344,-33.92465900647822,0 18.4469859398813,-33.92456195088663,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Buchannan Square</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.43624103035443,-33.9276251153785,0 18.43617006943297,-33.92836648706597,0 18.43781202856939,-33.92845508996498,0 18.43786731934894,-33.92771400455904,0 18.43624103035443,-33.9276251153785,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>42 Keerom Street</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.41684337819167,-33.9252332343404,0 18.4165862786899,-33.92543986473552,0 18.4167047505796,-33.92552306218731,0 18.41693658982234,-33.92532518235456,0 18.41694319844597,-33.92531150533033,0 18.41684337819167,-33.9252332343404,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>St Michaels Park</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.46877957728683,-33.93492004650018,0 18.46895789422676,-33.93522327554708,0 18.4688556104942,-33.93525524868125,0 18.46894462521709,-33.93544320061113,0 18.46942528274209,-33.93527536667692,0 18.46978857409741,-33.93516995730106,0 18.46964216196518,-33.93466701224475,0 18.46877957728683,-33.93492004650018,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Soho on Strand</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.41835267633597,-33.91810581696984,0 18.41885876879837,-33.91762758338498,0 18.41857744668349,-33.91744505945863,0 18.41848560922977,-33.91755469870709,0 18.41861446133183,-33.9176579049179,0 18.41832278826875,-33.91789313554049,0 18.41819018285992,-33.9177991167057,0 18.41808447666894,-33.9178788002173,0 18.41835267633597,-33.91810581696984,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Regent Square Block B</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.47914138732415,-33.99529625503208,0 18.47964855575062,-33.99526418357407,0 18.47966233451477,-33.99484522226337,0 18.47912132974541,-33.99483072379228,0 18.47914138732415,-33.99529625503208,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Northgate Island</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.48196861484091,-33.91587119741386,0 18.48300985491763,-33.91636109085443,0 18.48434632906885,-33.91674481400643,0 18.48560085098974,-33.91653702669689,0 18.48554364663095,-33.91619514267569,0 18.48207990928363,-33.91556916466207,0 18.48196861484091,-33.91587119741386,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Hill House</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.41680535037793,-33.91439356724889,0 18.41754507831857,-33.91407729640329,0 18.41741500537755,-33.9139055286305,0 18.41669930952327,-33.91420640672678,0 18.41680535037793,-33.91439356724889,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Bofors Two</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.56492421452345,-33.93547198218177,0 18.56629174250636,-33.93555101863766,0 18.56630540666928,-33.93492648295264,0 18.56495043307188,-33.93487424405677,0 18.56492421452345,-33.93547198218177,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>N1 City Mews</name>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.56075462957486,-33.89442798306185,0 18.56095367064352,-33.89439627013611,0 18.56084834631716,-33.89393742184775,0 18.56062752489871,-33.8939764249677,0 18.56075462957486,-33.89442798306185,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Silverwood Close</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.43470619205737,-34.08151278491364,0 18.43511785897799,-34.08171117976509,0 18.43521286024122,-34.08158930555602,0 18.43496518682399,-34.08145572585337,0 18.43499158406716,-34.08142519844233,0 18.43483655978163,-34.08132204214143,0 18.43470619205737,-34.08151278491364,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Bonitas</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.63047409314851,-33.87968748162722,0 18.6314983148193,-33.87961798877209,0 18.63133007108536,-33.87906239871234,0 18.63034698592976,-33.87912989822367,0 18.63047409314851,-33.87968748162722,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Nolands Building</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.47791162045271,-33.94678239129359,0 18.47825838638616,-33.94667965444334,0 18.47825838510201,-33.94628925562857,0 18.47806023419544,-33.94630980317612,0 18.47813454117445,-33.94652554978921,0 18.47783731386571,-33.94655637073139,0 18.47791162045271,-33.94678239129359,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Media Quarter</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									18.41686463470416,-33.91405825806199,0 18.41708221688841,-33.91396389983656,0 18.41692848041809,-33.91373124959495,0 18.41672262763489,-33.91381135418547,0 18.41686463470416,-33.91405825806199,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>JHB</name>
+			<Folder>
+				<name>FTTB</name>
+				<Placemark>
+					<name>2929 on Nicol</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.02021695025335,-26.05504719574508,0 28.02038106615402,-26.05509166124551,0 28.02043577061542,-26.0552578208229,0 28.02170441084044,-26.05496762472055,0 28.02139440969288,-26.05390982441132,0 28.02089425265899,-26.05401981875547,0 28.02074837334367,-26.05390046461959,0 28.01995905936941,-26.05409704381608,0 28.02021695025335,-26.05504719574508,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>158 Jan Smuts</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.03560536311255,-26.1470930599448,0 28.03563051757812,-26.147238581205,0 28.03648579157518,-26.14709807824737,0 28.03637678528257,-26.1466188628266,0 28.03573393508852,-26.14673427546825,0 28.03560536311255,-26.1470930599448,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Fourways Office Park</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.00383223525413,-26.01639769190343,0 28.00362289344159,-26.01667640526231,0 28.00251802709851,-26.01667292234806,0 28.00245987601021,-26.01676698718667,0 28.00195589939744,-26.01676001577921,0 28.00195590011365,-26.01656143355953,0 28.00159148474913,-26.01651613823953,0 28.00123869713538,-26.01657535919366,0 28.0012270623118,-26.01708052565916,0 28.0020140425994,-26.01793756983516,0 28.00246762408363,-26.01822673377113,0 28.00275838255727,-26.0182232500047,0 28.00399118720141,-26.01725821106373,0 28.0039640438561,-26.01637330328129,0 28.00383223525413,-26.01639769190343,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Renaissance</name>
+					<open>1</open>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.04350837061029,-26.20728842233298,0 28.0441548709555,-26.20721811128992,0 28.04411379294703,-26.20689519930711,0 28.0434395960551,-26.20696697545772,0 28.04350837061029,-26.20728842233298,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Oxford Business Park</name>
+					<open>1</open>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.18499151415445,-25.88079876876007,0 28.18409199834615,-25.88038543228947,0 28.18362471005025,-25.88132561500072,0 28.18323299693914,-25.88217318234755,0 28.18248680077656,-25.88254526986583,0 28.18263044838103,-25.88303057639184,0 28.18306781306714,-25.88380160443652,0 28.18394813078351,-25.8833418271392,0 28.18591392999234,-25.88176457767695,0 28.18499151415445,-25.88079876876007,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Morningside Close</name>
+					<open>1</open>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.066502156816,-26.07456404271921,0 28.06605718413182,-26.07456999192523,0 28.06581316583659,-26.07374627641666,0 28.06609941333716,-26.07342743761312,0 28.06583965986608,-26.07374333542326,0 28.06585501438436,-26.07374573250463,0 28.06586116140725,-26.07374669207439,0 28.06588194092208,-26.07375262883177,0 28.06589164369584,-26.07374211360087,0 28.06589854930969,-26.07371968318453,0 28.06593423027599,-26.07365704022425,0 28.06604057660041,-26.07348057753042,0 28.06610952027354,-26.07336427590869,0 28.06614620392653,-26.07329561321783,0 28.06615966399202,-26.07329824198295,0 28.06615794339658,-26.07332496943082,0 28.06615762489965,-26.07334729127654,0 28.06616040771125,-26.07333895328449,0 28.06567585083864,-26.07284902565442,0 28.06487056448918,-26.07311891906364,0 28.0652260780374,-26.0747233609666,0 28.06646926860023,-26.07470009004982,0 28.066502156816,-26.07456404271921,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Fredman Towers - 13 Fredman</name>
+					<open>1</open>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.0547352198946,-26.10198170372892,0 28.05427125134906,-26.1009820341102,0 28.05370077762466,-26.10121229246474,0 28.05413782785354,-26.10224052840084,0 28.0547352198946,-26.10198170372892,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>High Court</name>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.04458844758365,-26.20285430618234,0 28.04609272405066,-26.20266024457231,0 28.04596835739697,-26.20182716435754,0 28.04446426729687,-26.20199144691316,0 28.04458844758365,-26.20285430618234,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Bryanston Gate Bus Park</name>
+					<open>1</open>
+					<styleUrl>#m_ylw-pushpin02</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.0114896952538,-26.07488871622888,0 28.00987739867082,-26.07621717538624,0 28.01088553846952,-26.07715525023755,0 28.01194324636291,-26.07518945711772,0 28.01168169421027,-26.07469675405406,0 28.0114896952538,-26.07488871622888,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Sami G office square</name>
+					<open>1</open>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.16443413515107,-26.1638650120534,0 28.16427899382112,-26.16363022985866,0 28.16454924843995,-26.16381514604121,0 28.16455471129471,-26.16381521741794,0 28.16458729125792,-26.16381023463311,0 28.16460319433558,-26.16379440672375,0 28.16460253147783,-26.16376819546031,0 28.16460180049461,-26.16372753642335,0 28.16445317080909,-26.16378820313045,0 28.16459232610076,-26.16379455476435,0 28.16456823292329,-26.16358512205207,0 28.16456444337614,-26.16368935326973,0 28.16452413901503,-26.16369094046717,0 28.164491459985,-26.16370117373321,0 28.16447830004451,-26.16372603082352,0 28.1644624411085,-26.16374151238226,0 28.1644420422323,-26.16378273495991,0 28.16443735952877,-26.16380342583756,0 28.16442236603914,-26.16383928294482,0 28.16440207502365,-26.16387963625198,0 28.16439214883772,-26.1639001807948,0 28.16439057521642,-26.16391945188619,0 28.16437496338344,-26.16391532299831,0 28.16437643012785,-26.16391652972143,0 28.16438967047385,-26.16392219570037,0 28.16441410084703,-26.1639458042645,0 28.16444348252812,-26.1639727087139,0 28.16445499186984,-26.16397806221391,0 28.16448902907217,-26.16398322201056,0 28.16450580696391,-26.16398270569132,0 28.16454349962056,-26.16397185375935,0 28.16458553042562,-26.16397500403203,0 28.16460343705466,-26.16397380644935,0 28.16463852004205,-26.16396485755196,0 28.16467930606593,-26.16395457261173,0 28.1646787695554,-26.16392264640383,0 28.16471281727053,-26.16390693207895,0 28.16473649467578,-26.16390262928627,0 28.16475345172794,-26.16389216452087,0 28.16476460664146,-26.16387095113165,0 28.16476430533355,-26.16384419896923,0 28.16475738865641,-26.16380546129236,0 28.16473972306548,-26.1637728127881,0 28.16473366905416,-26.16375097115993,0 28.16472175150472,-26.16372362172714,0 28.16470973146505,-26.16369082232364,0 28.16469187734849,-26.16365797289254,0 28.16468575905571,-26.16363611593761,0 28.16467554798399,-26.16360991507038,0 28.16466051933205,-26.16360351272196,0 28.16463786600713,-26.16358042004023,0 28.16462040030924,-26.163564183554,0 28.16460288759248,-26.16355274173932,0 28.16456151244294,-26.16350122700382,0 28.16452016808676,-26.16347932817615,0 28.16448490450405,-26.1634736372986,0 28.16445550105061,-26.16347307833812,0 28.16442063421146,-26.16347390541821,0 28.16439091796579,-26.16347239490677,0 28.16437046786216,-26.16352641498432,0 28.16434233553692,-26.16353734341732,0 28.16430908664899,-26.16350781846079,0 28.16426911866667,-26.163540407623,0 28.16425272649808,-26.16356319340358,0 28.16423148793252,-26.16359801036666,0 28.16423091373857,-26.16366525736491,0 28.16422631501696,-26.16369191781828,0 28.16421615107453,-26.16371868117451,0 28.16421151272721,-26.16374018257746,0 28.16420815410962,-26.1637834705955,0 28.16420872958032,-26.16379425801194,0 28.16421061165753,-26.16383164162382,0 28.16421132303886,-26.16384742633325,0 28.16421336355172,-26.16389444275013,0 28.16422104802118,-26.16393175949105,0 28.16421994810407,-26.16394849661934,0 28.16421936366765,-26.16395670092978,0 28.16424263493522,-26.16399175490584,0 28.16426567205999,-26.1640214976989,0 28.16429536064184,-26.16405304731689,0 28.16431410574457,-26.16407085465865,0 28.1643447293538,-26.16411020789278,0 28.16437916910661,-26.16414209297141,0 28.16439491210529,-26.16414523993108,0 28.16442546809467,-26.16413746208458,0 28.16446563988778,-26.16413961213756,0 28.16449455043088,-26.16414190675111,0 28.16453516945988,-26.16416079793338,0 28.16457945129027,-26.1641358603868,0 28.16460142079964,-26.16413018641902,0 28.16461814714845,-26.16412543203244,0 28.16463062485117,-26.16409072773564,0 28.1646359216896,-26.16407005570096,0 28.16464699987819,-26.16405462252243,0 28.16479876134348,-26.16386583328163,0 28.16468064221141,-26.16403869295405,0 28.16465737294957,-26.16400209054908,0 28.16466828325505,-26.16397574879828,0 28.16466804341059,-26.16396002666121,0 28.1646789250169,-26.16393318476045,0 28.16469559439442,-26.16390153223781,0 28.16471261452674,-26.16389107591327,0 28.16472386554866,-26.16387528282189,0 28.16474634449608,-26.16384305788076,0 28.16476406376979,-26.16382273145475,0 28.16478653371809,-26.16377996097491,0 28.16479780840471,-26.16375846586018,0 28.16480331125955,-26.16373137287508,0 28.16480255032793,-26.16368844224968,0 28.16478489446794,-26.16367531205485,0 28.16474421503617,-26.16366911997456,0 28.1647325491626,-26.16366357031358,0 28.16470926940037,-26.16365795630031,0 28.16466841038132,-26.16364148280476,0 28.16465796823575,-26.16373510436251,0 28.16463464704617,-26.16371817949732,0 28.16456807226702,-26.16369108314424,0 28.16452450759972,-26.16367823092896,0 28.16439913225129,-26.16354810936486,0 28.16436317734849,-26.16354622535882,0 28.16435941316081,-26.16354702194176,0 28.16443413515107,-26.1638650120534,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Northlands Bus Park</name>
+					<open>1</open>
+					<styleUrl>#m_ylw-pushpin02</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									27.95128339462331,-26.0366119145555,0 27.95199981154565,-26.03576966858406,0 27.95038636651132,-26.03467476431247,0 27.94987402898661,-26.03553001831739,0 27.95128339462331,-26.0366119145555,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Micro Park</name>
+					<styleUrl>#m_ylw-pushpin01</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									27.97425872543912,-26.08295378934359,0 27.97526602804211,-26.08296069302426,0 27.97526757596728,-26.0820799443173,0 27.97426265445342,-26.08204375831327,0 27.97425872543912,-26.08295378934359,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Hamptons Business Park</name>
+					<styleUrl>#m_ylw-pushpin01</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.0188508271461,-26.03883320452954,0 28.01866438911069,-26.03794288312687,0 28.01855640198972,-26.03788368362484,0 28.01805731839528,-26.03807734103045,0 28.01707119924395,-26.03851243839332,0 28.01641277716002,-26.03856879102466,0 28.0158001735745,-26.03880526498693,0 28.01568072618578,-26.03936252925726,0 28.01568294787167,-26.03995395541307,0 28.01616836647719,-26.04024978427588,0 28.01687700599897,-26.04003034245027,0 28.01899207010518,-26.03947660692237,0 28.01887842634858,-26.03894169164799,0 28.0188508271461,-26.03883320452954,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Woodlands Office Park</name>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.08539037344009,-26.0630868404589,0 28.08849738950752,-26.06269677628731,0 28.08841012748557,-26.06043238484834,0 28.08538941802758,-26.06061308494775,0 28.08539037344009,-26.0630868404589,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Constantia House</name>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									27.92638649402303,-26.14864139138956,0 27.92803375787916,-26.14829178590759,0 27.92785236059709,-26.147274737555,0 27.9264393698436,-26.14769819307243,0 27.92638649402303,-26.14864139138956,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Pinewood Office Park</name>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.07478798929844,-26.04099950954108,0 28.07462781427155,-26.04096321871018,0 28.07222678202013,-26.04060526686395,0 28.07201947161064,-26.04064931090921,0 28.07187480492071,-26.04081758701729,0 28.07317626052733,-26.04172354983922,0 28.07344779685987,-26.04183669990049,0 28.0742130435839,-26.04180845829557,0 28.07512925086804,-26.04173772674456,0 28.07628421577511,-26.04170229183454,0 28.07744225050586,-26.04181550140047,0 28.07791387615959,-26.04185784394132,0 28.07795415849118,-26.04152450377622,0 28.07511579269524,-26.04106472511829,0 28.07510784911009,-26.04105024464958,0 28.07478798929844,-26.04099950954108,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Atterbury estate</name>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.28009138225958,-25.78424338704382,0 28.2809437158255,-25.78445057893049,0 28.28146829098059,-25.78327216788031,0 28.28068842589569,-25.78303706895171,0 28.28009138225958,-25.78424338704382,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Willow Crest</name>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									27.87644252480795,-26.09882347550166,0 27.87667277982282,-26.09902587591839,0 27.87701384860627,-26.09875613994415,0 27.87678906311775,-26.09854074871817,0 27.87644252480795,-26.09882347550166,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Inanda Greens</name>
+					<styleUrl>#msn_ylw-pushpin01</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.05918436699791,-26.11407846384239,0 28.05920645495949,-26.11405863008766,0 28.05922854291408,-26.11403879651384,0 28.05928376336048,-26.1140189625929,0 28.05935002797113,-26.11400904551189,0 28.05939420436212,-26.11399912853554,0 28.05943838091205,-26.11399912828313,0 28.0595046453879,-26.11397929442044,0 28.05960404231937,-26.11395946013918,0 28.05974761589032,-26.11393962567162,0 28.05994640973777,-26.11389004008055,0 28.06008998329665,-26.11386028853241,0 28.06022251318537,-26.11385037055116,0 28.06025564578455,-26.11385037022774,0 28.06000160798716,-26.11275953100784,0 28.05887512266074,-26.11304712474811,0 28.05918436699791,-26.11407846384239,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Hazeldean office park</name>
+					<styleUrl>#msn_ylw-pushpin01</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.3606513694201,-25.78374870973131,0 28.36202802191059,-25.78480980063511,0 28.36274387734246,-25.78430404127398,0 28.36152140368918,-25.78260829076157,0 28.3606513694201,-25.78374870973131,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Nzuza House</name>
+					<styleUrl>#msn_ylw-pushpin01</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.03598990783479,-26.19304037853652,0 28.03640822645092,-26.1930021033225,0 28.03637600242627,-26.19275830618114,0 28.0359560475539,-26.19278390941034,0 28.03598990783479,-26.19304037853652,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Wild Fig</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									27.92594081459058,-26.0775979830565,0 27.92521620383606,-26.07704883230374,0 27.92452555289257,-26.07816747135264,0 27.92547661073938,-26.07854374426028,0 27.92594081459058,-26.0775979830565,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>38 Melle st</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.03582858582276,-26.19221572715888,0 28.03613491272925,-26.19220737256794,0 28.03608492548115,-26.19200299150459,0 28.03580929265852,-26.19203326861215,0 28.03582858582276,-26.19221572715888,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Lumley House</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.03432687901956,-26.14766588834678,0 28.03474307598787,-26.14778822500014,0 28.03487918186513,-26.14742361663809,0 28.03445762595202,-26.14730873101562,0 28.03432687901956,-26.14766588834678,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Bryanston Office Park</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.0225612524537,-26.04605707246188,0 28.02249303709709,-26.04658487190131,0 28.022886298267,-26.04662110028731,0 28.0229216644867,-26.04610252508554,0 28.0225612524537,-26.04605707246188,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Menlyn Square, Aramist Ave</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.27768065935747,-25.78631527211933,0 28.2784539924474,-25.78654575401015,0 28.2785288892709,-25.78637520132303,0 28.27776629644208,-25.78616073178619,0 28.27768065935747,-25.78631527211933,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>16 Skeen Blv</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.13244666781411,-26.17665843605746,0 28.13292701115016,-26.17664243899647,0 28.13289618545407,-26.1763554459165,0 28.13245015053859,-26.1763993046558,0 28.13244666781411,-26.17665843605746,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Lakefield</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.19415186281915,-25.85445698210927,0 28.19331592221376,-25.85528029020365,0 28.19376430912242,-25.85559081188157,0 28.19410264780779,-25.85542246896544,0 28.19518313060356,-25.85576222301091,0 28.19548653287301,-25.85538849873215,0 28.19415186281915,-25.85445698210927,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Design Quarter</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.0101947272447,-26.03119260889679,0 28.01177917198552,-26.03118061620714,0 28.01211710315551,-26.03224722489829,0 28.01357310108771,-26.03202742979514,0 28.01316089051218,-26.03039178676354,0 28.01311989146554,-26.03039178714688,0 28.01308572564559,-26.03039178745281,0 28.01305155983345,-26.03039178774646,0 28.01302438341324,-26.03038546436835,0 28.01297712839931,-26.0303601447144,0 28.01290267800394,-26.03032208822643,0 28.01280747609948,-26.03028393905632,0 28.01260248546885,-26.03022015010876,0 28.01254752008867,-26.03022015030373,0 28.0125062960583,-26.03022015042819,0 28.01247881337335,-26.03022015050079,0 28.01361169420739,-26.03203310615044,0 28.01247216652679,-26.03018815813037,0 28.01014496904241,-26.0298384154875,0 28.0101947272447,-26.03119260889679,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>KING FISHER OFFICE PARK 1</name>
+					<styleUrl>#msn_ylw-pushpin0</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.09910636587126,-26.28604710692747,0 28.0992912674545,-26.28580472954638,0 28.09893541504144,-26.28553092230109,0 28.09870084830406,-26.28578036728979,0 28.09910636587126,-26.28604710692747,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>NMS RETAIL &amp; OFFICE</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.05364082122275,-26.10734202461579,0 28.054910137451,-26.10810183821601,0 28.05507969589043,-26.10786081113,0 28.05426617010409,-26.10735283063744,0 28.05465555099292,-26.10683571286873,0 28.05444787410414,-26.10657742504218,0 28.05364082122275,-26.10734202461579,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>COMMERCE SQUARE</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.04543797677323,-26.11859099786948,0 28.04535998992141,-26.11950052394857,0 28.04599048634492,-26.11982018575319,0 28.04671820007084,-26.11960918948734,0 28.04625815303118,-26.11833972574005,0 28.04543797677323,-26.11859099786948,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>SANDTON OFFICE TOWERS</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.0539626764492,-26.1081210164174,0 28.05373082309599,-26.10850147931445,0 28.05431492568604,-26.10873282098949,0 28.05464787709077,-26.10838039941315,0 28.0539626764492,-26.1081210164174,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>SANDTON CITY RETAIL</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.05298328368166,-26.11064362492354,0 28.05418059103972,-26.11007924211513,0 28.05436577407494,-26.10913397645975,0 28.05283651341983,-26.10822336427838,0 28.05184284231827,-26.10776847051533,0 28.05099044897466,-26.10801034738642,0 28.05015573919532,-26.10916503345959,0 28.05298328368166,-26.11064362492354,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>EDENBURG TERRACES</name>
+					<styleUrl>#msn_ylw-pushpin4</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.06018023155721,-26.05458983939397,0 28.06024790979692,-26.05561716968477,0 28.06103722538104,-26.05558486676131,0 28.06100501037611,-26.05502953206385,0 28.06158473974175,-26.0549557586888,0 28.06153666952536,-26.05453189510009,0 28.06018023155721,-26.05458983939397,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>BRAAMPARK</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.03807814553977,-26.1886536838876,0 28.03826725518989,-26.18995595799533,0 28.04108466892754,-26.18963609428551,0 28.04086766667113,-26.18840827658509,0 28.03807814553977,-26.1886536838876,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>MEDICAL MEWS</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.05329635200451,-26.10788296882358,0 28.05312044952598,-26.10814821304671,0 28.05340585635567,-26.1083182684951,0 28.05362750992241,-26.1080431964591,0 28.05329635200451,-26.10788296882358,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>THE ATRIUM</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.05226667777828,-26.10766019545068,0 28.05296909655097,-26.10805111321111,0 28.05321767698197,-26.10776585579732,0 28.0524764180164,-26.10737852655557,0 28.05226667777828,-26.10766019545068,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>HERENGRACHT</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.03601691891335,-26.19347157727516,0 28.03651967246444,-26.19342349992182,0 28.03646598189908,-26.19311683620833,0 28.03596267459941,-26.19314836658188,0 28.03601691891335,-26.19347157727516,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>CORNER ON MAIN</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.02121630864347,-26.06252638179886,0 28.02223434544867,-26.06278806413162,0 28.02242691239548,-26.06225082692777,0 28.02148535771452,-26.06192701232377,0 28.02121630864347,-26.06252638179886,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>WOODHILL OFFICE PARK</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.10292025065379,-26.29263378842509,0 28.10391918112759,-26.29216135416849,0 28.10339628113538,-26.29104676269567,0 28.10245980552251,-26.2917086349628,0 28.10292025065379,-26.29263378842509,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>54 GLENHOVE</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.05498421065761,-26.14694043093388,0 28.05516880067146,-26.1475345720308,0 28.05592497542702,-26.14734820158315,0 28.05574951277982,-26.14672348724876,0 28.05498421065761,-26.14694043093388,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>THE FORUM</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.05329598105841,-26.10698473528559,0 28.05363177011762,-26.10719765248837,0 28.05381035656844,-26.10693754425748,0 28.05352012254868,-26.10670728805637,0 28.05329598105841,-26.10698473528559,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>MEYERSDAL OFFICE PARK</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.10299915187157,-26.2927273778608,0 28.1031414865089,-26.29294006201257,0 28.10323053352966,-26.29330569444583,0 28.10367815001422,-26.29332729263815,0 28.10430403090082,-26.29287323011564,0 28.10393132612506,-26.29224503255455,0 28.10308003201072,-26.29264084476263,0 28.10299915187157,-26.2927273778608,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>ECO OFFICE PARK</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.08842514956747,-26.28872836030118,0 28.08875393589123,-26.28989908243614,0 28.08966863747084,-26.28951285176133,0 28.08927339892726,-26.28834348512066,0 28.08842514956747,-26.28872836030118,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>BEDFORDVIEW HQ</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.1244000665305,-26.18673542704258,0 28.12453593473245,-26.18733751335847,0 28.12586166991878,-26.18733710630496,0 28.12587074207272,-26.18672037197493,0 28.1244000665305,-26.18673542704258,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>25 OWL STREET</name>
+					<styleUrl>#msn_ylw-pushpin5</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.01978391449456,-26.18469067536762,0 28.01999412746391,-26.18443254267508,0 28.01973872322737,-26.18426763778506,0 28.01951707410396,-26.18450801200745,0 28.01978391449456,-26.18469067536762,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>3 GWEN LANE</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.05570743977876,-26.10197888218327,0 28.05630379970306,-26.10310520625537,0 28.05671700546107,-26.10292395860911,0 28.05615489089667,-26.10177525123154,0 28.05570743977876,-26.10197888218327,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>ISLE OF HOUGHTON</name>
+					<styleUrl>#msn_ylw-pushpin3</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.04936351986985,-26.1777175948912,0 28.04927222461679,-26.17973450680753,0 28.05045561532392,-26.17967867534704,0 28.05054762372701,-26.17893678009923,0 28.05121230838611,-26.17867038839717,0 28.05164583804084,-26.17868938755202,0 28.05173878392486,-26.17791975080468,0 28.05152217047044,-26.17741884205399,0 28.05004363171707,-26.17734077849406,0 28.04936351986985,-26.1777175948912,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>WILLOWVALE OFFICE PARK</name>
+					<styleUrl>#PolyStyle0031</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									27.87684358651658,-26.09943917779839,0 27.87711770813358,-26.09974414099317,0 27.87763167626969,-26.09933733478156,0 27.87733767771542,-26.09903276880903,0 27.87684358651658,-26.09943917779839,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>57 6th STREET</name>
+					<styleUrl>#msn_ylw-pushpin10</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.03507201210109,-26.12308782677815,0 28.03557746732533,-26.12207496159406,0 28.03484080466264,-26.12173842916979,0 28.03446993653351,-26.12282340702502,0 28.03507201210109,-26.12308782677815,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>INFINITY OFFICE PARK</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.08941589651089,-26.28830273189748,0 28.08992036101568,-26.28937453063792,0 28.09176030842915,-26.28853664829978,0 28.09151746550086,-26.28807889365005,0 28.09119285566581,-26.28810068419207,0 28.0905904440548,-26.28792260117804,0 28.08941589651089,-26.28830273189748,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>CEDAR TREE OFFICE PARK</name>
+					<styleUrl>#msn_ylw-pushpin3</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									27.99494681085194,-26.0100624832668,0 27.99455364314985,-26.01062926004741,0 27.99548298409203,-26.011276512653,0 27.9961273937871,-26.01190155833757,0 27.99657644554491,-26.01150634021144,0 27.99494681085194,-26.0100624832668,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>NMS Offices</name>
+					<styleUrl>#msn_ylw-pushpin00</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.05466614635078,-26.10681690522964,0 28.05445963398928,-26.10658737886664,0 28.05366764135327,-26.10732341961719,0 28.05488950058898,-26.10807771247635,0 28.0550592092827,-26.10787293610688,0 28.05428923469641,-26.10735068885506,0 28.05466614635078,-26.10681690522964,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>BRYANSTON RIVERSIDE JUNCTION</name>
+					<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.04598201760485,-26.05977061121193,0 28.04634180289275,-26.05988004452677,0 28.04656391828519,-26.05970900037386,0 28.04658917289681,-26.05956709617341,0 28.04646972107904,-26.05911120473763,0 28.04597556072346,-26.0591123120168,0 28.04563993180378,-26.05946061443112,0 28.04598201760485,-26.05977061121193,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>SAPOR HOUSE</name>
+					<styleUrl>#msn_ylw-pushpin000</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									28.06598074678731,-26.27744324023421,0 28.0662052222278,-26.27730621658519,0 28.06605796446238,-26.27711803442966,0 28.06583065348374,-26.27723326715476,0 28.06598074678731,-26.27744324023421,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>DBN</name>
+			<Placemark>
+				<name>N2 Business Park</name>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								31.06272309631948,-29.71821954128027,0 31.063031396054,-29.71841787562703,0 31.06370508672087,-29.71781295673361,0 31.06332827660606,-29.71752537384312,0 31.06272309631948,-29.71821954128027,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>EDSTON PARK</name>
+				<styleUrl>#msn_ylw-pushpin0022</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								30.99321433218836,-29.77345258167133,0 30.99365535279414,-29.77444529972768,0 30.99367095240684,-29.77447246988425,0 30.99373347330358,-29.77454010781012,0 30.9942945121239,-29.77515395402634,0 30.99560630839565,-29.77459392437861,0 30.99446283944572,-29.7724312695294,0 30.99321433218836,-29.77345258167133,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Accord House</name>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								31.05289588797418,-29.71679287530459,0 31.05322702027502,-29.7168027920601,0 31.05324985637209,-29.71642595803482,0 31.05291872537869,-29.71638629128492,0 31.05289588797418,-29.71679287530459,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
