@@ -222,6 +222,13 @@ bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
               Go to map 
             </a>
         </li> 
+	<li>
+          <a href="<?php echo e(route('check-coverage')); ?>" class="bg-blue-400 text-white btn-sm py-2 px-2 rounded-full hover:bg-blue-600">
+            <!-- Plus icon -->
+              <i class="fa-solid fa-network-wired"></i>
+              Check Coverage 
+            </a>
+        </li> 
         </ul>
       </div>
     </div>

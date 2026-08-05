@@ -89,6 +89,8 @@ Route::get('/google-home', [GoogleController::class, 'googleviewboth'])->name('g
 
 Route::get('/map', [CreateController::class, 'showMap'])->name('show-map');
 
+Route::get('/network-availability', [DirectorController::class, 'NetworkSearch'])->name('check-coverage');
+
 Route::get('/', [DirectorController::class, 'landing'])->name('landing');
 
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
