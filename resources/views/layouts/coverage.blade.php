@@ -15,10 +15,10 @@
       <input type="text" id="web_source" class=" hidden text-center rounded-xl shadow-md w-2/3 text-black my-4 py-2 ">
       <input type="text" id="location_id" class=" hidden text-center rounded-xl shadow-md w-2/3 text-black my-4 py-2 ">
      </div>
-	<div class="flex justify-center">
-		<input type="text" id="google_latitude" placeholder="Lat" class=" text-center rounded-xl shadow-md text-black mx-4 py-2 ">
-		<input type="text" id="google_longitude" placeholder="lng" class=" text-center rounded-xl shadow-md text-black mx-4 py-2 ">
-	<button class="bg-blue-400 text-white btn-sm py-2 px-2 rounded-full hover:bg-blue-600" id="checkButton">Start Looking</button>
+	<div class="flex flex-col md:flex-row justify-center items-center">
+		<input type="text" id="google_latitude" placeholder="Lat" class=" text-center rounded-xl shadow-md text-black m-2 py-2 ">
+		<input type="text" id="google_longitude" placeholder="lng" class=" text-center rounded-xl shadow-md text-black m-2 py-2 ">
+	<button class="bg-blue-400 text-white btn-sm m-2 py-2 px-2 rounded-full hover:bg-blue-600" id="checkButton">Start Looking</button>
 	</div>
   <div id="loader" class="flex items-center justify-center hidden">
       <div class="loader"></div>
@@ -39,7 +39,7 @@
 	<div class="m-2 w-60 my-2 animate-slow-grow bg-white rounded-xl shadow-md overflow-hidden transform transition-transform hover:scale-105">
             <img class="p-2" src="{{ Storage::url('demo-images/assets/frogfoot.png') }}" alt="frogfootlogo" style=>
 	</div>
-
+</div>
 
 <script>
 
