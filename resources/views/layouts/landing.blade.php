@@ -39,11 +39,17 @@
             </h1>
 
             <div class="text-center my-4">
-                <a href="{{ route('show-map') }}" class="bg-blue-500 text-white btn-sm py-2 px-2 rounded-full hover:bg-blue-600">
-                <!-- Plus icon -->
-                <i class="fa-solid fa-map-location-dot"></i>
-                Open map 
+                <a href="{{ route('show-map') }}" class="bg-blue-500 text-white btn-sm py-2 mx-2 px-2 rounded-full hover:bg-blue-600">
+	                <!-- Plus icon -->
+	                <i class="fa-solid fa-map-location-dot"></i>
+	                Open map 
                 </a>
+		 <a href="{{ route('check-coverage') }}" class="bg-blue-500 text-white btn-sm py-2 px-2 rounded-full hover:bg-blue-600">
+	                <!-- Plus icon -->
+	                <i class="fa-solid fa-network-wired"></i>
+	                Check Coverage
+                </a>
+
             </div>
             {{--<div class="text-center my-4">
                 <a href="{{ route('business_questionnaire') }}" class="bg-blue-500 text-white btn-sm py-2 px-2 rounded-full hover:bg-blue-600">

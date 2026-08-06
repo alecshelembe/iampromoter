@@ -72,12 +72,6 @@ class DirectorController extends Controller
         return view('layouts.promotions');
     }
 
-    public function NetworkSearch()
-    {
-        return view('layouts.coverage');
-    }
-
-
     public function viewInfluencers()
     {
         // Fetch users where the 'influencer' column is true

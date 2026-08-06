@@ -20,6 +20,7 @@ use App\Http\Controllers\GoogleController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\BusinessQuestionnaireController;
 use App\Http\Controllers\NotificationController;
+use App\Http\Controllers\FibreNetworkController;
 
 use Illuminate\Http\Request; 
 use Laravel\Socialite\Facades\Socialite;
@@ -89,7 +90,7 @@ Route::get('/google-home', [GoogleController::class, 'googleviewboth'])->name('g
 
 Route::get('/map', [CreateController::class, 'showMap'])->name('show-map');
 
-Route::get('/network-availability', [DirectorController::class, 'NetworkSearch'])->name('check-coverage');
+Route::get('/network-availability', [FibreNetworkController::class, 'NetworkSearch'])->name('check-coverage');
 
 Route::get('/', [DirectorController::class, 'landing'])->name('landing');
 
@@ -221,6 +222,10 @@ Route::get('/marketing', [DirectorController::class, 'viewInfluencers'])->name('
 Route::get('/refund-policy', [DirectorController::class, 'refunds'])->name('refund-policy');
 
 Route::get('/support', [DirectorController::class, 'support'])->name('support');
+
+Route::get('/search-metrofibre', [FibreNetworkController::class, 'metrofibre_check'])->name('metrofibre.check');
+
+Route::get('/search-frogfoot1', [FibreNetworkController::class, 'frogfoot1_check'])->name('frogfoot1.check');
 
 Route::get('/promotions', [DirectorController::class, 'promotions'])->name('promotions');
 

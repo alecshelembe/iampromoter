@@ -17,22 +17,6 @@ bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
         <ul class="Scibono-background flex flex-col font-medium p-2 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-          <li>
-            <!-- Payment Status Banner -->
-            @if(session()->has('payment_status') && session('payment_status') )
-                <div class="bg-green-300 text-center p-1 mb-1">
-                    C # {{ session('payment_status') }} 
-                </div>
-                
-            @endif
-
-            @if (session('success'))
-                <div class="text-center p-1 mb-1">
-                    <p class="mx-auto" style="background-color:#f5f5f5; color: green;"> {!! session('success') !!}</p>
-                </div>
-            @endif
-          </li> 
-          
         <li>
           <a href="{{ route('checkout') }}" class="bg-blue-700 text-white btn-sm py-2 px-2 rounded-full hover:bg-blue-600">
                 <i class="fa-solid fa-cart-shopping"></i> Checkout
@@ -262,5 +246,18 @@ bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
             </div>
         </form>
         <div id="searchResults"></div>
+	<!-- Status Banner -->
+            @if(session()->has('payment_status') && session('payment_status') )
+                <div class="bg-green-300 text-center p-1 mb-1">
+                    C # {{ session('payment_status') }} 
+                </div>
+
+            @endif
+
+            @if (session('success'))
+                <div class="text-center p-1 mb-1">
+                    <p class="mx-auto" style="background-color:#f5f5f5; color: green;"> {!! session('success') !!}</p>
+                </div>
+            @endif
     </div>
 
