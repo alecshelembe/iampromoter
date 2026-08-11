@@ -1,9 +1,5 @@
 <?php
 
-
-
-// metrofibre callback function endpoint is recieved here(below)
-
 function sanitizeLatLong($input) {
 
     // Remove any leading or trailing whitespace
@@ -54,9 +50,9 @@ if(isset($_GET['latitude'])){
 
     // Test the function
 
-    $latitude = "-33.9629939";  
+    $latitude = "none";  
 
-    $longitude = "18.4725439";  
+    $longitude = "none";  
 
 }
 
@@ -176,7 +172,11 @@ function pointInPolygon($point, $polygon) {
 
     function searchKMLfileforgivenpoint( $point ) {
 
-        $kmlFilePath  = 'kml_files/octotel.kml';  // Replace with the path to your KML file        
+
+        $kmlFilePath  = 'kml_files/TTConnect.kml';  // Replace with the path to your KML file
+	$kmlFilePath  = resource_path(
+                            'views/check_firbre_network_operator_service/kml_files/TTConnect.kml'
+                        );
 
         $polygons = findPolygons($kmlFilePath);
 
@@ -198,25 +198,26 @@ function pointInPolygon($point, $polygon) {
                     
                     'coverage' => 'Available',
 
-                    'provider' => 'Octotel',
+                    'provider' => 'TTconnect',
                     
                 );
-
+                
                 return ( $response_data );
-
+                
             } else{
                 
                 $response_data = array(
+                    
                     
                     'long' => $point[0],
                     
                     'lat' => $point[1],
                     
-                    'coverage' => 'Unavailable',
-                    
                     'source' => 'kml',
 
-                    'provider' => 'Octotel',
+                    'coverage' => 'Unavailable',
+
+                    'provider' => 'TTconnect',
 
                 );
 
@@ -232,7 +233,7 @@ function pointInPolygon($point, $polygon) {
 
     $response_data = searchKMLfileforgivenpoint( $point );
 
-    // $response_data = findPolygons("kml_files/octotel.kml");
+    // $response_data = findPolygons("kml_files/TTConnect.kml");
 
     header('Content-Type: application/json');
 

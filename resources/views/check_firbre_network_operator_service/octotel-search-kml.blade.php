@@ -1,5 +1,7 @@
 <?php
 
+
+
 // metrofibre callback function endpoint is recieved here(below)
 
 function sanitizeLatLong($input) {
@@ -174,11 +176,16 @@ function pointInPolygon($point, $polygon) {
 
     function searchKMLfileforgivenpoint( $point ) {
 
-        $kmlFilePath  = 'kml_files/dnatel.kml';  // Replace with the path to your KML file        
+        $kmlFilePath  = 'kml_files/octotel.kml';  // Replace with the path to your KML file        
+	$kmlFilePath  = resource_path(
+                            'views/check_firbre_network_operator_service/kml_files/octotel.kml'
+                        );
 
         $polygons = findPolygons($kmlFilePath);
 
         $polygons = str_replace(array("\n", "\t"), '', $polygons);
+
+        // $result_packages = array_merge($result_packages, $MetroFibrePackages);
 
         foreach ($polygons as $polygon) {
 
@@ -194,12 +201,12 @@ function pointInPolygon($point, $polygon) {
                     
                     'coverage' => 'Available',
 
-                    'provider' => 'Dnatel',
-
+                    'provider' => 'Octotel',
+                    
                 );
-                
+
                 return ( $response_data );
-                
+
             } else{
                 
                 $response_data = array(
@@ -209,10 +216,10 @@ function pointInPolygon($point, $polygon) {
                     'lat' => $point[1],
                     
                     'source' => 'kml',
-
+                    
                     'coverage' => 'Unavailable',
 
-                    'provider' => 'Dnatel',
+                    'provider' => 'Octotel',
 
                 );
 
@@ -228,7 +235,7 @@ function pointInPolygon($point, $polygon) {
 
     $response_data = searchKMLfileforgivenpoint( $point );
 
-    // $response_data = findPolygons("kml_files/dnatel.kml");
+    // $response_data = findPolygons("kml_files/octotel.kml");
 
     header('Content-Type: application/json');
 

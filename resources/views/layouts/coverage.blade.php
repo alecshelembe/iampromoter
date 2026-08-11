@@ -4,7 +4,7 @@
 
 <div class ="max-w-6xl mx-auto p-4 bg-gray-50 rounded-lg shadow-lg mt-10" id="main-form">
   <p class="font-bold text-2xl text-center p-2">Coverage Search </p>
-  <p for="address-input" id="Enter_address" class="text-xl text-center p-2">Enter coordinates to get started </p>
+  <p for="address-input" id="Enter_address" class="text-center p-2">Enter coordinates to get started, check console for results</p>
       <div class="flex justify-center">
 	<input type="text" id="address-input" placeholder="Enter a street name" class="hidden text-center rounded-xl shadow-md w-3/4 text-black my-4 py-2 ">
 	<input type="text" id="google_location" class=" hidden text-center rounded-xl shadow-md w-2/3 text-black my-4 py-2 ">
@@ -30,14 +30,21 @@
   <div id="fibre_network_providers">
 
   </div>
-  <div id="packages_show" class="flex w-full overflow-x-scroll scrollbar-thin ">
-  </div>
-  <div id="fibre_network_providers_original" class="flex justify-center">
+  <div id="fibre_network_providers_original" class="flex justify-center flex-col md:flex-row items-center ">
 	<div class="m-2 w-60 my-2 animate-slow-grow bg-white rounded-xl shadow-md overflow-hidden transform transition-transform hover:scale-105">
-            <img class="p-2" src="{{ Storage::url('demo-images/assets/metrofibre.png') }}" alt="Metrofibrelogo" style="width: 15em; height: auto;">
+            <img class="p-2" src="{{ Storage::url('demo-images/assets/metrofibre.png') }}" alt="Metrofibrelogo" >
 	</div>
-	<div class="m-2 w-60 my-2 animate-slow-grow bg-white rounded-xl shadow-md overflow-hidden transform transition-transform hover:scale-105">
-            <img class="p-2" src="{{ Storage::url('demo-images/assets/frogfoot.png') }}" alt="frogfootlogo" style=>
+	<div class="m-2  w-60 my-2 animate-slow-grow bg-white rounded-xl shadow-md overflow-hidden transform transition-transform hover:scale-105">
+            <img class="p-2" src="/storage/demo-images/assets/frogfoot.png" alt="Frogfootlogo" >
+	</div>
+	<div class="m-2  w-60 my-2 animate-slow-grow bg-white rounded-xl shadow-md overflow-hidden transform transition-transform hover:scale-105">
+            <img class="p-2" src="/storage/demo-images/assets/dnatel.png" alt="Dnatellogo" >
+	</div>
+	<div class="m-2  w-60 my-2 animate-slow-grow bg-white rounded-xl shadow-md overflow-hidden transform transition-transform hover:scale-105">
+            <img class="p-2" src="/storage/demo-images/assets/octotel.png" alt="Octotellogo" > 
+	</div>
+	<div class="m-2  w-60 my-2 animate-slow-grow bg-white rounded-xl shadow-md overflow-hidden transform transition-transform hover:scale-105">
+            <img class="p-2" src="/storage/demo-images/assets/ttconnect.png" alt="Ttconnetlogo" > 
 	</div>
 </div>
 
@@ -65,6 +72,54 @@ $(document).ready(function () {
                 console.error('MetroFibre Error:', xhr.responseText);
             }
         });
+	//TTconnect
+	$.ajax({
+            url: '/search-ttconnect',
+            type: 'GET',
+            data: {
+                latitude: latitude,
+                longitude: longitude
+            },
+            success: function (response) {
+                console.log('TTconnect:', response);
+            },
+            error: function (xhr) {
+                console.error('TTconnect Error:', xhr.responseText);
+            }
+        });
+
+	//Octotel
+        $.ajax({
+            url: '/search-octotel',
+            type: 'GET',
+            data: {
+                latitude: latitude,
+                longitude: longitude
+            },
+            success: function (response) {
+                console.log('Octotel:', response);
+            },
+            error: function (xhr) {
+                console.error('Octotel Error:', xhr.responseText);
+            }
+        });
+
+	//Dnatel
+        $.ajax({
+            url: '/search-dnatel',
+            type: 'GET',
+            data: {
+                latitude: latitude,
+                longitude: longitude
+            },
+            success: function (response) {
+                console.log('Dnatel:', response);
+            },
+            error: function (xhr) {
+                console.error('Dnatel Error:', xhr.responseText);
+            }
+        });
+
 
         // Frogfoot
         $.ajax({

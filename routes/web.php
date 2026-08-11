@@ -225,6 +225,12 @@ Route::get('/support', [DirectorController::class, 'support'])->name('support');
 
 Route::get('/search-metrofibre', [FibreNetworkController::class, 'metrofibre_check'])->name('metrofibre.check');
 
+Route::get('/search-ttconnect', [FibreNetworkController::class, 'ttconnect_check'])->name('ttconnect.check');
+
+Route::get('/search-octotel', [FibreNetworkController::class, 'octotel_check'])->name('octotel.check');
+
+Route::get('/search-dnatel', [FibreNetworkController::class, 'dnatel_check'])->name('dnatel.check');
+
 Route::get('/search-frogfoot1', [FibreNetworkController::class, 'frogfoot1_check'])->name('frogfoot1.check');
 
 Route::get('/promotions', [DirectorController::class, 'promotions'])->name('promotions');

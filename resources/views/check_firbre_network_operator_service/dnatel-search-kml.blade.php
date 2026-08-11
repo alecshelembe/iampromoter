@@ -1,5 +1,7 @@
 <?php
 
+// metrofibre callback function endpoint is recieved here(below)
+
 function sanitizeLatLong($input) {
 
     // Remove any leading or trailing whitespace
@@ -50,9 +52,9 @@ if(isset($_GET['latitude'])){
 
     // Test the function
 
-    $latitude = "none";  
+    $latitude = "-33.9629939";  
 
-    $longitude = "none";  
+    $longitude = "18.4725439";  
 
 }
 
@@ -172,14 +174,13 @@ function pointInPolygon($point, $polygon) {
 
     function searchKMLfileforgivenpoint( $point ) {
 
-
-        $kmlFilePath  = 'kml_files/TTConnect.kml';  // Replace with the path to your KML file        
-
+        $kmlFilePath  = 'kml_files/dnatel.kml';  // Replace with the path to your KML file        
+	$kmlFilePath  = resource_path(
+                            'views/check_firbre_network_operator_service/kml_files/dnatel.kml'
+                        );
         $polygons = findPolygons($kmlFilePath);
 
         $polygons = str_replace(array("\n", "\t"), '', $polygons);
-
-        // $result_packages = array_merge($result_packages, $MetroFibrePackages);
 
         foreach ($polygons as $polygon) {
 
@@ -195,8 +196,8 @@ function pointInPolygon($point, $polygon) {
                     
                     'coverage' => 'Available',
 
-                    'provider' => 'TTconnect',
-                    
+                    'provider' => 'Dnatel',
+
                 );
                 
                 return ( $response_data );
@@ -204,7 +205,6 @@ function pointInPolygon($point, $polygon) {
             } else{
                 
                 $response_data = array(
-                    
                     
                     'long' => $point[0],
                     
@@ -214,7 +214,7 @@ function pointInPolygon($point, $polygon) {
 
                     'coverage' => 'Unavailable',
 
-                    'provider' => 'TTconnect',
+                    'provider' => 'Dnatel',
 
                 );
 
@@ -230,7 +230,7 @@ function pointInPolygon($point, $polygon) {
 
     $response_data = searchKMLfileforgivenpoint( $point );
 
-    // $response_data = findPolygons("kml_files/TTConnect.kml");
+    // $response_data = findPolygons("kml_files/dnatel.kml");
 
     header('Content-Type: application/json');
 
